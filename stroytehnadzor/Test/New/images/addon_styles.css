@@ -1,0 +1,8 @@
+
+#site-content-wrapper.newpage{ background: url('/new/images/page_bg.jpg') center top no-repeat; }
+#headliner { width:954px; height:18px; background: url('/new/images/line_bg.png') top left repeat-x; overflow:hidden; }
+#page_middle_box {   background: url('/new/images/MiddleBar_bg.png') top left no-repeat; padding: 18px 30px; }
+#page_middle_box p{ font-size:12px; text-align:justify; color:#0a2948; border-top:#7eb3c9 solid 1px; border-bottom:#7eb3c9 solid 1px; padding: 12px 18px; }
+#slider-flash{ width:608px; float:left; }
+#right_box_wrap{ width:340px; float: right; overflow:hidden; height:218px; background:#005582 url('/new/images/RightBoxBottom_bg.png') bottom left repeat-x; }
+#right_box_content{ text-align:justify; line-height:1.4em;  color:#000f2b; padding:18px 20px; background: url('/new/images/RightBoxTop_bg.png') top left repeat-x;  }

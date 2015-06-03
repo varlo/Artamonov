@@ -1,0 +1,118 @@
+#pyt-wrapper-cty {
+	width:954px;
+	margin:0px auto;
+	background: url("../images/pyt/wrapper_bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/wrapper_bg.png*/) repeat-y left top;
+	margin-top:30px;
+	position:relative;
+	padding-top:70px;
+	float:left
+}
+
+#pyt-tix-content-cty {
+	margin-left:60px;
+	width:840px;
+	overflow:hidden;
+}
+
+#pyt-tix-passes-cty {
+	width:840px;
+	overflow:hidden;
+	float:left;
+}
+
+#pyt-tix-passes-cty .pass-holder {
+	width:840px;
+	overflow:hidden;
+	padding:18px 0 8px 0px;
+	background: url("../images/pyt/tix_border.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/tix_border.jpg*/) ;
+	background-repeat: repeat-x;
+}
+
+
+#pyt-tix-passes-cty .no-border {
+	background:none;
+}
+
+#pyt-tix-passes-cty .pass-holder .image {
+	width:155px;
+	float:left;
+	text-align:center;
+}
+
+#pyt-tix-passes-cty .pass-holder .text {
+	width:640px;
+	padding:0 10px;
+	float:left;
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#4c4c4c;
+}
+
+#pyt-tix-passes-cty .pass-holder .text a {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-tix-passes-cty .pass-holder .text a:hover {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-tix-passes-cty .pass-holder .text h2{
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:5px;
+	color:#000;
+	font-weight:normal;
+	font-family:Arial, sans-serif, default;
+}
+
+#pyt-tix-passes-cty .pass-holder .text p{
+	margin-bottom:5px;
+}
+
+#pyt-tix-passes-cty .pass-holder .text a.buy-tickets {
+	display:block;
+	background: url("../images/pyt/buy_tickets_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/buy_tickets_btn.png*/) top left no-repeat;
+	width:122px;
+	height:22px;
+	text-indent:-9999px;
+}
+
+#pyt-tix-ad {
+/*	width:250px;*/
+width:800px;
+	float:left;
+}
+
+#pyt-tix-passes-cty .pass-holder  a.buy-tickets-cty {
+	display:block;
+	background: url("../images/pyt/buy_tickets_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/buy_tickets_btn.png*/) top left no-repeat;
+	width:122px;
+	height:22px;
+	text-indent:-9999px;
+	position: relative;
+	left: 720px;
+}
+/*#pyt-footer {
+	background: url('/new/images/pyt/wrapper_bottom_bg.png') top left no-repeat;
+	height:60px;
+	width:954px;
+	margin:0px auto;
+	color:#fff;
+	font-size:10px;
+	font-family:Arial, sans-serif, default;
+	position:relative;
+	margin-bottom:20px;
+	float:left;
+}*/
+
+/* END TICKETS */
+

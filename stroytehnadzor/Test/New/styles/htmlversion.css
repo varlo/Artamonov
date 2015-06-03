@@ -1,0 +1,102 @@
+#homepage-content {
+	background: url('/new/images/htmlversion_content_bg.jpg') top left no-repeat;
+	position:relative;
+
+}
+
+#homepage-content h1 {
+	background: url('/new/images/html_content_welcome.png') top left no-repeat;
+	width:270px;
+	height:65px;
+	text-indent:-9999px;
+	position:absolute;
+	top:90px;
+	left:78px;
+}
+
+#homepage-content h2 {
+	background: url('/new/images/html_content_welcome_2.png') top left no-repeat;
+	width:305px;
+	height:55px;
+	text-indent:-9999px;
+	position:absolute;
+	top:155px;
+	left:78px;
+}
+
+#homepage-content a.purchase-tickets {
+	background: url('/new/images/html_content_purchase_tickets.png')top left no-repeat;
+	width:200px;
+	height:25px;
+	text-indent:-9999px;
+	position:absolute;
+	top:217px;
+	left:78px;
+	display:block;
+}
+
+#homepage-content a.callout-top {
+	background: url('/new/images/html_content_callout_top.png')top left no-repeat;
+	width:438px;
+	height:155px;
+	text-indent:-9999px;
+	position:absolute;
+	top:6px;
+	right:93px;
+	display:block;
+}
+
+#homepage-content a.callout-bot {
+	background: url('/new/images/html_content_callout_bot.png')top left no-repeat;
+	width:438px;
+	height:155px;
+	text-indent:-9999px;
+	position:absolute;
+	top:167px;
+	right:93px;
+	display:block;
+}
+
+#html-carousel {
+	background: url('/new/images/html_carousel_bg.jpg') top left no-repeat;
+	width:954px;
+	height:169px;
+	padding:20px 0;
+}
+
+#html-carousel ul {
+	width:865px;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#html-carousel ul#top-carousel {
+	margin-bottom:30px;
+}
+
+#html-carousel ul li {
+	width:180px;
+	padding-right:36px;
+	float:left;
+	display:block;
+}
+
+#html-carousel ul li h3 {
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#html-carousel ul li p {
+	color:#fff;
+	font-weight:normal;
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#html-carousel ul li p a {
+	color:#66ccff;
+	text-decoration:none;
+}

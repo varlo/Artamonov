@@ -1,0 +1,1732 @@
+#site-content-wrapper{
+	background: #07375c url("../images/pyt/body_bg.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/body_bg.jpg*/) center top repeat-x;
+}
+
+#pyt-wrapper {
+	width:954px;
+	margin:0px auto;
+	margin-top:30px;
+	position:relative;
+}
+
+#pyt-header {
+	background: url("../images/pyt/wrapper_bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/wrapper_bg.png*/) top left no-repeat;
+	width:954px;
+	height:40px;
+}
+
+#pyt-nav {
+	height:25px;
+	/* width:722px; */
+	position:absolute;
+	right:0;
+	top:5px;
+	width:830px;
+}
+
+.spanish-nav {
+	width:107px !important;
+}
+
+#pyt-nav ul {
+	overflow:hidden;
+	height:25px;
+}
+
+#pyt-nav ul li {
+	display:block;
+	float:left;
+}
+
+#pyt-nav ul li a {
+	height:25px;
+	line-height:25px;
+	display:block;
+	font-family:"Lucida Grande", Lucida, Arial, sans-serif, default;
+	color:#1B8DD8;
+	font-weight:normal;
+	font-size:14px;
+	text-decoration:none;
+	text-align:center;
+}
+
+#pyt-nav ul li a.current,
+#pyt-nav ul li a:hover {
+	font-weight:bold;
+}
+
+#pyt-nav ul li a.tickets {
+	width:115px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.places-to-stay {
+	width:115px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.things-to-do {
+	width:102px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.getting-here {
+	width:107px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.the-neighborhood {
+	width:150px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.in-spanish {
+	width:107px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.in-english {
+	width:107px;
+	margin-right:20px;
+}
+
+/* PYT CONTENT */
+
+#pyt-content {
+	background:#fff;
+	width:954px;
+}
+
+#pyt-content h1 {
+	font-size:42px;
+	color:#f7931e;
+	font-weight:normal;
+	line-height:42px;
+	margin-left:25px;
+	margin-bottom:30px;
+	text-indent:-9999px;
+}
+
+#pyt-content h1#visitor-information {
+	background: url("../images/pyt/header-visitor-information.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-visitor-information.jpg*/) top left no-repeat;
+	width:313px;
+	height:34px;
+}
+
+/* SPANISH HEADER */
+
+#pyt-content h1#entrance-tickets {
+	background: url("../images/pyt/header-spanish-entrance-tickets.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-spanish-entrance-tickets.jpg*/) top left no-repeat;
+	width:734px;
+	height:41px;
+}
+
+#pyt-content h1#faqs {
+	background: url("../images/pyt/header-spanish-faqs.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-spanish-faqs.jpg*/) top left no-repeat;
+	width:808px;
+	height:44px;
+}
+
+/* END SPANISH HEADER */
+
+#pyt-content-wrapper {
+	overflow:hidden;
+	width:954px;
+}
+
+#pyt-information {
+	width:465px;
+	float:left;
+}
+
+#pyt-information .pyt-information-intro,
+#pyt-information .pyt-information-holder {
+	width:440px;
+	margin:0 0 20px 25px;
+}
+
+#pyt-information .pyt-information-intro p {
+	color:#4c4c4c;
+	font-size:12px;
+	font-family:"Lucida Grande", "Lucida", Arial, sans-serif, default;
+}
+
+#pyt-information .pyt-information-intro p a {
+	color:#4c4c4c;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#pyt-information .pyt-information-intro p a:hover {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#pyt-information .pyt-information-holder h2 {
+	color:#1b8dd8;
+	font-size:24px;
+	font-weight:normal;
+	line-height:24px;
+	margin-bottom:10px;
+	text-indent:-9999px;
+}
+
+#pyt-information .pyt-information-holder ul {
+	margin:10px 0;
+}
+
+#pyt-information .pyt-information-holder ul li {
+	color:#4c4c4c;
+	font-size:12px;
+}
+
+
+#pyt-information #pyt-tickets h2 {
+	background: url("../images/pyt/header-tickets.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-tickets.jpg*/) top left no-repeat;
+	height:20px;
+	width:69px;
+}
+
+#pyt-information #pyt-places h2 {
+	background: url("../images/pyt/header-places.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-places.jpg*/) top left no-repeat;
+	height:24px;
+	width:148px;
+}
+
+#pyt-information #pyt-things h2 {
+	background: url("../images/pyt/header-things.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-things.jpg*/) top left no-repeat;
+	height:25px;
+	width:128px;
+}
+
+#pyt-information #pyt-directions h2 {
+	background: url("../images/pyt/header-directions.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-directions.jpg*/) top left no-repeat;
+	height:25px;
+	width:137px;
+}
+
+#pyt-information #pyt-neighborhood h2 {
+	background: url("../images/pyt/header-neighborhood.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-neighborhood.jpg*/) top left no-repeat;
+	height:40px;
+	width:213px;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper {
+	overflow:hidden;
+	width:440px;
+	border-bottom:1px solid #d3d3d3;
+	padding:0 0 15px 0;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper .image {
+	width:150px;
+	float:left;
+	margin-right:20px;
+}
+
+.spanish-styles .pyt-information-holder .pyt-information-holder-wrapper .image {
+	width:135px !important;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper .text {
+	width:270px;
+	float:left;
+}
+
+.spanish-styles .pyt-information-holder .pyt-information-holder-wrapper .text {
+	width:285px !important; 
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper .text h3 {
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+	line-height:18px;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper .text p {
+	font-size:12px;
+	color:#4c4c4c;
+	line-height:16px;
+	margin:10px 0 10px 0;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper .text p em {
+	font-style:italic;
+	font-weight:bold;
+	color:#000;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper #buy-tickets {
+	margin-left:170px;
+	cursor:pointer;
+}
+
+#pyt-information .pyt-information-holder .pyt-information-holder-wrapper .text a.read-more {
+	width:135px;
+	height:26px;
+	display:block;
+	background: url("../images/pyt/read-more-btn.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/read-more-btn.jpg*/) top left no-repeat;
+	text-indent:-9999px;
+}
+
+#pyt-extra-info {
+	width:489px;
+	float:left;
+}
+
+#pyt-accordion {
+	width:398px;
+	margin:0px auto;
+	border:1px solid #d3d3d3;
+	margin-bottom:15px;
+}
+
+#pyt-accordion .pyt-accordion-item {
+	border-bottom:1px solid #d3d3d3;
+}
+
+#pyt-accordion .no-border {
+	border:0;
+}
+
+#hours-of-operation .text {
+	display:block;
+}
+
+
+#pyt-accordion .pyt-accordion-item .text {
+	color:#4c4c4c;
+	line-height:16px;
+	background:#fff;
+	font-size:12px;
+	padding:10px;
+	border-bottom:1px solid #d3d3d3;
+}
+
+#pyt-accordion .pyt-accordion-item .text h4 {
+	font-weight:bold;
+}
+
+#pyt-accordion .pyt-accordion-item .text-holder {
+	color:#4c4c4c;
+	font-size:13px;
+	line-height:16px;
+	background:#fff;
+}
+
+#pyt-accordion .pyt-accordion-item .text p {
+	margin-bottom:10px;
+}
+
+#pyt-accordion .pyt-accordion-item .text p strong,
+#pyt-accordion .pyt-accordion-item .text-holder p strong {
+	font-weight:bold;
+}
+
+#pyt-accordion .pyt-accordion-item .text ul {
+	margin:15px 0 15px 30px;
+	list-style-type: disc;
+}
+
+#pyt-accordion .pyt-accordion-item .text ul li {
+	font-size:12px;
+}
+
+#pyt-accordion .pyt-accordion-item .text-holder .single-event {
+	font-size:12px;
+	padding:10px;
+	border-bottom:1px solid #d3d3d3;
+}
+
+#pyt-accordion .pyt-accordion-item .text-holder .no-border {
+	border:0;
+}
+
+#pyt-accordion .pyt-accordion-item .text-holder .single-event h4 {
+	font-weight:bold;
+}
+
+#pyt-accordion .pyt-accordion-item .text p a,
+#pyt-accordion .pyt-accordion-item .text .single-event p a,
+#pyt-accordion .pyt-accordion-item .text-holder .single-event p a {
+	color:#07375c;
+	text-decoration:underline;
+}
+
+#pyt-accordion .pyt-accordion-item .text p a:hover,
+#pyt-accordion .pyt-accordion-item .text .single-event p a:hover,
+#pyt-accordion .pyt-accordion-item .text-holder .single-event p a:hover {
+	color:#07375c;
+	text-decoration:none;
+}
+
+#pyt-accordion .pyt-accordion-item h3 {
+	height:43px;
+	border-bottom:1px solid #d3d3d3;
+	font-size:25px;
+	color:#1b8dd8;
+	font-weight:normal;
+	text-indent:-9999px;
+	height:43px;
+	width:398px;
+}
+
+#pyt-accordion .pyt-accordion-item h3 a {
+	font-size:25px;
+	color:#1b8dd8;
+	font-weight:normal;
+	text-decoration:none;
+	line-height:43px;
+	height:43px;
+	width:398px;
+	display:block;
+}
+
+#pyt-accordion #hours-of-operation h3 a {
+	background:url("../images/pyt/header-accordion-hours-of-operation-close.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-hours-of-operation-close.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #ticketing-tips h3 a {
+	background:url("../images/pyt/header-accordion-ticketing-tips-close.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-ticketing-tips-close.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #daily-events h3 a {
+	background:url("../images/pyt/header-accordion-daily-events-close.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-daily-events-close.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #upcoming-events h3 a {
+	background:url("../images/pyt/header-accordion-upcoming-events-close.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-upcoming-events-close.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #hours-of-operation h3 a.open {
+	background:url("../images/pyt/header-accordion-hours-of-operation-open.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-hours-of-operation-open.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #ticketing-tips h3 a.open {
+	background:url("../images/pyt/header-accordion-ticketing-tips-open.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-ticketing-tips-open.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #daily-events h3 a.open {
+	background:url("../images/pyt/header-accordion-daily-events-open.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-daily-events-open.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #upcoming-events h3 a.open {
+	background:url("../images/pyt/header-accordion-upcoming-events-open.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-upcoming-events-open.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #spanish-hours-of-operation h3 {
+	background:url("../images/pyt/header-accordion-spanish-hours-of-operation.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-spanish-hours-of-operation.jpg*/) top left no-repeat;
+}
+
+#pyt-accordion #spanish-parking-tips h3 {
+	background:url("../images/pyt/header-accordion-spanish-parking-tips.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-accordion-spanish-parking-tips.jpg*/) top left no-repeat;
+}
+
+#pyt-spanish-faqs {
+	width:374px;
+	margin:0px auto;
+}
+
+#pyt-spanish-faqs a {
+	width:374px;
+	height:45px;
+	display:block;
+	text-indent:-9999px;
+	background: url("../images/pyt/spanish-faq-button.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/spanish-faq-button.jpg*/) top left no-repeat;
+}
+
+#pyt-spanish-faq-questions {
+	margin:0 50px 40px 50px;
+	font-size:12px;
+}
+
+#pyt-spanish-faq-questions ul li {
+	color:#4c4c4c;
+	margin-bottom:3px;
+}
+
+#pyt-spanish-faq-questions ul li a {
+	color:#4c4c4c;
+}
+
+#pyt-spanish-faq-questions ul li a:hover {
+	text-decoration:none;
+}
+
+#pyt-spanish-faq-answers {
+	margin:0 50px 40px 50px;
+	font-size:12px;
+}
+
+#pyt-spanish-faq-answers dl dt{
+	text-decoration:underline;
+	color:#4c4c4c;
+}
+
+#pyt-spanish-faq-answers dl dd{
+	color:#4c4c4c;
+	margin-bottom:20px;
+}
+
+#pyt-spanish-faq-answers dl dd a{
+	color:#07375c;
+	text-decoration:underline;
+}
+
+#pyt-spanish-faq-answers dl dd a:hover{
+	color:#07375c;
+	text-decoration:none;
+}
+
+#pyt-footer {
+	background: url("../images/pyt/wrapper_bottom_bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/wrapper_bottom_bg.png*/) bottom left no-repeat;
+	width:954px;
+	margin:0px auto;
+	color:#fff;
+	font-size:10px;
+	font-family:Arial, sans-serif, default;
+	position:relative;
+	margin-bottom:20px;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+
+#pyt-footer h1 a {
+	width:253px;
+	height:31px;
+	background: url("../images/footer_logo.png"/*tpa=http://www.georgiaaquarium.org/new/images/footer_logo.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-left:40px;
+	margin-bottom:40px;
+	display:block;
+}
+
+#pyt-footer ul {
+	overflow:hidden;
+	margin-left:40px;
+	width:auto;
+}
+
+#pyt-footer ul li {
+	float:left;
+	display:block;
+	margin-right:25px;
+}
+
+#pyt-footer ul li.aquarium {
+	margin-right:20px;
+}
+
+#pyt-footer ul li a{
+	color:#bfbfbf;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+	margin-right:5px;
+}
+
+
+#pyt-footer ul li a:hover {
+	color:#bfbfbf;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:underline;
+	margin-right:5px;
+}
+
+/* PLACES */
+
+#pyt-places-wrapper {
+	width:906px;
+	margin:0px auto;
+	position:relative;
+	padding-bottom:20px;
+}
+
+#pyt-places-wrapper h1 {
+	background:url("../images/pyt/whats_near_header.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/whats_near_header.png*/) top left no-repeat;
+	width:405px;
+	height:31px;
+	text-indent:-9999px;
+	margin:0 0 5px 15px;
+}
+
+#pyt-loader {
+	height:205px;
+	width:906px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#fff;
+	display:none;
+
+}
+
+#pyt-current-place-holder {
+	width:906px;
+	height:205px;
+	background: url("../images/pyt/current_place_bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/current_place_bg.png*/) bottom left no-repeat;
+	margin-bottom:10px;
+}
+
+#pyt-current-place {
+	width:906px;
+	height:205px;
+	overflow:hidden;
+	position:relative;
+}
+
+#pyt-current-place .image {
+	width:409px;
+	height:180px;
+	float:left;
+	background: url("../images/pyt/current_place_image_bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/current_place_image_bg.png*/) top left no-repeat;
+	margin:7px 6px 0 10px;
+	position:relative;
+}
+
+#pyt-current-place .image img {
+	position:absolute;
+	left:14px;
+	top:9px;
+}
+
+#pyt-current-place .text {
+	width:450px;
+	padding-left:14px;
+	padding-right:17px;
+	float:left;
+	font-family:Arial, sans-serif, default;
+	margin-top:7px;
+}
+
+#pyt-current-place .text span {
+	color:#fbac3a;
+	font-size:12px;
+	line-height:17px;
+}
+
+#pyt-current-place .text h2 {
+	color:#000000;
+	font-size:22px;
+	line-height:25px;
+	font-weight:normal;
+	margin-bottom:6px;
+}
+
+#pyt-current-place .text p.address {
+	color:#4c4c4c;
+	font-size:13px;
+	line-height:20px;
+	font-weight:bold;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+	margin-bottom:5px;
+}
+
+#pyt-current-place .text p {
+	color:#4c4c4c;
+	font-size:11px;
+	line-height:15px;
+	font-weight:normal;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+}
+
+#pyt-current-place .text p a {
+	color:#1B8DD8;
+	font-size:11px;
+	line-height:15px;
+	font-weight:normal;
+	letter-spacing:-.01em;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+	text-decoration:underline;
+}
+
+#pyt-current-place .text p a:hover {
+	color:#1B8DD8;
+	font-size:11px;
+	line-height:15px;
+	font-weight:normal;
+	letter-spacing:-.01em;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+	text-decoration:none;
+}
+
+#pyt-current-place .text a.package-details {
+	display:block;
+	height:28px;
+	width:144px;
+	background: url("../images/pyt/package_details_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/package_details_btn.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:7px;
+}
+
+#pyt-current-place .text a.family-package-details {
+	display:block;
+	height:28px;
+	width:230px;
+	background: url("../images/pyt/family_package_details_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/family_package_details_btn.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:7px;
+}
+
+#pyt-current-place .text a.titanic-package {
+	display:block;
+	height:26px;
+	width:214px;
+	background: url("../images/pyt/titanic_aquarium_package_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/titanic_aquarium_package_btn.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:5px;
+}
+
+#pyt-current-place .text a.titanic-aquatic {
+	display:block;
+	height:28px;
+	width:386px;
+	background: url("../images/pyt/titanic_aquatic.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/titanic_aquatic.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+
+#pyt-current-place .text a.king-tut {
+	display:block;
+	height:28px;
+	width:386px;
+	background: url("../images/pyt/king_tut.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/king_tut.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:5px;
+}
+
+#pyt-current-place .text a.i-am {
+	display:block;
+	height:28px;
+	width:386px;
+	background: url("../images/pyt/i-am.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/i-am.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:5px;
+}
+
+#pyt-current-place .text a.shark-package {
+	display:block;
+	height:30px;
+	width:318px;
+	background: url("../images/pyt/planet_shark_package_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/planet_shark_package_btn.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:5px;
+}
+
+#pyt-current-place .text a.aquarium-package {
+	display:block;
+	height:28px;
+	width:288px;
+	background: url("../images/pyt/georgia_aquarium_package_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/georgia_aquarium_package_btn.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+
+
+#pyt-current-place .text a.more-info {
+	display:block;
+	height:28px;
+	width:144px;
+	background: url("../images/pyt/more_info_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/more_info_btn.png*/) top left no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+
+#pyt-current-place #pyt-latitude{
+	display:none;
+}
+
+#pyt-current-place #pyt-longitude{
+	display:none;
+}
+
+#pyt-list-and-map {
+	width:906px;
+	overflow:hidden;
+}
+
+#pyt-places-list {
+	width:520px;
+	padding:0 5px;
+	float:left;
+}
+
+#pyt-places-tabs {
+	background: url("../images/pyt/places_tab_bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/places_tab_bg.png*/) bottom left repeat-x;
+	height:18px;
+	width:520px;
+	overflow:hidden;
+	position:relative;
+	margin-bottom:8px;
+}
+
+#pyt-places-tabs li {
+	position:absolute;
+	bottom:0;
+}
+
+#pyt-places-tabs li.ui-tabs-selected a {
+	background: url("../images/pyt/tab_on.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/tab_on.png*/) bottom left repeat-x;
+	color:#4c4c4c;
+}
+
+#pyt-places-tabs li.ui-tabs-selected {
+	z-index:50 !important;
+}
+
+#pyt-places-tabs li a {
+	height:18px;
+	width:123px;
+	background: url("../images/pyt/tab_off.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/tab_off.png*/) bottom left repeat-x;
+	display:block;
+	text-align:center;
+	font-size:14px;
+	font-family:Arial, sans-serif, default;
+	color:#999;
+	text-decoration:none;
+	line-height:18px;
+}
+
+#pyt-places-tabs li.hotels-tab {
+	position:absolute;
+	left:89px;
+	z-index:20;
+}
+
+#pyt-places-tabs li.restaurant-tab {
+	position:absolute;
+	left:198px;
+	z-index:10;
+}
+
+#pyt-places-tabs li.attractions-tab {
+	position:absolute;
+	left:307px;
+	z-index:5;
+}
+
+#pyt-places-list .ui-tabs-hide{
+	display:none;
+}
+
+#pyt-hotels,
+#pyt-restaurants,
+#pyt-attractions {
+	width:520px;
+	overflow:hidden;
+}
+
+#pyt-places-list .pyt-places-column-1,
+#pyt-places-list .pyt-places-column-2 {
+	width:260px;
+	float:left;
+}
+
+#pyt-places-list .pyt-places-column-1 ul li,
+#pyt-places-list .pyt-places-column-2 ul li {
+	height:28px;
+	border-bottom:1px solid #d3d3d3;
+}
+
+#pyt-places-list .pyt-places-column-1 ul li a,
+#pyt-places-list .pyt-places-column-2 ul li a{
+	line-height:28px;
+	font-size:12px;
+	color:#262626;
+	font-family:Arial, sans-serif, default;
+	text-decoration:none;
+	margin-left:22px;
+	display:block;
+}
+
+#pyt-places-list .pyt-places-column-1 ul li a:hover,
+#pyt-places-list .pyt-places-column-2 ul li a:hover,
+#pyt-places-list .pyt-places-column-1 ul li a.current,
+#pyt-places-list .pyt-places-column-2 ul li a.current{
+	color:#1b8dd8;
+	font-weight:bold;
+}
+
+#pyt-places-map {
+	width:360px;
+	padding-left:16px;
+	float:left;
+}
+
+#pyt-places-map ul {
+	overflow:hidden;
+	margin-top:8px;
+}
+
+#pyt-places-map ul li {
+	margin-right:7px;
+	float:left;
+	display:block;
+}
+
+#pyt-places-map ul li a.directions-from-aquarium {
+	width:158px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url("../images/pyt/directions_from_aquarium.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/directions_from_aquarium.png*/) top left no-repeat;
+}
+
+#pyt-places-map ul li a.directions-from-hotel {
+	width:178px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url("../images/pyt/directions_from_hotel.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/directions_from_hotel.png*/) top left no-repeat;
+}
+
+#pyt-places-map ul li a.directions-from-restaurant {
+	width:178px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url("../images/pyt/directions_from_restaurant.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/directions_from_restaurant.png*/) top left no-repeat;
+}
+
+#pyt-places-map ul li a.directions-from-attraction {
+	width:178px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url("../images/pyt/directions_from_attraction.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/directions_from_attraction.png*/) top left no-repeat;
+}
+
+#pyt-places-map .google_map{
+	width:346px;
+	height:329px;
+}
+
+/* END PLACES */
+
+/* TICKETS */
+#pyt-tix-wrapper {
+	width:900px;
+	margin:0px auto;
+}
+
+#pyt-tix-wrapper h1 {
+	width:141px;
+	height:29px;
+	text-indent:-9999px;
+	margin:0 0 5px 15px;
+	background-image: url("../images/pyt/header-tickets.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/header-tickets.jpg*/);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#pyt-tix-content {
+	margin-left:60px;
+	width:840px;
+	overflow:hidden;
+}
+
+#pyt-tix-passes {
+	width:590px;
+	float:left;
+}
+
+#pyt-tix-passes .pass-holder {
+	width:590px;
+	overflow:hidden;
+	padding:18px 0 8px 0;
+	background: url("../images/pyt/tix_border.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/tix_border.jpg*/) bottom left no-repeat;
+}
+
+#pyt-tix-passes .no-border {
+	background:none;
+}
+
+#pyt-tix-passes .pass-holder .image {
+	width:155px;
+	float:left;
+	text-align:center;
+}
+
+#pyt-tix-passes .pass-holder .text {
+	width:415px;
+	padding:0 10px;
+	float:left;
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#4c4c4c;
+}
+
+#pyt-tix-passes .pass-holder .text a {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-tix-passes .pass-holder .text a:hover {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-tix-passes .pass-holder .text h2{
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:5px;
+	color:#000;
+	font-weight:normal;
+	font-family:Arial, sans-serif, default;
+}
+
+#pyt-tix-passes .pass-holder .text p{
+	margin-bottom:5px;
+}
+
+#pyt-tix-passes .pass-holder .text a.buy-tickets {
+	display:block;
+	background: url("../images/pyt/buy_tickets_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/buy_tickets_btn.png*/) top left no-repeat;
+	width:122px;
+	height:22px;
+	text-indent:-9999px;
+}
+
+#pyt-tix-ad {
+	width:250px;
+	float:left;
+}
+
+/* END TICKETS */
+
+/* Getting Here */
+
+#pyt-directions-wrapper {
+	width:900px;
+	margin:0px auto;
+}
+
+#pyt-directions-wrapper h1 {
+	background:url("../images/pyt/how-to-get-here_header.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/how-to-get-here_header.png*/) top left no-repeat;
+	width:212px;
+	height:25px;
+	text-indent:-9999px;
+	margin:0 0 10px 15px;
+}
+
+#pyt-neighborhood-wrapper {
+	width:900px;
+	margin:0px auto;
+}
+
+#pyt-neighborhood-wrapper h1 {
+	background:url("../images/pyt/lmd-page-header.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/lmd-page-header.jpg*/) top left no-repeat;
+	width:336px;
+	height:40px;
+	text-indent:-9999px;
+	margin:0 0 10px 15px;
+}
+
+#pyt-directions-map {
+	width:880px;
+	margin:0px auto;
+	margin-bottom:25px;
+}
+
+#pyt-directions-content {
+	width:880px;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#pyt-directions-content h2{
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:5px;
+	color:#000;
+	font-weight:normal;
+	font-family:Arial, sans-serif, default;
+	width:500px;
+}
+
+#pyt-directions-content h3{
+	font-size:13px;
+	line-height:18px;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-family:"Lucida Grande", Lucida, Arial, sans-serif, default;
+	width:400px;
+}
+
+#pyt-directions-content p {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#4c4c4c;
+	margin-bottom:15px;
+}
+
+#pyt-directions-content p a {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-directions-content p a:hover {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-hours {
+	width:320px;
+	float:left;
+	padding-right:15px;
+}
+
+#pyt-parking {
+	width:240px;
+	float:left;
+	padding:0 15px;
+}
+
+#pyt-map-it {
+	width:245px;
+	padding:0 15px;
+	float:left;
+}
+
+#pyt-neighborhood {
+	width:880px;
+	float:left;
+	padding-right:15px;
+}
+
+#pyt-map-it label {
+	color:#000;
+	font-size:16px;
+	line-height:18px;
+	font-family:Arial, sans-serif, default;
+	background: url("../images/pyt/get_directions_icon.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/get_directions_icon.png*/) center left no-repeat;
+	padding-left:35px;
+	line-height:25px;
+	margin-bottom:5px;
+	display:block;
+}
+
+#pyt-map-it input.input-text {
+	border:1px solid #bfbfbf;
+	width:170px;
+	height:20px;
+	background:#fff;
+	position:absolute;
+	top:5px;
+	left:0;
+}
+
+#pyt-map-it .input-holder {
+	position:relative;
+	width:245px;
+	height:35px;
+}
+
+#pyt-map-it input.input-button {
+	border:0;
+	width:39px;
+	height:34px;
+	background: url("../images/pyt/map_go_btn.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/map_go_btn.png*/) center left no-repeat;
+	color:#fff;
+	position:absolute;
+	top:0px;
+	left:175px;
+}
+
+#pyt-map-it span {
+	font-size:12px;
+	color:#B3B3B3;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+}
+
+/* END Getting Here */
+
+#pyt-visitor-information-wrapper {
+	width:904px;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#pyt-visitor-information-sidebar {
+	width:200px;
+	float:left;
+	margin-right:25px;
+}
+
+#pyt-visitor-information-sidebar .left-side-nav {
+	margin:15px 0;
+	color:#1B8DD8;
+}
+
+#pyt-visitor-information-sidebar ul li {
+	
+}
+
+#pyt-visitor-information-sidebar ul li a {
+	color:#07375c;
+	font-weight:bold;
+	font-size:14px;
+	line-height:18px;
+	text-decoration:none;
+	padding:10px 20px;
+	display:block;
+}
+
+#pyt-visitor-information-sidebar ul li a:hover,
+#pyt-visitor-information-sidebar ul li a.current{
+	background:#fff;
+}
+
+#pyt-visitor-information-content {
+	width:679px;
+	float:left;
+}
+
+#pyt-visitor-information-content h4 {
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom:5px;
+	margin-bottom:15px;
+	color:#07375c;
+	border-bottom:2px solid #a6a6a6;
+}
+
+#pyt-visitor-information-content ul {
+	font-size:12px;
+	list-style-type:disc;
+	list-style-position:inside;
+	color:#4c4c4c;
+}
+
+#pyt-visitor-information-content ul li {
+	margin-bottom:15px;
+	margin-left:15px;
+	line-height:20px;
+}
+
+#pyt-visitor-information-content ul li a {
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-visitor-information-content ul li a:hover {
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-visitor-information-content h5 {
+	font-size:12px;
+	color:#4c4c4c;
+	font-weight:bold;
+}
+
+#pyt-visitor-information-content p {
+	font-size:12px;
+	color:#4c4c4c;
+	margin-bottom:15px;
+	line-height:20px;
+}
+
+#pyt-visitor-information-content p a {
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-visitor-information-content p a:hover {
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#ticket-wizard {
+	width:473px;
+	height:601px;
+	background:url("../images/pyt/ticket-box-bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-box-bg.png*/) no-repeat top left;
+	position:relative;
+	z-index:1000;
+	display:none;
+}
+
+#ticket-wizard h1 {
+	position:absolute;
+	height:21px;
+	text-indent:-9999px;
+	display:block;
+	margin:0px auto 0 auto;
+	position:relative;
+	top:25px;
+	left:-15px;
+}
+
+#ticket-wizard p {
+	width:420px;
+	margin:45px auto 0 auto;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#ticket-steps {
+	width:446px;
+	height:441px;
+	margin:15px 0 0 12px;
+}
+
+#ticket-steps li {
+	float:left;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#ticket-steps #zip-box {
+	width:95px;
+	height:18px;
+	border:none;
+	padding:6px 0 0 10px;
+	margin-top:5px;
+}
+
+#ticket-steps .number {
+	margin:12px 0 0 10px;
+}
+
+#ticket-steps .yes {
+	background:url("../images/pyt/green-check.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/green-check.png*/) no-repeat top left;
+	display:block;
+	float:right;
+	font-size:22px;
+	font-weight:bold;
+	height:52px;
+	width:67px;
+	margin:15px 10px 0 0;
+	text-indent:-9999px;
+}
+
+#ticket-steps .no {
+	background:url("../images/pyt/red-x.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/red-x.png*/) no-repeat top left;
+	display:block;
+	float:right;
+	font-size:22px;
+	font-weight:bold;
+	height:61px;
+	width:60px;
+	margin:15px 15px 0 0;
+	text-indent:-9999px;
+}
+
+#ticket-steps p {
+	font-size:18px;
+	color:#1B97E7;
+	width:332px;
+	padding-left:90px;
+	height:104px;
+	float:left;
+	margin-top:0px;
+	line-height:120%;
+	font-weight:bold;
+	position:relative;
+}
+
+#ticket-steps p.selected {
+	color:#f6921e;
+}
+
+#ticket-steps #first {
+	padding-top:20px;
+	height:94px;
+	z-index:100;
+}
+
+#ticket-steps #second {
+	padding-top:25px;
+	height:79px;
+	z-index:0;
+}
+
+#ticket-steps #third {
+	padding-top:25px;
+	height:79px;
+	}
+
+#ticket-steps #fourth  {
+	padding-top:35px;
+	height:69px;
+}
+
+
+#ticket-steps #fourth input {
+	position:absolute;
+	border:solid 1px #ccc;
+	top:30px;
+	right:10px;
+}
+
+#ticket-steps #fourth small {
+	position:absolute;
+	top:60px;
+	right:10px;
+	font-size:10px;
+	font-style:italic;
+	font-weight:normal;
+	display:block;
+	text-align:right;
+}
+
+#ticket-steps #trip-btn {
+	margin:20px auto;
+	margin-left:110px;
+	width:215px;
+	height:45px;
+}
+
+
+#ticket-steps .checks {
+font-size:16px;
+line-height:16px;
+}
+#ticket-steps .checks input {
+	position:relative;
+	top:7px;
+	height:25px;
+	width:25px;
+}
+
+/*--- TICKET STEPS DROP DOWN ---*/
+
+.stylish-select ul.newList {left:-9999px;}
+
+/*==================================
+red curvy example
+====================================*/
+ul.newList * {margin:0; padding:0;font-size:12px!important;}
+ul.newList a {color: #1B97E7; text-decoration:none; display:block;;}
+ul.newList {margin:0; padding:0; list-style:none; color:#1B97E7; width:290px; background:#ffffff; position:absolute;  border:1px solid #ccc; top:22px; left:0; overflow:auto; z-index:100;}
+.newListSelected {width:285px; color:#1B97E7; height:30px; padding:3px 0 0 6px; float:left; background: url("../images/pyt/ticket-box-drop-down.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-box-drop-down.jpg*/) no-repeat;background-position:top right;margin-top:10px;z-index:100;}
+.newListSelected span {width:284px; display:block;}
+ul.newList li {width:100%;background:#fff;}
+ul.newList li a {padding:3px 8px; display: block;}
+ul.newList li a:focus {-moz-outline-style: none;}
+.selectedTxt {width:258px; overflow:hidden; height:26px; padding:0 23px 0 3px;font-size:12px!important;}
+.hiLite {background:#ccc!important; color:#1B97E7!important;}
+.hiLite a {background:#eee!important; color:#1B97E7!important;}
+.newListHover {background:#eee!important; color:#1B97E7!important; cursor:default;}
+.newListSelHover, .newListSelFocus { cursor:default;}
+.newListOptionTitle {font-weight:bold;}
+.newListOptionTitle ul {margin:3px 0 0;}
+.newListOptionTitle li {font-weight:normal; border-left:1px solid #ccc;}
+
+
+/**/
+
+
+#ticket-wizard .close {
+	background: url("../images/pyt/ticket-box-close.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-box-close.jpg*/) no-repeat top left;
+	width:64px;
+	height:32px;
+	position:absolute;
+	left:25px;
+	bottom:20px;
+	cursor:pointer;
+}
+
+#ticket-info-wrap-1 {
+	position:relative;
+	z-index:1000;
+	width:792px;
+	display:none;
+	border:none;
+}
+
+#ticket-info-wrap-1 .ticket-links {
+	color:#fff;
+	width:315px;
+	margin:0 auto;
+	font-size:14px;
+}
+
+#ticket-info-wrap-1 .ticket-links a {
+	color:#fff;	
+	text-decoration:none;
+}
+
+#ticket-info-wrap-2 {
+	position:relative;
+	z-index:1000;
+	width:792px;
+	display:none;
+		border:none;
+
+}
+
+#ticket-info-wrap-2 .ticket-links {
+	color:#fff;
+	width:315px;
+	margin:0 auto;
+	font-size:14px;
+}
+
+#ticket-info-wrap-2 .ticket-links a {
+	color:#fff;	
+	text-decoration:none;
+}
+
+#ticket-info-wrap-3 {
+	position:relative;
+	z-index:1000;
+	width:792px;
+	display:none;
+		border:none;
+
+}
+
+#ticket-info-wrap-3 .ticket-links {
+	color:#fff;
+	width:315px;
+	margin:0 auto;
+	font-size:14px;
+}
+
+#ticket-info-wrap-3 .ticket-links a {
+	color:#fff;	
+	text-decoration:none;
+}
+
+#ticket-info-wrap-4 {
+	position:relative;
+	z-index:1000;
+	width:792px;
+	display:none;
+		border:none;
+
+}
+
+#ticket-info-wrap-4 .ticket-links {
+	color:#fff;
+	width:315px;
+	margin:0 auto;
+	font-size:14px;
+}
+
+#ticket-info-wrap-4 .ticket-links a {
+	color:#fff;	
+	text-decoration:none;
+}
+
+#ticket-info-wrap-5 {
+	position:relative;
+	z-index:1000;
+	width:792px;
+	display:none;
+		border:none;
+
+}
+
+#ticket-info-wrap-5 .ticket-links {
+	color:#fff;
+	width:315px;
+	margin:0 auto;
+	font-size:14px;
+}
+
+#ticket-info-wrap-5 .ticket-links a {
+	color:#fff;	
+	text-decoration:none;
+}
+
+#ticket-info {
+	background:url("../images/pyt/ticket-rec-bg.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-rec-bg.png*/) no-repeat top left;
+	width:792px;
+	height:422px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:none;
+}
+
+#ticket-info h4 {
+	padding:100px 0 0 20px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#ticket-info h3 {
+	padding:0 0 0 20px;
+	font-size:24px;
+	font-weight:bold;
+}
+
+#ticket-info h2 {
+	padding:0 0 0 20px;
+	font-size:30px;
+	font-weight:bold;
+}
+
+#ticket-info .ticket-image {
+	float:left;
+	width:300px;
+	margin:10px 0 0 20px;
+}
+
+#ticket-info .features {
+	float:left;
+	width:445px;	
+}
+
+#ticket-info .features ul {
+	list-style:disc;
+	margin-left:35px;
+	font-size:18px;
+}
+
+#ticket-info .cart {
+	text-indent:-9999px;
+	background:url("../images/pyt/add-to-cart.png"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/add-to-cart.png*/) no-repeat top left;
+	width:137px;
+	height:22px;
+	display:block;
+	clear:both;
+	margin:0 auto;
+	position:relative;
+	top:38px;
+}
+
+#ticket-info .cart:active {
+	background-position:left 1px;
+	width:917px;
+}
+
+
+
+/* --- TICKET WIZARD PAGE --- */
+
+
+
+#ticket-wizard-wrapper{
+	width:917px;
+	position:relative;
+	left:-7px;
+}
+
+#ticket-wizard-header{
+	position:relative;
+	background-image: url("../images/pyt/ticket-wizard-top.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-wizard-top.jpg*/);
+	width:917px;
+	height:303px;
+	background-repeat:no-repeat;
+	
+}
+
+.ticket-prices {
+	width:200px;
+	margin:auto;
+	color:#777;
+}
+
+.ticket-prices h2 {
+	font-weight:bold;
+	font-size:14px;
+	color: #F6931E;
+	margin-bottom:5px;
+}
+
+#ticket-wizard-header .title {
+	position:absolute;
+	text-indent:-999999px;
+}
+
+
+#ticket-wizard-content{
+	position:relative;
+	background-image: url("../images/pyt/ticket-wizard-middle.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-wizard-middle.jpg*/);
+	width:917px;
+	background-repeat:repeat-y;
+}
+
+#ticket-wizard-content ul {
+	float:left;
+	width:245px;
+	padding-left:60px;
+	min-height:165px;
+	padding-bottom:55px;
+}
+
+#ticket-wizard-wrapper a {
+	color:#999;
+	text-decoration:none;
+	font-size:12px;
+}
+
+#ticket-wizard-content .behind-the-scenes-tours, #ticket-wizard-content .premium-plus-pass, #ticket-wizard-content .city-pass{
+	float:left;
+	width:305px;
+}
+
+#ticket-wizard-header .behind-the-scenes-tours, #ticket-wizard-header .premium-plus-pass, #ticket-wizard-header .city-pass{
+	float:left;
+	width:305px;
+	height:100px;
+	margin-top:100px;
+}
+
+#ticket-wizard-content li {
+	float:left;
+	height:36px;
+	width:245px;;
+	list-style:disc outside;
+	padding-top:20px;
+	color:#444;
+	font-size:12px;
+
+}
+
+#ticket-wizard-content .purchase-tickets {
+background-image:url("../images/pyt/ticket-wizard-button.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-wizard-button.jpg*/);
+bottom:5px;
+clear:both;
+cursor:pointer !important;
+display:block;
+height:43px;
+line-height:300px;
+margin:auto auto auto 45px;
+overflow:hidden;
+position:absolute;
+text-indent:-9999px;
+width:214px;
+}
+
+#ticket-wizard-footer{
+	position:relative;
+	background-image: url("../images/pyt/ticket-wizard-bottom.jpg"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/ticket-wizard-bottom.jpg*/);
+	width:917px;
+	height:19px;
+}
+
+#lower-nav {
+	color:#999;	
+	text-align:center;
+	padding:15px 0px 20px 0px;
+	font-size:12px;
+}
+
+.lines2 {
+	height:43px!important;
+	padding-top:13px!important;}
+	
+
+.clear {
+	clear:both;	
+}
+
+

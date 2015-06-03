@@ -1,0 +1,67 @@
+#pyt-current-place .image {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/current_place_image_bg.png', sizingMethod='image');
+	margin:7px 6px 0 5px;
+}
+
+#pyt-current-place .text a.package-details {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/package_details_btn.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-places-tabs li.ui-tabs-selected a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/tab_on.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-places-tabs li a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/tab_off.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+/* HTML HOME PAGE */
+
+#homepage-content h1 {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_welcome.png', sizingMethod='image');
+}
+
+#homepage-content h2 {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_welcome_2.png', sizingMethod='image');
+}
+
+#homepage-content a.purchase-tickets {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_purchase_tickets.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#homepage-content a.callout-top {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_callout_top.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#homepage-content a.callout-bot {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_callout_bot.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#alert-box a.close {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/alert_close_button.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-header {
+	background: url('/new/images/pyt/wrapper_bg.gif') top left no-repeat;
+}
+
+#pyt-footer {
+	background: url('/new/images/pyt/wrapper_bottom_bg.gif') bottom left no-repeat;
+}

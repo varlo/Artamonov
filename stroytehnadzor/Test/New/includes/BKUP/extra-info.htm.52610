@@ -1,0 +1,15 @@
+     <div id="extra-info">
+    <div id="newsletter-link">
+        <a href="/newsletter/" class="newsletter">Sign Up for our Newsletter</a>
+    </div>
+    <div id="social-icons">
+        <h2>Connect with Georgia Aquarium around the web</h2>
+        <ul>
+            <li><a href="http://www.flickr.com/groups/georgiaaquariumguests/" target="_blank" id="flickr">Flickr</a></li>
+            <li><a href="http://www.youtube.com/user/GeorgiaAquarium" target="_blank" id="youtube">You Tube</a></li>
+            <li><a href="http://twitter.com/GeorgiaAquarium" target="_blank" id="twitter">Twitter</a></li>
+            <li><a href="http://www.facebook.com/pages/Atlanta-GA/Georgia-Aquarium/22727908123" target="_blank" id="facebook">Facebook</a></li>
+            <li><a href="/rss.aspx" target="_blank" id="rss" title="RSS">RSS</a></li>
+        </ul>
+    </div>
+</div>

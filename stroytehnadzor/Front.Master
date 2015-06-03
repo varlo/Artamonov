@@ -1,0 +1,64 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Front.master.cs" Inherits="StroyTehNadzor.Front" %>
+
+<%@ Register Src="/PageControls/Header.ascx" TagName="Header" TagPrefix="Controls" %>
+<%@ Register Src="/PageControls/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="Controls" %>
+<%@ Register Src="/PageControls/RightMenu.ascx" TagName="RightMenu" TagPrefix="Controls" %>
+<%@ Register Src="/PageControls/Footer.ascx" TagName="Footer" TagPrefix="Controls" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="robots" content="all, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <meta name="verify-v1" content="j+YAxNlQ+TL7ET9kREPHU27DBp71HofHJaLY2/EucoE=" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta http-equiv="Content-Language" content="ru">
+    <meta name="robots" content="all">
+    <meta name="document-state" content="dynamic">
+    <meta name="revisit-after" content="2 days">
+    <meta name="distribution" content="Global">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-7025175-2");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
+
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body topmargin="10" bgcolor="#ffffff">
+    <form id="form1" runat="server">
+    <div class="top_row">
+    </div>
+    <div class="left_col">
+        <Controls:LeftMenu runat="server" ID="LeftMenu1" />
+    </div>
+    <div class="middle_col">
+        <Controls:Header runat="server" ID="Header1" />
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="right_col">
+        <Controls:RightMenu runat="server" ID="RightMenu1" />
+    </div>
+    <div class="bottom_row">
+        <hr />
+        <Controls:Footer runat="server" ID="Footer1" />
+    </div>
+    </form>
+<!-- RedHelper -->
+<script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async" 
+	src="https://web.redhelper.ru/service/main.js?c=vartamonov">
+</script> 
+<!--/Redhelper -->
+</body>
+</html>

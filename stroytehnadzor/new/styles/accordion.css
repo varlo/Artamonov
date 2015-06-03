@@ -1,0 +1,37 @@
+/*======Accordion=========*/
+
+#explore-accordion {width:500px;margin:0px auto 15px 0;}
+#explore-accordion .explore-accordion-item {clear:both;}
+#explore-accordion .no-border {border:0;}
+#explore-accordion img {float:left;padding-bottom:10px;margin-left:20px;}
+#explore-accordion .explore-accordion-item .text {line-height:16px;background:#fff;font-size:12px;padding:10px;}
+#explore-accordion .explore-accordion-item .text h4 {font-size:17px;float:right;width:350px;margin:0;}
+#explore-accordion .explore-accordion-item .text-holder {font-size:13px;line-height:16px;background:#fff;}
+#exhibits #left-col #explore-accordion .explore-accordion-item .text p {margin-bottom:10px;float:left;width:350px;}
+#events-programs #exhibits #right-col #explore-accordion .explore-accordion-item .text p {margin-left:15px;width:350px;margin-bottom:10px;float:left;}
+#events-programs #exhibits #right-col #explore-accordion .explore-accordion-item .text .event-title {margin-left:15px;width:250px;margin-bottom:10px;float:left;}
+#explore-accordion .explore-accordion-item .text p strong,#explore-accordion .explore-accordion-item .text-holder p strong {font-weight:bold;}
+#explore-accordion .explore-accordion-item .text ul {margin:15px 0 15px 30px;list-style-type: disc;float:right;width:350px;}
+#explore-accordion .explore-accordion-item .text ul li {font-size:12px;margin:5px 0 0 0;}
+#explore-accordion .explore-accordion-item .text-holder .single-event {font-size:12px;padding:10px;}
+#explore-accordion .explore-accordion-item .text-holder .no-border {border:0;}
+#explore-accordion .explore-accordion-item .text-holder .single-event h4 {font-weight:bold;}
+#explore-accordion .explore-accordion-item .text p a,
+#explore-accordion .explore-accordion-item .text .single-event p a,
+#explore-accordion .explore-accordion-item .text-holder .single-event p a {color:#07375c;text-decoration:underline;}
+#explore-accordion .explore-accordion-item .text p a:hover,
+#explore-accordion .explore-accordion-item .text .single-event p a:hover,
+#explore-accordion .explore-accordion-item .text-holder .single-event p a:hover {color:#07375c;text-decoration:none;}
+#exhibits #explore-accordion .explore-accordion-item h3 {font-size:18px;color:#1b8dd8;font-weight:normal;height:40px;width:500px;text-decoration:none;padding:0;margin-bottom:0;}
+#explore-accordion .explore-accordion-item h3 a.open {background:url("../../media/images/explore-the-aquarium/bg-animal-guide-h3.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/explore-the-aquarium/bg-animal-guide-h3.jpg*/) top left no-repeat;font-size:16px;color:#1b8dd8;font-weight:normal;text-decoration:none;line-height:43px;height:41px;width:500px;display:block;padding-left:40px;}
+#exhibits #left-col #explore-accordion .explore-accordion-item h3.programs {margin:0 0 0 20px;}
+#explore-accordion .explore-accordion-item h3.programs a.open {background:url("../../media/images/explore-the-aquarium/bg-accordion-header-close.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/explore-the-aquarium/bg-accordion-header-close.jpg*/) top left no-repeat;font-size:16px;color:#0d2949;	font-weight:normal;text-decoration:none;line-height:43px;height:43px;width:500px;display:block;padding-left:40px;}
+#explore-accordion .explore-accordion-item h3.programs a {background:url("../../media/images/explore-the-aquarium/bg-accordion-header-open.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/explore-the-aquarium/bg-accordion-header-open.jpg*/) top left no-repeat;font-size:16px;color:#0d2949;	font-weight:normal;text-decoration:none;line-height:43px;height:43px;width:500px;display:block;padding-left:40px;}
+#explore-accordion .explore-accordion-item h2.programs a.open {background:url("../../media/images/explore-the-aquarium/bg-accordion-header-close.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/explore-the-aquarium/bg-accordion-header-close.jpg*/) top left no-repeat;font-size:16px;color:#0d2949;	font-weight:normal;text-decoration:none;line-height:43px;height:43px;width:500px;display:block;padding-left:40px;}
+#explore-accordion .explore-accordion-item h2.programs {padding:0;}
+#interact-page #explore-accordion .explore-accordion-item h3 {margin:0;padding:0;}
+#interact-page #explore-accordion .explore-accordion-item h3 a.open {background:url("../../media/images/explore-the-aquarium/interact-accordion-close-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/explore-the-aquarium/interact-accordion-close-bg.jpg*/) top left no-repeat;font-size:16px;color:#0d2949;font-weight:normal;text-decoration:none;line-height:43px;height:40px;width:400px;display:block;padding-left:40px;}
+#interact-page #explore-accordion .explore-accordion-item h3 a {background:url("../../media/images/explore-the-aquarium/interact-accordion-open-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/explore-the-aquarium/interact-accordion-open-bg.jpg*/) top left no-repeat;font-size:16px;color:#0d2949;	font-weight:normal;text-decoration:none;line-height:43px;height:40px;width:400px;display:block;padding-left:40px;}
+#interact-page #explore-accordion .explore-accordion-item  {width:400px;}
+
+/*===========End Accordion=========*/

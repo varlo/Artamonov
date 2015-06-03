@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Penguin</title>
+
+    <script type="text/javascript" src="jscript/swfobject.js"></script>
+
+    <script type="text/javascript"> 
+		<!-- Set Flash Object -->
+		var flashvars = {clickTag: "http://www.georgiaaquarium.org/gpac", target: "_self"};
+		var params = {menu: "false", scale: "noscale", bgcolor: "#FFFFFF" , allowscriptaccess: "always"};
+		var attributes = {id: "content", name: "flash_content"};
+		var randate = (new Date()).getTime();
+		var nameSWF = "penguin.swf"+ "?rand=" + randate
+		swfobject.embedSWF(nameSWF , "content", "955", "514", "8.0.0", "jscript/expressInstall.swf", flashvars, params, attributes);
+		<!-- End Set Flash Object -->
+		
+		
+		<!-- Set Flash Object -->
+		var flashvars = {f_vars:""};
+		var params = {menu: "false", scale: "noscale", bgcolor: "#FFFFFF" , allowscriptaccess: "always"};
+		var attributes = {id: "webcams_nav", name: "flash_content2"};
+		var randate = (new Date()).getTime();
+		var nameSWF = "webcams_bar.swf"+ "?rand=" + randate
+		swfobject.embedSWF(nameSWF , "webcams_nav", "607", "250", "6.0.0", "jscript/expressInstall.swf", flashvars, params, attributes);
+		<!-- End Set Flash Object -->
+    </script>
+
+    <body bgcolor="#5e6972">
+        <table width="955" align="center">
+            <tr>
+                <td width="955" height="514">
+                    <div id="content">
+                        <a href="http://www.adobe.com/go/getflashplayer">
+                            <img border="0" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                                alt="Get Adobe Flash Player" width="112" height="33" /></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td width="955">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td width="955" height="250">
+                    <div id="webcams_nav">
+                        <a href="http://www.adobe.com/go/getflashplayer">
+                            <img border="0" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                                alt="Get Adobe Flash Player" width="112" height="33" /></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

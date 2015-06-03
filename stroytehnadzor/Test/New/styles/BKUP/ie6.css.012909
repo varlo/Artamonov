@@ -1,0 +1,23 @@
+#pyt-current-place .image {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/current_place_image_bg.png', sizingMethod='image');
+	margin:7px 6px 0 5px;
+}
+
+#pyt-current-place .text a.package-details {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/package_details_btn.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-places-tabs li.ui-tabs-selected a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/tab_on.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-places-tabs li a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/tab_off.png', sizingMethod='image');
+	cursor:pointer;
+}

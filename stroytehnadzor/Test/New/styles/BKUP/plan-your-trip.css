@@ -1,0 +1,789 @@
+#site-content-wrapper{
+	background: #07375c url('/new/images/pyt/body_bg.jpg') center top repeat-x;
+}
+
+#pyt-wrapper {
+	width:954px;
+	margin:0px auto;
+	background: url('/new/images/pyt/wrapper_bg.png') top left no-repeat;
+	margin-top:30px;
+	position:relative;
+	padding-top:70px;
+}
+
+#pyt-nav {
+	height:25px;
+	 width:722px; 
+/*	width:470px; */
+	position:absolute;
+	right:0;
+	top:5px;
+}
+
+#pyt-nav ul {
+	overflow:hidden;
+	height:25px;
+}
+
+#pyt-nav ul li {
+	display:block;
+	float:left;
+}
+
+#pyt-nav ul li a {
+	height:25px;
+	line-height:25px;
+	display:block;
+	font-family:"Lucida Grande", Lucida, Arial, sans-serif, default;
+	color:#1B8DD8;
+	font-weight:normal;
+	font-size:14px;
+	text-decoration:none;
+	text-align:center;
+}
+#pyt-nav ul li a.current,
+#pyt-nav ul li a:hover {
+	font-weight:bold;
+}
+
+#pyt-nav ul li a.custom-planning-guide {
+	width:252px;
+	background: url('/new/images/pyt/custom_planning_guide_bg.png') top left no-repeat;
+	color:#fff;
+	font-weight:bold;
+	font-size:13px;
+	text-align:center;
+}
+
+#pyt-nav ul li a.tickets {
+	width:66px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.places-to-stay {
+	width:115px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.things-to-do {
+	width:102px;
+	margin-right:20px;
+}
+
+#pyt-nav ul li a.getting-here {
+	width:107px;
+	margin-right:20px;
+}
+
+
+#pyt-navNewForMyACC {
+	height:25px;
+	 width:445px; 
+/*	width:470px; */
+	position:absolute;
+	right:0;
+	top:5px;
+}
+
+#pyt-navNewForMyACC ul li a.Log Out {
+	width:102px;
+	margin-right:20px;
+}
+
+
+#pyt-things {
+	width:777px;
+	margin:0px auto;
+}
+
+#pyt-things .pyt-thing-holder {
+	overflow:hidden;
+	width:777px;
+	background: url('/new/images/pyt/things_border.png') bottom center no-repeat;
+	padding:15px 0 20px 0;
+}
+
+#pyt-things .no-border {
+	background:0;
+}
+
+#pyt-things h1 {
+	width:157px;
+	float:left;
+}
+
+#pyt-things h1 a.tickets{
+	background:url('/new/images/pyt/buy-tickets_header.png') top left no-repeat;
+	height:75px;
+	display:block;
+	text-indent: -9999px;
+}
+
+#pyt-things h1 a.places-to-stay{
+	background:url('/new/images/pyt/places-to-stay_header.png') top left no-repeat;
+	height:110px;
+	display:block;
+	text-indent: -9999px;
+}
+
+#pyt-things h1 a.things-to-do{
+	background:url('/new/images/pyt/things-to-do_header.png') top left no-repeat;
+	height:115px;
+	display:block;
+	text-indent: -9999px;
+}
+
+#pyt-things h1 a.getting-here{
+	background:url('/new/images/pyt/getting-here_header.png') top left no-repeat;
+	height:115px;
+	display:block;
+	text-indent: -9999px;
+}
+
+#pyt-things .image {
+	width:150px;
+	float:left;
+}
+
+#pyt-things .text {
+	width:440px;
+	padding-left:30px;
+	float:left;
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#4c4c4c;
+}
+
+#pyt-things .text a {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-things .text a:hover {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-things h2 {
+	font-size:18px;
+	line-height:18px;
+	color:#000;
+	font-weight:normal;
+	font-family:Arial, sans-serif, default;
+	margin-bottom:5px;
+}
+
+/* TICKETS */
+#pyt-tix-wrapper {
+	width:900px;
+	margin:0px auto;
+}
+
+#pyt-tix-wrapper h1 {
+	background:url('/new/images/pyt/tickets_header.png') top left no-repeat;
+	width:92px;
+	height:23px;
+	text-indent:-9999px;
+	margin:0 0 5px 15px;
+}
+
+#pyt-tix-content {
+	margin-left:60px;
+	width:840px;
+	overflow:hidden;
+}
+
+#pyt-tix-passes {
+	width:590px;
+	float:left;
+}
+
+#pyt-tix-passes .pass-holder {
+	width:590px;
+	overflow:hidden;
+	padding:18px 0 8px 0;
+	background: url('/new/images/pyt/tix_border.jpg') bottom left no-repeat;
+}
+
+#pyt-tix-passes .no-border {
+	background:none;
+}
+
+#pyt-tix-passes .pass-holder .image {
+	width:155px;
+	float:left;
+	text-align:center;
+}
+
+#pyt-tix-passes .pass-holder .text {
+	width:415px;
+	padding:0 10px;
+	float:left;
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#4c4c4c;
+}
+
+#pyt-tix-passes .pass-holder .text a {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-tix-passes .pass-holder .text a:hover {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-tix-passes .pass-holder .text h2{
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:5px;
+	color:#000;
+	font-weight:normal;
+	font-family:Arial, sans-serif, default;
+}
+
+#pyt-tix-passes .pass-holder .text p{
+	margin-bottom:5px;
+}
+
+#pyt-tix-passes .pass-holder .text a.buy-tickets {
+	display:block;
+	background: url('/new/images/pyt/buy_tickets_btn.png') top left no-repeat;
+	width:122px;
+	height:22px;
+	text-indent:-9999px;
+}
+
+#pyt-tix-ad {
+	width:250px;
+	float:left;
+}
+
+/* END TICKETS */
+
+
+/* Getting Here */
+
+#pyt-directions-wrapper {
+	width:900px;
+	margin:0px auto;
+}
+
+#pyt-directions-wrapper h1 {
+	background:url('/new/images/pyt/how-to-get-here_header.png') top left no-repeat;
+	width:212px;
+	height:25px;
+	text-indent:-9999px;
+	margin:0 0 10px 15px;
+}
+
+#pyt-directions-map {
+	width:880px;
+	margin:0px auto;
+	margin-bottom:25px;
+}
+
+#pyt-directions-content {
+	width:880px;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#pyt-directions-content h2{
+	font-size:18px;
+	line-height:18px;
+	margin-bottom:5px;
+	color:#000;
+	font-weight:normal;
+	font-family:Arial, sans-serif, default;
+}
+
+#pyt-directions-content h3{
+	font-size:13px;
+	line-height:18px;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-family:"Lucida Grande", Lucida, Arial, sans-serif, default;
+}
+
+#pyt-directions-content p {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#4c4c4c;
+	margin-bottom:15px;
+}
+
+#pyt-directions-content p a {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:underline;
+}
+
+#pyt-directions-content p a:hover {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, sans-serif, default;
+	color:#1B8DD8;
+	text-decoration:none;
+}
+
+#pyt-hours {
+	width:320px;
+	float:left;
+	padding-right:15px;
+}
+
+#pyt-parking {
+	width:240px;
+	float:left;
+	padding:0 15px;
+}
+
+#pyt-map-it {
+	width:245px;
+	padding:0 15px;
+	float:left;
+}
+
+#pyt-map-it label {
+	color:#000;
+	font-size:16px;
+	line-height:18px;
+	font-family:Arial, sans-serif, default;
+	background: url('/new/images/pyt/get_directions_icon.png') center left no-repeat;
+	padding-left:35px;
+	line-height:25px;
+	margin-bottom:5px;
+	display:block;
+}
+
+#pyt-map-it input.input-text {
+	border:1px solid #bfbfbf;
+	width:170px;
+	height:20px;
+	background:#fff;
+	position:absolute;
+	top:5px;
+	left:0;
+}
+
+#pyt-map-it .input-holder {
+	position:relative;
+	width:245px;
+	height:35px;
+}
+
+#pyt-map-it input.input-button {
+	border:0;
+	width:39px;
+	height:34px;
+	background: url('/new/images/pyt/map_go_btn.png') center left no-repeat;
+	color:#fff;
+	position:absolute;
+	top:0px;
+	left:175px;
+}
+
+#pyt-map-it span {
+	font-size:12px;
+	color:#B3B3B3;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+}
+
+/* END Getting Here */
+
+/* PLACES */
+
+#pyt-places-wrapper {
+	width:906px;
+	margin:0px auto;
+	position:relative;
+}
+
+#pyt-places-wrapper h1 {
+	background:url('/new/images/pyt/whats_near_header.png') top left no-repeat;
+	width:405px;
+	height:31px;
+	text-indent:-9999px;
+	margin:0 0 5px 15px;
+}
+
+#pyt-loader {
+	height:205px;
+	width:906px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#fff;
+	display:none;
+
+}
+
+#pyt-current-place-holder {
+	width:906px;
+	height:205px;
+	background: url('/new/images/pyt/current_place_bg.png') bottom left no-repeat;
+	margin-bottom:10px;
+}
+
+#pyt-current-place {
+	width:906px;
+	height:205px;
+	overflow:hidden;
+	position:relative;
+}
+
+#pyt-current-place .image {
+	width:409px;
+	height:180px;
+	float:left;
+	background: url('/new/images/pyt/current_place_image_bg.png') top left no-repeat;
+	margin:7px 6px 0 10px;
+	position:relative;
+}
+
+#pyt-current-place .image img {
+	position:absolute;
+	left:14px;
+	top:9px;
+}
+
+#pyt-current-place .text {
+	width:450px;
+	padding-left:14px;
+	padding-right:17px;
+	float:left;
+	font-family:Arial, sans-serif, default;
+	margin-top:7px;
+}
+
+#pyt-current-place .text span {
+	color:#fbac3a;
+	font-size:12px;
+	line-height:17px;
+}
+
+#pyt-current-place .text h2 {
+	color:#000000;
+	font-size:22px;
+	line-height:25px;
+	font-weight:normal;
+	margin-bottom:6px;
+}
+
+#pyt-current-place .text p.address {
+	color:#4c4c4c;
+	font-size:13px;
+	line-height:20px;
+	font-weight:bold;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+	margin-bottom:5px;
+}
+
+#pyt-current-place .text p {
+	color:#4c4c4c;
+	font-size:11px;
+	line-height:15px;
+	font-weight:normal;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+}
+
+#pyt-current-place .text p a {
+	color:#1B8DD8;
+	font-size:11px;
+	line-height:15px;
+	font-weight:normal;
+	letter-spacing:-.01em;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+	text-decoration:underline;
+}
+
+#pyt-current-place .text p a:hover {
+	color:#1B8DD8;
+	font-size:11px;
+	line-height:15px;
+	font-weight:normal;
+	letter-spacing:-.01em;
+	font-family:"Lucida Grande", Lucida, sans-serif, default;
+	text-decoration:none;
+}
+
+#pyt-current-place .text a.package-details {
+	display:block;
+	height:28px;
+	width:144px;
+	background: url('/new/images/pyt/package_details_btn.png') top left no-repeat;
+	text-indent:-9999px;
+	margin-top:7px;
+}
+
+#pyt-current-place .text a.titanic-package {
+	display:block;
+	height:28px;
+	width:288px;
+	background: url('/new/images/pyt/titanic_aquarium_package_btn.png') top left no-repeat;
+	text-indent:-9999px;
+	margin-top:5px;
+}
+
+#pyt-current-place .text a.titanic-aquatic {
+	display:block;
+	height:28px;
+	width:386px;
+	background: url('/new/images/pyt/titanic_aquatic.png') top left no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+
+#pyt-current-place .text a.king-tut {
+	display:block;
+	height:28px;
+	width:386px;
+	background: url('/new/images/pyt/king_tut.png') top left no-repeat;
+	text-indent:-9999px;
+	margin-top:5px;
+}
+
+
+#pyt-current-place .text a.aquarium-package {
+	display:block;
+	height:28px;
+	width:288px;
+	background: url('/new/images/pyt/georgia_aquarium_package_btn.png') top left no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+
+
+#pyt-current-place .text a.more-info {
+	display:block;
+	height:28px;
+	width:144px;
+	background: url('/new/images/pyt/more_info_btn.png') top left no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+
+#pyt-current-place #pyt-latitude{
+	display:none;
+}
+
+#pyt-current-place #pyt-longitude{
+	display:none;
+}
+
+#pyt-list-and-map {
+	width:906px;
+	overflow:hidden;
+}
+
+#pyt-places-list {
+	width:520px;
+	padding:0 5px;
+	float:left;
+}
+
+#pyt-places-tabs {
+	background: url('/new/images/pyt/places_tab_bg.png') bottom left repeat-x;
+	height:18px;
+	width:520px;
+	overflow:hidden;
+	position:relative;
+	margin-bottom:8px;
+}
+
+#pyt-places-tabs li {
+	position:absolute;
+	bottom:0;
+}
+
+#pyt-places-tabs li.ui-tabs-selected a {
+	background: url('/new/images/pyt/tab_on.png') bottom left repeat-x;
+	color:#4c4c4c;
+}
+
+#pyt-places-tabs li.ui-tabs-selected {
+	z-index:50 !important;
+}
+
+#pyt-places-tabs li a {
+	height:18px;
+	width:123px;
+	background: url('/new/images/pyt/tab_off.png') bottom left repeat-x;
+	display:block;
+	text-align:center;
+	font-size:14px;
+	font-family:Arial, sans-serif, default;
+	color:#999;
+	text-decoration:none;
+	line-height:18px;
+}
+
+#pyt-places-tabs li.hotels-tab {
+	position:absolute;
+	left:89px;
+	z-index:20;
+}
+
+#pyt-places-tabs li.restaurant-tab {
+	position:absolute;
+	left:198px;
+	z-index:10;
+}
+
+#pyt-places-tabs li.attractions-tab {
+	position:absolute;
+	left:307px;
+	z-index:5;
+}
+
+#pyt-places-list .ui-tabs-hide{
+	display:none;
+}
+
+#pyt-hotels,
+#pyt-restaurants,
+#pyt-attractions {
+	width:520px;
+	overflow:hidden;
+}
+
+#pyt-places-list .pyt-places-column-1,
+#pyt-places-list .pyt-places-column-2 {
+	width:260px;
+	float:left;
+}
+
+#pyt-places-list .pyt-places-column-1 ul li,
+#pyt-places-list .pyt-places-column-2 ul li {
+	height:28px;
+	border-bottom:1px solid #d3d3d3;
+}
+
+#pyt-places-list .pyt-places-column-1 ul li a,
+#pyt-places-list .pyt-places-column-2 ul li a{
+	line-height:28px;
+	font-size:12px;
+	color:#262626;
+	font-family:Arial, sans-serif, default;
+	text-decoration:none;
+	margin-left:22px;
+	display:block;
+}
+
+#pyt-places-list .pyt-places-column-1 ul li a:hover,
+#pyt-places-list .pyt-places-column-2 ul li a:hover,
+#pyt-places-list .pyt-places-column-1 ul li a.current,
+#pyt-places-list .pyt-places-column-2 ul li a.current{
+	color:#1b8dd8;
+	font-weight:bold;
+}
+
+#pyt-places-map {
+	width:360px;
+	padding-left:16px;
+	float:left;
+}
+
+#pyt-places-map ul {
+	overflow:hidden;
+	margin-top:8px;
+}
+
+#pyt-places-map ul li {
+	margin-right:7px;
+	float:left;
+	display:block;
+}
+
+#pyt-places-map ul li a.directions-from-aquarium {
+	width:158px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url('/new/images/pyt/directions_from_aquarium.png') top left no-repeat;
+}
+
+#pyt-places-map ul li a.directions-from-hotel {
+	width:178px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url('/new/images/pyt/directions_from_hotel.png') top left no-repeat;
+}
+
+#pyt-places-map ul li a.directions-from-restaurant {
+	width:178px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url('/new/images/pyt/directions_from_restaurant.png') top left no-repeat;
+}
+
+#pyt-places-map ul li a.directions-from-attraction {
+	width:178px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	background: url('/new/images/pyt/directions_from_attraction.png') top left no-repeat;
+}
+
+#pyt-places-map .google_map{
+	width:346px;
+	height:329px;
+}
+
+/* END PLACES */
+
+#pyt-footer {
+	background: url('/new/images/pyt/wrapper_bottom_bg.png') top left no-repeat;
+	height:60px;
+	width:954px;
+	margin:0px auto;
+	color:#fff;
+	font-size:10px;
+	font-family:Arial, sans-serif, default;
+	position:relative;
+	margin-bottom:20px;
+}
+
+#pyt-footer ul {
+	overflow:hidden;
+	position:absolute;
+	top:35px;
+	right:0;
+}
+
+#pyt-footer ul li {
+	float:left;
+	display:block;
+	margin-right:5px;
+}
+
+#pyt-footer ul li.aquarium {
+	margin-right:20px;
+}
+
+#pyt-footer ul li a{
+	color:#fff;
+	text-decoration:none;
+	margin-right:5px;
+}

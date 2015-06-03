@@ -1,0 +1,51 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Front.master.cs" Inherits="Forum.Front" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="robots" content="all, follow" />
+    <meta name="googlebot" content="index, follow, snippet, archive" />
+    <meta name="verify-v1" content="j+YAxNlQ+TL7ET9kREPHU27DBp71HofHJaLY2/EucoE=" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta http-equiv="Content-Language" content="ru">
+    <meta name="robots" content="all">
+    <meta name="document-state" content="dynamic">
+    <meta name="revisit-after" content="2 days">
+    <meta name="distribution" content="Global">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-7025175-2");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body topmargin="10" bgcolor="#ffffff">
+    <form id="form1" runat="server">
+    <div class="container theme-showcase" role="main">
+        <div class="page-header" style="border: none">
+            <h2 style="text-align: center">
+                Форум по техническому надзору в строительстве</h2>
+        </div>
+        <div class="middle_col">
+            <asp:ContentPlaceHolder ID="cphContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

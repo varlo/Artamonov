@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{858E018C-C08C-42A3-A407-EB4D26543B86}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>stroytehnadzor</RootNamespace>
+    <AssemblyName>stroytehnadzor</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="images\kdd.jpg" />
+    <Content Include="Test.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="google38f2b90cd907814e.html" />
+    <Content Include="images\detdom.gif" />
+    <Content Include="images\lic1.JPG" />
+    <Content Include="images\lic1big.JPG" />
+    <Content Include="images\lic2.JPG" />
+    <Content Include="images\lic2big.JPG" />
+    <Content Include="images\pdf.jpg" />
+    <Content Include="images\yaroslav.gif" />
+    <Content Include="styles\styles.css" />
+    <Content Include="testpreview.hta" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Board.aspx.cs">
+      <DependentUpon>Board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Board.aspx.designer.cs">
+      <DependentUpon>Board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.aspx.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacts.aspx.designer.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contracts.aspx.cs">
+      <DependentUpon>Contracts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contracts.aspx.designer.cs">
+      <DependentUpon>Contracts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs.aspx.cs">
+      <DependentUpon>Catalogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs.aspx.designer.cs">
+      <DependentUpon>Catalogs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Acts.aspx.cs">
+      <DependentUpon>Acts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Acts.aspx.designer.cs">
+      <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralError.aspx.cs">
+      <DependentUpon>GeneralError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeneralError.aspx.designer.cs">
+      <DependentUpon>GeneralError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Geodesy.aspx.cs">
+      <DependentUpon>Geodesy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Geodesy.aspx.designer.cs">
+      <DependentUpon>Geodesy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExtExp.aspx.cs">
+      <DependentUpon>ExtExp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExtExp.aspx.designer.cs">
+      <DependentUpon>ExtExp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Out.aspx.cs">
+      <DependentUpon>Out.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Out.aspx.designer.cs">
+      <DependentUpon>Out.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Engineer.aspx.cs">
+      <DependentUpon>Engineer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engineer.aspx.designer.cs">
+      <DependentUpon>Engineer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Links.aspx.cs">
+      <DependentUpon>Links.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Links.aspx.designer.cs">
+      <DependentUpon>Links.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NormBase.aspx.cs">
+      <DependentUpon>NormBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NormBase.aspx.designer.cs">
+      <DependentUpon>NormBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Front.Master.cs">
+      <DependentUpon>Front.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Front.Master.designer.cs">
+      <DependentUpon>Front.Master</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\Signs.ascx.cs">
+      <DependentUpon>Signs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\Signs.ascx.designer.cs">
+      <DependentUpon>Signs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\News.ascx.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\News.ascx.designer.cs">
+      <DependentUpon>News.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\RightMenu.ascx.cs">
+      <DependentUpon>RightMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\RightMenu.ascx.designer.cs">
+      <DependentUpon>RightMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\LeftMenu.ascx.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\LeftMenu.ascx.designer.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Board.aspx" />
+    <Content Include="Contacts.aspx" />
+    <Content Include="Contracts.aspx" />
+    <Content Include="Catalogs.aspx" />
+    <Content Include="Acts.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="GeneralError.aspx" />
+    <Content Include="Geodesy.aspx" />
+    <Content Include="ExtExp.aspx" />
+    <Content Include="images\artamonovemail.gif" />
+    <Content Include="images\artamonovemail.png" />
+    <Content Include="images\azbi.gif" />
+    <Content Include="images\emailadmin.gif" />
+    <Content Include="images\emailoffice.gif" />
+    <Content Include="images\geodezy.jpg" />
+    <Content Include="images\kaska.gif" />
+    <Content Include="images\lic3.jpg" />
+    <Content Include="images\lic3big.jpg" />
+    <Content Include="images\kaska.jpg" />
+    <Content Include="images\newcity.jpg" />
+    <Content Include="images\ok.gif" />
+    <Content Include="images\orangearr.gif" />
+    <Content Include="images\sertificate.jpg" />
+    <Content Include="images\sertificateBig.jpg" />
+    <Content Include="images\smiletehno.gif" />
+    <Content Include="images\tablecabel.jpg" />
+    <Content Include="index.htm" />
+    <Content Include="Out.aspx" />
+    <Content Include="Engineer.aspx" />
+    <Content Include="Links.aspx" />
+    <Content Include="NormBase.aspx" />
+    <Content Include="Front.Master" />
+    <Content Include="News.aspx" />
+    <Content Include="PageControls\Signs.ascx" />
+    <Content Include="PageControls\Header.ascx" />
+    <Content Include="PageControls\News.ascx" />
+    <Content Include="PageControls\Footer.ascx" />
+    <Content Include="PageControls\RightMenu.ascx" />
+    <Content Include="PageControls\LeftMenu.ascx" />
+    <Content Include="robots.txt" />
+    <None Include="images\1982_Vnutrennie_sistemy.pdf" />
+    <None Include="images\Act02.doc" />
+    <None Include="images\Act1.doc" />
+    <None Include="images\Act1.xls" />
+    <None Include="images\Act10.doc" />
+    <None Include="images\Act11.doc" />
+    <None Include="images\Act12.doc" />
+    <None Include="images\Act13.doc" />
+    <None Include="images\Act14.doc" />
+    <None Include="images\Act15.doc" />
+    <None Include="images\Act16.doc" />
+    <None Include="images\Act17.xls" />
+    <None Include="images\Act18.xls" />
+    <None Include="images\Act19.doc" />
+    <None Include="images\Act2.doc" />
+    <None Include="images\Act2.xls" />
+    <None Include="images\Act3.doc" />
+    <None Include="images\Act3.xls" />
+    <None Include="images\Act4.doc" />
+    <None Include="images\Act4.xls" />
+    <None Include="images\Act5.doc" />
+    <None Include="images\Act6.doc" />
+    <None Include="images\Act7.doc" />
+    <None Include="images\Act8.doc" />
+    <None Include="images\Act9.doc" />
+    <None Include="images\AktSdachiPriema.doc" />
+    <None Include="images\akt_peredachi_budivelnogo_maydanchiku.doc" />
+    <None Include="images\AtestationBelarus.doc" />
+    <None Include="images\DBN_A.3.1_5_2009.pdf" />
+    <None Include="images\Declaratsia_blank.doc" />
+    <None Include="images\Dogovir_na_pidgotovchi roboti.doc" />
+    <None Include="images\Dogovir_na_zdisnennja_texnagljady.doc" />
+    <None Include="images\Dogovir_na_zdisnennja_texnagljady_Zamovnik_DerjPidpriyemstvo.doc" />
+    <None Include="images\Dogovir_na_zdisnennja_texnagljady_Zamovnik_Pidpriemec.doc" />
+    <None Include="images\Dogovir_na_zdisnennja_texnagljady_Zamovnik_Tovaristvo.doc" />
+    <None Include="images\Dogovir_tipoviy_Inzhiniringovi_poslugi.doc" />
+    <None Include="images\DolzhnostnyeObjazannosti.doc" />
+    <None Include="images\ElectroMontazhAdd.doc" />
+    <None Include="images\InfList.doc" />
+    <None Include="images\licence.pdf" />
+    <None Include="images\licence2.pdf" />
+    <None Include="images\Nakaz.doc" />
+    <None Include="images\Nakaz172.doc" />
+    <None Include="images\Nakaz263.doc" />
+    <None Include="images\nakaz609.doc" />
+    <None Include="images\NakazMinregBudyN392_06.10.2010.doc" />
+    <None Include="images\nakaz_2008_112.doc" />
+    <None Include="images\ObOpredeleniiPonjatijaEnginiring.doc" />
+    <None Include="images\Perelik.doc" />
+    <None Include="images\PidgotovchiRoboty.doc" />
+    <None Include="images\PismoGosstroja.doc" />
+    <None Include="images\Postanova461.docx" />
+    <None Include="images\Postanova466.docx" />
+    <None Include="images\postanova923.doc" />
+    <None Include="images\Postanova_KM_N903_vid_110707_Pro_avtorskij_i_texnadzor.doc" />
+    <None Include="images\post_2009_534.doc" />
+    <None Include="images\PravovojLikbez2011.doc" />
+    <None Include="images\priceInteprof.doc" />
+    <None Include="images\Rozjasnenija_Minbyda2009.doc" />
+    <None Include="images\TehnadzorExplanation.doc" />
+    <None Include="images\Tekhn._reshenie%28OBRAZETS%29.doc" />
+    <None Include="images\Tipova_posadova_instruction_inzhenera_texnadzora.pdf" />
+    <None Include="images\TKP_Kodeks_texnadzora.pdf" />
+    <None Include="images\zakon4220.doc" />
+    <None Include="images\zakon509.doc" />
+    <None Include="images\Zakon_Ukraine_pro_architect_activity_N58-V.doc" />
+    <None Include="images\Лицензия Артамонов В.А..pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>33690</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

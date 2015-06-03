@@ -1,0 +1,124 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:LeftMenu.ascx.cs" caret="1628" fromTop="16" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Out.aspx.cs" caret="232" fromTop="8" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:Signs.ascx.cs" caret="109" fromTop="4" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:News.ascx.cs" caret="683" fromTop="22" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Catalogs.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Contracts.aspx" caret="561" fromTop="6" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Geodesy.aspx" caret="341" fromTop="5" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:News.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Out.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Web.config" caret="3213" fromTop="17" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:NormBase.aspx.cs" caret="182" fromTop="8" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:GeneralError.aspx.cs" caret="198" fromTop="8" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Global.asax.cs" caret="1099" fromTop="23" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:GeneralError.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Front.Master" caret="2543" fromTop="7" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Contacts.aspx" caret="2219" fromTop="15" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:LeftMenu.ascx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Board.aspx" caret="3698" fromTop="15" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Links.aspx" caret="2027" fromTop="13" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:Footer.ascx" caret="4213" fromTop="27" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx.cs" caret="263" fromTop="11" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:ExtExp.aspx.cs" caret="251" fromTop="11" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Acts.aspx" caret="4508" fromTop="22" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:Header.ascx.cs" caret="1101" fromTop="20" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:NormBase.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="1826" fromTop="12" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:ExtExp.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Default.aspx" caret="1789" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:NormBase.aspx" caret="1025" fromTop="16" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:NormBase.aspx" caret="2489" fromTop="15" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:NormBase.aspx" caret="2994" fromTop="15" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="17" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="3270" fromTop="8" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="2845" fromTop="17" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="4350" fromTop="11" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="4768" fromTop="18" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="3573" fromTop="9" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="3814" fromTop="13" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="5127" fromTop="17" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="2371" fromTop="14" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="19" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:PageControls/f:RightMenu.ascx" caret="1826" fromTop="12" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:ExtExp.aspx" caret="971" fromTop="19" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="28" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="35" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="25" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="32" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="4788" fromTop="30" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/d:styles/f:styles.css" caret="0" fromTop="0" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="4306" fromTop="19" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="2187" fromTop="8" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="4027" fromTop="29" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="2835" fromTop="17" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="4027" fromTop="24" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="2940" fromTop="22" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="3421" fromTop="28" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Engineer.aspx" caret="4021" fromTop="33" />
+      <File id="858E018C-C08C-42A3-A407-EB4D26543B86/f:Default.aspx" caret="1789" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="0" />
+      <Item value="Response" priority="3" />
+      <Item value="HtmlControl`0" priority="1" />
+      <Item value="new" priority="2" />
+      <Item value="HtmlGenericControl" priority="0" />
+      <Item value="Request" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="Page" priority="1" />
+      <Item value="ThreadStaticAttribute`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Threading" priority="0" />
+      <Item value="Thread`0" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="ApplicationException" priority="0" />
+      <Item value="errorInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="Font" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="QueryString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsPostBack" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Session" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

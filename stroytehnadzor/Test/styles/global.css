@@ -1,0 +1,441 @@
+html {
+}
+
+body {
+	margin:0px auto 0px auto !important;
+	padding:0px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background:#07375C;
+	color:#FFFFFF;
+	width:975px !important;
+	text-align:center;
+}
+
+p {
+}
+
+table {
+}
+th {
+}
+td {
+}
+
+form {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+ul {
+	list-style-type:square;
+	list-style-position:outside;
+	margin:0px 0px 20px 0px;
+	padding:0px 0px 0px 20px;
+}
+
+/* Default Links */
+a {
+	text-decoration:none;
+}
+a:link {
+	color:#FF6600;
+}
+a:hover {
+	color:#FF6600;
+	text-decoration:underline;
+}
+a:active {
+	color:#FF6600;
+}
+a:visited {
+	color:#FF6600;
+}
+
+/* Buttons */
+a#orange {
+	display:block;
+	/*width:189px;*/
+	height:24px;
+	margin:2px 0px 2px 0px !important;
+	padding:0px 5px 0px 5px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:24px;
+	text-decoration:none;
+}
+a:link#orange, a:active#orange, a:visited#orange {
+	background:url("../media/images/global/buttons.gif"/*tpa=http://www.georgiaaquarium.org/media/images/global/buttons.gif*/) repeat-x bottom;
+	color:#F26803;
+	border:1px solid #F26803;
+	margin:2px 0px 2px 0px !important;
+}
+a:hover#orange {
+	background:url("../media/images/global/buttons-o.gif"/*tpa=http://www.georgiaaquarium.org/media/images/global/buttons-o.gif*/) repeat-x top;
+	color:#346BB4;
+	border:1px solid #346BB4;
+	margin:2px 0px 2px 0px !important;
+}
+a#orange-arrow {
+	display:block;
+	width:150px;
+	height:26px;
+	margin:2px 0px 2px 0px !important;
+	padding:0px 30px 0px 5px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:26px;
+	text-decoration:none;
+}
+a:link#orange-arrow, a:active#orange-arrow, a:visited#orange-arrow {
+	background:url("../media/images/global/buttonsa.gif"/*tpa=http://www.georgiaaquarium.org/media/images/global/buttonsa.gif*/) no-repeat right;
+	color:#F26803;
+	border-left:1px solid #F26803;
+	margin:2px 0px 2px 0px !important;
+}
+a:hover#orange-arrow {
+	background:url("../media/images/global/buttonsa-o.gif"/*tpa=http://www.georgiaaquarium.org/media/images/global/buttonsa-o.gif*/) no-repeat right !important;
+	color:#346BB4 !important;
+	border-left:1px solid #346BB4 !important;
+	margin:2px 0px 2px 0px !important;
+}
+
+
+/*a#orange {
+	display:block;
+	width:189px;
+	height:23px;
+	margin:2px 0px 2px 0px !important;
+	padding:0px 0px 0px 0px;
+	border:1px solid #f26803;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	line-height:23px;
+	text-decoration:none;
+	float:right;
+}
+a:link#orange, a:active#orange, a:visited#orange {
+	background:#F26803;
+	color:#FFFFFF;
+	margin:2px 0px 2px 0px !important;
+}
+a:hover#orange {
+	background:#FFFFFF;
+	color:#346BB4;
+	margin:2px 0px 2px 0px !important;
+}*/
+#buy {
+	text-align:right;
+	margin:0px 0px 0px 0px !important;
+}
+#buy a {
+	display:block;
+	width:75px;
+	margin:0px 0px 0px 0px !important;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	font-size:10px !important;
+	font-weight:bold;
+	line-height:14px;
+	text-decoration:none !important;
+	text-transform:uppercase;
+	float:right;
+}
+#buy a:link, #buy a:active, #buy a:visited {
+	background:url("../media/images/global/buttons.gif"/*tpa=http://www.georgiaaquarium.org/media/images/global/buttons.gif*/) repeat-x bottom;
+	color:#F26803;
+	border:1px solid #F26803;
+	margin:2px 0px 0px 0px !important;
+}
+#buy a:hover {
+	background:url("../media/images/global/buttons-o.gif"/*tpa=http://www.georgiaaquarium.org/media/images/global/buttons-o.gif*/) repeat-x top;
+	color:#346BB4 !important;
+	border:1px solid #346BB4;
+	margin:2px 0px 0px 0px !important;
+}
+
+/* Default Headers */
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+/* Layout Styles */
+#wrapper {
+	width:975px !important;
+	margin:0px auto 0px auto !important;
+	padding:0px 0px 0px 0px;
+	text-align:left;
+}
+
+.no_top_spacing{
+	margin-top:0px !important;
+	padding-top:0px !important;
+}
+.no_bottom_spacing{
+	margin-bottom:0px !important;
+	padding-bottom:0px !important;
+}
+.no_vertical_spacing{
+	margin-top:0px !important;
+	padding-top:0px !important;
+	margin-bottom:0px !important;
+	padding-bottom:0px !important;	
+}
+/* Left Navigation */
+#left-nav {
+	width:207px;
+	float:left;
+}
+#search-area {
+	margin:24px 0px 0px 0px;
+}
+#search-area #searchField {
+	width:149px;
+	height:15px;
+	margin:0px 0px 0px 0px;
+	padding:2px 3px 0px 3px;
+	border:0px;
+	background:#FFFFFF;
+	color:#666666;
+	font-size:11px;
+}
+#search-area #submit {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 3px;
+	border:0px;
+	background:none;
+	color:#0099CC;
+	font-size:14px;
+	font-weight:bold;
+}
+#search-area #submit {
+	text-decoration:none;
+}
+#search-area .small {
+	font-size:9px;
+	line-height:20px;
+}
+#search-area .small a {
+	color:#FFFFFF;
+}
+#left-nav h3 {
+	margin:20px 0px 5px 0px;
+	padding:0px 0px 0px 0px;
+	font-size:16px;
+	color:#F26803;
+	border-bottom:2px solid #0CA0E2;
+}
+#left-nav h3 a {
+	color:#F26803;
+	text-decoration:none;
+}
+#left-nav ul {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	line-height:18px;
+	list-style-position:inside;
+}
+#left-nav li {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+#left-nav li a {
+	font-weight:bold !important;
+	color:#FFFFFF;
+}
+
+/* Right Side/Main Content Area */
+#right {
+	width:758px;
+	float:right;
+}
+#top-nav a {
+	color:#FFFFFF;
+	padding:0px 0px 0px 0px;
+}
+#top-nav a:hover {
+	color:#FF6600;
+}
+#signup {
+	width:190px;
+	margin:0px 0px 0px 0px;
+	float:right;
+	text-align:left;
+}
+#signup h3 {
+	margin:0px 0px 0px -4px !important;
+	padding:0px 0px 0px 0px !important;
+	text-align:center;
+	line-height:18px;
+	font-size:12px;
+	color:#F26803;
+}
+#signup p {
+	margin:0px 0px 0px 0px;
+}
+#signup input {
+	width:130px;
+	height:14px;
+	margin:6px 0px 0px 0px;
+	padding:2px 1px 1px 1px;
+	border:0px;
+	background:#FFFFFF;
+	color:#333333;
+	font-size:10px;
+	line-height:14px;
+}
+#signup #submit {
+	font-weight:bold;
+	text-align:right;
+}
+#signup #submit a {
+	color:#0CA0E2;
+}
+
+#top-bar {
+	width:565px;
+	margin:5px 0px 8px 0px;
+	border-bottom:2px solid #0CA0E2;
+	text-align:right;
+	line-height:18px;
+	font-size:12px;
+}
+#top-bar a {
+	color:#FFFFFF;
+	padding:0px 0px 0px 7px;
+}
+#main-nav {
+	width:565px;
+	height:27px;
+	padding:4px 0px 0px 0px;
+	font-size:14px;
+	font-weight:bold !important;
+}
+#main-nav a.on {
+	color:#F26803;
+}
+#main-nav a.off {
+	color:#FFFFFF;
+}
+#sub-nav {
+	height:30px;
+	font-size:12px;
+	font-weight:bold !important;
+}
+#sub-nav a {
+	margin:0px 10px 0px 0px;
+}
+#sub-nav a:hover {
+	color:#FFCC00;
+}
+#sub-nav .on {
+	display:inline;
+	visibility:visible;
+}
+#sub-nav .off {
+	display:none;
+	visibility:hidden;
+}
+#white-box {
+	width:565px;
+	float:left;
+	background:#FFFFFF;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;	
+	padding-bottom:10px;
+}
+#right-rail {
+	width:173px;
+	float:right;
+	font-size:10px;
+}
+#item p {
+	margin:5px 0px 10px 0px;
+}
+#right-rail #line {
+	border-bottom:1px solid #FFFFFF;
+	margin:0px 0px 10px 0px;
+}
+#footer {
+	width:565px;
+
+	margin:15px 0px 0px 0px;
+	padding:0px 0px 20px 0px;
+	
+	vertical-align:bottom;
+	font-size:10px;
+	line-height:14px;
+}
+#footer a {
+	color:#FFFFFF;
+}
+#wui {
+	width:100px;
+	float:right;
+	text-align:right;
+	font-size:9px;
+	line-height:16px;
+	display:block;
+}
+#wui a {
+	color:#535353;
+	text-decoration:none;
+}
+#wui a:hover {
+	color:#FFFFFF;
+}
+#wui img {
+	float:right;
+}
+#copyright {
+	margin:4px 0px 0px 0px;
+}
+#nobo, .nobo {
+	border:0px !important;
+}
+
+table tr td label {
+	width:500px;
+	
+}
+
+.alert-box {
+	height:77px;
+	background: url("../media/images/warning-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/warning-bg.jpg*/) top left repeat-x;
+	margin-top:10px;
+}
+
+.alert-image {
+	width:82px;
+	float:left;
+}
+
+.alert-text {
+	float:left;
+	width:413px;
+	color:#fff;
+	font-weight:normal;
+	padding-left:30px;
+	padding-top:20px;
+	padding-right:20px;
+}
+
+.alert-text p {
+	padding:0;margin:0 !important;
+	font-size:13px !important;
+}

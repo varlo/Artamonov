@@ -1,0 +1,599 @@
+@charset "UTF-8";
+
+
+
+#content-wrapper h1 {
+	font-size:26px;
+	font-style:italic;
+	color:#fff;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#content-wrapper h1 a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#content-wrapper h2 {
+	font-size:24px;
+	color:#0C2849;
+	padding-top:10px;
+	padding-bottom:15px;
+	margin-left:30px;	
+}
+
+#bye-nav {
+
+}
+
+#bye-nav li {
+	float:left;
+	width:252px;
+	line-height:35px;
+	text-align:center;
+	padding:0 5px 0 0;
+
+}
+
+#bye-nav li a {
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	text-decoration:none;
+	width:252px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	background:url("../../media/images/book-your-event/nav-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/nav-bg.png*/) no-repeat top left;
+	display:block;
+	
+}
+
+#bye-nav li a:hover {
+	background:url("../../media/images/book-your-event/nav-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/nav-bg.png*/) no-repeat -257px 0;
+	display:block;
+}
+
+#bye-nav li .select {
+	background:url("../../media/images/book-your-event/nav-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/nav-bg.png*/) no-repeat -257px 0;
+	display:block;
+}
+
+/*=========Landing Page===========*/
+
+#bye-content {
+	width:954px;
+	margin:0 auto;
+	background:url("../../media/images/book-your-event/bye-content-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-content-bg.jpg*/) top left no-repeat #fff;
+}
+
+
+#bye-main-content {
+	width:954px;
+	margin:0 auto;
+	padding-bottom:10px;
+	min-height:361px;
+}
+
+#thank-you {
+	background:#feff8d;
+	color:#0c2849;
+	height:45px;
+}
+
+#thank-you p {
+	text-align:center;
+	padding-top:10px;
+	font-size:14px;
+}
+
+#bye-header {
+	width:954px;
+	height:224px;
+	border-bottom:1px solid #b0c4d9;
+}
+
+#bye-header-left {
+	float:left;
+	width:315px;
+	display:inline;
+}
+
+#bye-header-left img {
+	float:left;
+	margin-left:30px;
+	margin-top:5px;
+}
+
+#bye-header-left p {
+	float:right;
+	display:inline;
+	width:115px;
+	margin:0;
+	font-size:13px;
+	color:#0c2849;
+}
+
+#bye-header-left a {
+	color:#0c2849;
+}
+
+#bye-header-mid {
+	float:left;
+	width:315px;
+	display:inline;
+}
+
+#bye-header-mid p {
+	width:250px;
+	margin:0 auto;
+	font-size:13px;
+	color:#0c2849;
+}
+
+#bye-header-mid form {
+	width:250px;
+	margin:0 auto;
+}
+
+#bye-header-mid #email-box {
+	height:15px;
+	width:175px;
+	margin:10px 0 0 0;
+}
+
+#bye-header-mid #submit-button {
+	margin-bottom:-8px;
+}
+
+#bye-header-right {
+	float:left;
+	display:inline;
+	width:315px;
+	height:218px;
+	background:url("../../media/images/book-your-event/bye-contact-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-contact-bg.png*/) center top no-repeat;
+}
+
+#bye-header-right p {
+	width:250px;
+	margin:0 auto;
+	font-size:13px;
+	color:#0c2849;
+}
+
+#bye-header-right a {
+	color:#0c2849;
+}
+
+#bye-header-right a:hover {
+	text-decoration:none;
+}
+
+#bye-header-right img {
+	width:221px;
+	margin:0 auto 0 45px;	
+}
+
+#bye-header-right .center {
+	color:#0c2849;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:5px
+}
+
+#bye-header-right .center span {
+	color:#ec5217;	
+}
+
+
+#bye-main-content h1 {
+	font-size:24px;
+	font-weight:bold;
+	font-style:normal;
+	line-height:26px;
+	color:#0c2849;
+	margin:20px 0 0 30px;
+}
+
+#bye-main-content p {
+	margin:20px 0 0 30px;
+	font-size:13px;
+	color:#0c2849;
+}
+
+#bye-main-content p a {
+	color:#0c2849;
+}
+
+#bye-main-content p a:hover {
+	text-decoration:none;	
+}
+
+#bye-main-right {
+	float:right;
+	background:url("../../media/images/book-your-event/bye-right-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-right-bg.jpg*/) no-repeat center top;
+	width:289px;
+	height:361px;
+	margin-right:20px;
+	font-size:18px;
+}
+
+#bye-main-right p {
+	font-size:18px;
+	width:289px;
+	margin:35px 0 10px 15px;
+}
+
+#bye-main-right ul {
+	width:289px;
+	margin:15px 0 10px 15px;
+}
+
+#bye-main-right ul li {
+	height:45px;
+	width:257px;
+	margin:5px 0 5px 0;
+	}
+
+#bye-main-right a {
+	color:#0c2849;
+	padding:0 0 0 15px;
+	text-decoration:none;
+	height:45px;
+	width:257px;
+	display:block;
+	line-height:40px;
+}
+
+#bye-main-right a:hover {
+	height:45px;
+	width:257px;
+	background:url("../../media/images/book-your-event/bye-right-hover.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-right-hover.jpg*/) no-repeat center top;
+}
+
+#bye-main-left {
+	float:left;
+	width:600px;	
+}
+
+
+#bye-flash-carousel img {
+	margin:0;
+	padding:0;
+}
+
+
+/*=========Meetings Page(s)==========*/
+
+#bye-content-meeting {
+	width:954px;
+	margin:0 auto;
+	background:url("../../media/images/book-your-event/bye-content-blue-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-content-blue-bg.jpg*/) top left no-repeat #fff;
+}
+
+#bye-content-meeting h1 {
+	font-size:24px;
+	font-weight:bold;
+	line-height:26px;
+	color:#0c2849;
+	padding-top:20px;
+	font-style:normal;
+	margin:0px 0 0 30px;
+	width:600px;
+}
+
+
+#bye-meeting-right {
+	float:right;
+	width:315px;
+	font-size:18px;
+}
+
+#bye-meeting-right p {
+	width:250px;
+	margin:0 auto;
+	font-size:13px;
+	color:#0c2849;
+}
+
+#bye-meeting-right form {
+	width:260px;
+	margin:0 auto;
+}
+
+#bye-meeting-right #email-box {
+	height:15px;
+	width:175px;
+	margin:10px 0 0 0;
+}
+
+#bye-meeting-right #submit-button {
+	margin-bottom:-8px;
+}
+
+#bye-meeting-right #contact-us {
+	width:315px;
+	height:218px;
+	margin:20px 0 0 10px;
+	background:url("../../media/images/book-your-event/bye-contact-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-contact-bg.png*/) center top no-repeat;
+}
+
+#bye-meeting-right #contact-us p {
+	width:250px;
+	margin:0 auto;
+	font-size:14px;
+	color:#0c2849;
+}
+
+#bye-meeting-right #contact-us img {
+	width:221px;
+	margin:0 auto 0 45px;	
+}
+
+#bye-meeting-right #contact-us .center {
+	color:#0c2849;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:5px
+}
+
+#bye-meeting-right #contact-us .center span {
+	color:#ec5217;	
+}
+
+#bye-meeting-right #menu-list {
+	margin:20px 0 0 0;
+	width:315px;
+	height:264px;
+	background:url("../../media/images/book-your-event/menu-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/menu-bg.png*/) no-repeat center top;
+}
+
+#bye-meeting-right #menu-list ul{
+	width:215px;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	line-height:33px;
+	margin:0px auto;
+	padding:50px 0 0 0;
+}
+
+#bye-meeting-right #menu-list ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+
+#bye-meeting-right #menu-list ul li a:hover {
+	text-decoration:underline;
+	color:#fff;
+}
+
+#bye-meeting-right #menu-list ul span {
+	color:#0c2849;
+	font-size:13px;
+	font-weight:normal;
+}
+
+/*=========Event Space Overview=====*/
+
+#bye-meeting-right #facilities-menu {
+	margin:0;
+	width:315px;
+	background:url("../../media/images/book-your-event/bye-rooms-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-rooms-bg.jpg*/) no-repeat left top;
+}
+
+#bye-meeting-right #facilities-menu h3 {
+	color:#0C2849;
+	margin-left:35px;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+
+#bye-meeting-right #facilities-menu ul{
+	width:215px;
+	color:#0c2849;
+	font-size:13px;
+	font-weight:bold;
+	line-height:26px;
+	margin:0px auto;
+}
+
+#bye-meeting-right #facilities-menu ul a {
+		color:#0c2849;
+		text-decoration:none;
+}
+
+#bye-meeting-right #facilities-menu ul .white {
+	color:#fff;
+}
+
+
+#bye-meeting-right #facilities-menu ul a:hover {
+	text-decoration:underline;
+}
+
+#bye-meeting-right #facilities-menu ul .bar {
+	background:url("../../media/images/book-your-event/bye-rooms-orange-bg.png"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-rooms-orange-bg.png*/) no-repeat left top;
+	width:321px;
+	height:43px;
+	color:#fff;
+	margin:0 0 -12px -39px;
+	text-indent:39px;
+}
+
+#bye-meeting-right #facilities-menu ul .small-text {
+	font-weight:normal;
+}
+
+
+
+#bye-meeting-right #facilities-menu .blue-bar {
+	background:#0c2849;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	height:35px;
+	width:275px;
+	margin:10px 0 10px 35px;
+	line-height:35px;
+}
+
+#bye-meeting-right #facilities-menu .blue-bar a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#bye-meeting-right #facilities-menu .blue-bar a:hover {
+	text-decoration:underline;
+}
+
+#bye-meeting-right #facilities-menu .faq {
+	background:#ec5217;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	height:35px;
+	width:275px;
+	margin:10px 0 10px 35px;
+	line-height:35px
+	
+}
+
+#bye-meeting-right #facilities-menu .faq a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#bye-meeting-right #facilities-menu .faq a:hover {
+	text-decoration:underline;	
+}
+
+
+#virtual-tour {
+	float:right;
+	width:400px;
+	margin:0 25px 0 0;
+	display:inline;
+}
+
+#virtual-tour a {
+	color:#0c2849;	
+}
+
+#virtual-tour a:hover {
+	text-decoration:none;
+}
+
+#virtual-tour .align {
+	float:left;
+	width:165px;
+}
+
+#virtual-tour div {
+	float:left;
+	margin-top:20px;
+	width:192px;
+}
+
+#virtual-tour div img {
+	margin-left:28px;	
+	border:none;
+}
+
+#virtual-tour div p {
+	width:145px;
+	text-align:center;
+}
+
+#fix {
+	margin-top:20px;
+}
+
+#fix p {
+	height:70px;
+}
+
+#fix img {
+	border:1px solid #999;
+	margin-left:25px;
+}
+
+#top a {
+	color:#0c2849;
+}
+/*=========Classes===========*/
+
+
+.center-text {
+	text-align:center;	
+}
+
+.floatRight {
+	float:right;
+}
+
+.floatLeft {
+	float:left;
+	margin-right:15px;
+}
+
+.bye-clear {
+	clear:both;	
+}
+
+.orange {
+	border-top:2px dotted #ec5217;
+	border-bottom:2px dotted #ec5217;	
+	padding:5px 0 5px 0;
+}
+
+.blue {
+	color:#b0c4d9;
+	background:#b0c4d9;
+	height:2px;
+	border:0;
+	margin-top:15px;
+	margin-left:0;
+	width:600px;
+}
+
+p.q {
+	font-weight:bold;
+	margin:10px 0px 0px 30px !important;
+	width:550px;
+
+}
+p.a {
+	font-weight:normal;
+	margin:0px 0px 10px 40px !important;
+	width:550px;
+}
+
+p.a a {
+	color:#0c2849;
+}
+
+#top {
+	width:200px;	
+}
+
+.answer {
+	color:#0c2849;
+	font-size:13px;
+	margin:5px 0 0 65px;
+	list-style:disc;
+	width:550px;
+}
+
+.answer-inner {
+	color:#0c2849;
+	font-size:13px;
+	margin:5px 0 0 25px;
+	list-style:disc;
+}
+

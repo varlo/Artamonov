@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+@import url('/new/styles/accordion.css');
+
+/*=========Landing Page===========*/
+
+hr {color:#0C2849;border:none;background:#0C2849;height:1px;width:95%;clear:both;}
+hr.interact-hr {color:#585858;background:#585858;margin-top:20px;}
+a {color:#222222;text-decoration:underline;}
+a:hover {text-decoration:none;}
+#content-wrapper h1 {font-size:26px;font-style:italic;color:#fff;margin-top:20px;margin-bottom:20px;}
+#content-wrapper h1 a {text-decoration:none;color:#fff;}
+#content-wrapper h2 {font-size:24px;color:#0C2849;padding-top:10px;padding-bottom:15px;margin-left:30px;}
+#content-wrapper h3 {font-size:18px;color:#0C2849;padding-top:15px;padding-bottom:5px;margin-left:30px;}
+#content-wrapper h3 a {color:#0d2949;text-decoration:none;}
+#content-wrapper h3 a:hover {text-decoration:underline;}
+#explore-nav {width:970px;margin-left:-1px;}
+#explore-nav li {float:left;width:241px;text-align:center;}
+#explore-nav li a {color:#fff;font-size:16px;text-align:center;text-decoration:none;width:236px;height:37px;line-height:38px;text-align:center;background:url(/media/images/explore-the-aquarium/nav-bg.jpg) no-repeat top left;	display:block;}
+#explore-nav li a:hover {background:url(/media/images/explore-the-aquarium/nav-bg.jpg) no-repeat -241px 0;display:block;}
+#explore-nav li .select {background:url(/media/images/explore-the-aquarium/nav-bg.jpg) no-repeat -241px 0;display:block;}
+#exhibits {width:954px;font-size:12px;color:#222;margin:0 auto;padding-bottom:65px;min-height:350px;border-top:1px solid #fff;background:#fff url(/media/images/explore-the-aquarium/main-bg.jpg) no-repeat top left;clear:both;}
+#explore-flash-carousel {height:367px;}
+#exhibits h1 {color:#0C2849;font-size:34px;font-style:normal;margin-left:20px;margin-bottom:10px;}
+#exhibits #left-col {width:480px;float:left;display:inline;}
+#exhibits #left-col h3 {font-size:16px;margin:0 0 15px 20px;color:#222222;}
+#exhibits #left-col p {width:480px;margin:0 0 15px 20px;color:#222222;}
+#exhibits #left-col ul {list-style:disc;margin:0 0 15px 30px;}
+#exhibits #logos {margin-left:20px;}
+#exhibits #logos img {padding-right:25px;padding-top:15px;margin:0;}
+#exhibits #right-col {width:402px;margin:30px 0 0 55px;float:left;background:url(/media/images/explore-the-aquarium/right-col-bg.jpg) no-repeat top left;display:inline;overflow:hidden;}
+#events-programs #exhibits #right-col {width:402px;margin:0 0 0 55px;float:left;background:none;display:inline;overflow:hidden;}
+#events-programs #exhibits #right-col h1 {margin-left:0px;}
+#events-programs #exhibits #right-col h3 {margin-left:0px;padding:0;}
+#events-programs #exhibits #right-col .event-title {font-weight:bold;width:250px;}
+#cold-water-quest #right-col {width:402px;margin:30px 0 0 55px;float:left;background:none;}
+#exhibit-landing #exhibits #right-col {width:402px;margin:30px 0 0 55px;float:left;background:none;}
+#exhibits #right-col .cwq-flickr {width:402px;height:268px;background-image:url(../../media/images/explore-the-aquarium/cold-water-quest-flickr.jpg);background-repeat:no-repeat;}
+#exhibits #right-col .cwq-flickr .cwq-info {width:16px;height:16px;background-image:url(../../media/images/explore-the-aquarium/info.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:244px;margin-right:10px;	text-indent:-9999px;}	
+#exhibits #right-col .cwq-flickr .cwq-info:hover {width:150px;height:40px;background-image:url(../../media/images/explore-the-aquarium/cwq-tooltip.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:220px;	margin-right:10px;}
+#exhibits #right-col .ov-flickr {width:402px;height:240px;background-image:url(../../media/images/explore-the-aquarium/ocean-voyager-flickr.jpg);background-repeat:no-repeat;}
+#exhibits #right-col .ov-flickr .ov-info {width:16px;height:16px;background-image:url(../../media/images/explore-the-aquarium/info.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:214px;margin-right:10px;text-indent:-9999px;}
+#exhibits #right-col .ov-flickr .ov-info:hover {width:150px;height:40px;background-image:url(../../media/images/explore-the-aquarium/ov-tooltip.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:190px;margin-right:10px;}
+#exhibits #right-col .ge-flickr {width:402px;height:302px;background-image:url(../../media/images/explore-the-aquarium/georgia-explorer-flickr.jpg);background-repeat:no-repeat;}
+#exhibits #right-col .ge-flickr .ge-info {width:16px;height:16px;background-image:url(../../media/images/explore-the-aquarium/info.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:279px;margin-right:10px;	text-indent:-9999px;}
+#exhibits #right-col .ge-flickr .ge-info:hover {width:150px;height:40px;background-image:url(../../media/images/explore-the-aquarium/ge-tooltip.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:255px;	margin-right:10px;}
+#exhibits #right-col .rs-flickr {width:402px;height:343px;background-image:url(../../media/images/explore-the-aquarium/river-scout-flickr.jpg);background-repeat:no-repeat;}
+#exhibits #right-col .rs-flickr .rs-info {width:16px;height:16px;background-image:url(../../media/images/explore-the-aquarium/info.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:316px;margin-right:10px;	text-indent:-9999px;}
+#exhibits #right-col .rs-flickr .rs-info:hover {width:150px;height:40px;background-image:url(../../media/images/explore-the-aquarium/rs-tooltip.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:292px;margin-right:10px;}
+#exhibits #right-col .td-flickr {width:402px;height:268px;background-image:url(../../media/images/explore-the-aquarium/tropical-diver-flickr.jpg);background-repeat:no-repeat;}
+#exhibits #right-col .td-flickr .td-info {width:16px;height:16px;background-image:url(../../media/images/explore-the-aquarium/info.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:244px;margin-right:10px;	text-indent:-9999px;}	
+#exhibits #right-col .td-flickr .td-info:hover {width:150px;height:40px;background-image:url(../../media/images/explore-the-aquarium/td-tooltip.jpg);background-repeat:no-repeat;float:right;bottom:0px;margin-top:220px;margin-right:10px;}
+#exhibits #right-col h3 {font-size:18px;color:#0C2849;padding:10px 0 15px 0;margin-left:10px;}
+#exhibits #right-col .right-col-gifts {clear:both;padding-top:10px;margin-left:20px;}
+#exhibits #right-col .right-col-gifts img {float:left;}
+#exhibits #right-col .right-col-gifts p {float:left;width:225px;margin-left:15px;clear:none;margin-top:0;padding:0;}
+#exhibits #right-col .pyt {background:url(/media/images/explore-the-aquarium/plan-your-visit.jpg) no-repeat top left;clear:both;width:402px;height:41px;text-indent:-9999px;display:block;margin:15px 0 0 0;}
+#exhibits #right-col .cwq {background:url(/media/images/explore-the-aquarium/quest-btn.jpg) no-repeat top left;clear:both;width:402px;height:41px;text-indent:-9999px;display:block;margin:20px 0 0 0;}
+#exhibits #right-col .ge {background:url(/media/images/explore-the-aquarium/explorer-btn.jpg) no-repeat top left;clear:both;width:402px;height:41px;text-indent:-9999px;display:block;margin:20px 0 0 0;}
+#exhibits #right-col .ov {background:url(/media/images/explore-the-aquarium/voyager-btn.jpg) no-repeat top left;clear:both;width:402px;height:41px;text-indent:-9999px;display:block;margin:20px 0 0 0;}
+#exhibits #right-col .td {background:url(/media/images/explore-the-aquarium/diver-btn.jpg) no-repeat top left;clear:both;width:402px;height:41px;text-indent:-9999px;display:block;margin:20px 0 0 0;}
+#exhibits #right-col .rs {background:url(/media/images/explore-the-aquarium/scout-btn.jpg) no-repeat top left;clear:both;width:402px;height:41px;text-indent:-9999px;display:block;margin:20px 0 0 0;}
+#exhibits #audio {width:402px;background:url(/media/images/explore-the-aquarium/right-col-bg.jpg) no-repeat top left;margin:10px auto 0 auto;float:left;}
+#animal-guide #exhibits #audio {width:402px;background:url(/media/images/explore-the-aquarium/right-col-bg.jpg) no-repeat top left;margin:0px auto 0 auto;float:left;}
+#exhibits #audio h2 {font-size:18px;color:#0d2949;background:url(/media/images/explore-the-aquarium/audio.png) no-repeat left 8px;display:block;margin-left:5px;padding-left:40px;}
+#exhibits #audio ul {width:400px;margin:0px 15px auto;}
+#exhibits #audio ul li {float:left;font-size:14px;width:155px;display:block;margin:10px 25px 0 0;}
+#exhibits #events {width:402px;background:url(/media/images/explore-the-aquarium/right-col-bg.jpg) no-repeat top left;margin:10px auto 0 auto;float:left;}
+#exhibits #events h2 {font-size:18px;color:#0d2949;margin:0 0 0 10px;}
+#exhibits #events ul {width:400px;margin:0px 10px auto;}
+#exhibits #events ul li {float:left;font-size:14px;width:170px;display:block;margin:10px 25px 0 0;}
+#exhibits .exhibit-info {width:465px;float:left;}
+#exhibits .exhibit-info p {height:60px;}
+#exhibits .exhibit-info h2 a {font-size:18px;color:#0d2949;text-decoration:none;padding-top:15px;}
+#exhibits .exhibit-info h2 a:hover {text-decoration:underline;}
+#exhibits .exhibit-info img {float:left;margin:20px 15px 10px 20px;}
+#exhibits #right-col .webcams {width:402px;background:url(/media/images/explore-the-aquarium/right-col-bg.jpg) no-repeat top left;float:left;margin:15px 0 0 0;}
+#exhibits #right-col .webcams h2 {font-size:18px;color:#0d2949;background:url(/media/images/explore-the-aquarium/camera.png) no-repeat left 8px;display:block;margin-left:5px;padding-left:33px;padding-top:8px;}
+#exhibits #right-col .webcams img {margin-left:10px;margin-bottom:10px;}
+#exhibits #aqua-map {display:block;background:url(/media/images/explore-the-aquarium/download-map.jpg) no-repeat center top; width:953px; height:72px;float:left;text-indent:-9999px;margin-top:15px;}
+
+/*================More Content================*/
+
+#more-content {width:954px;font-size:12px;color:#222222;margin:0 auto;padding-bottom:10px;min-height:350px;border-top:1px solid #fff;background:#fff url(/media/images/explore-the-aquarium/main-bg.jpg) no-repeat top left;}
+#more-content a {color:#0C2849;}
+#more-content a:hover {text-decoration:none;}
+#more-content .exhibit-info .explore-headline {font-size:24px;margin:0 0 0 20px;border-bottom:1px solid #0C2849;}	
+#more-content .exhibit-info .explore-headline a {text-decoration:none;}	
+#more-content .exhibit-info .explore-headline a:hover {text-decoration:underline;}	
+#more-content .exhibit-info {width:465px;float:left;}
+#more-content .exhibit-info img {float:left;margin:20px 15px 15px 20px;}
+#more-content .exhibit-info h3 a {font-size:18px;color:#0d2949;text-decoration:none;padding-top:15px;}
+#more-content .exhibit-info h3 a:hover {text-decoration:underline;}
+#blue-bar {width:954px;height:120px;color:#fff;margin:0 auto;border-top:1px solid #fff;background:url(/media/images/explore-the-aquarium/blue-bar-bg.jpg) no-repeat top left;}
+#blue-bar p {font-size:12px;width:450px;padding-bottom:6px;}
+#blue-bar h2 {color:#fff;padding-bottom:0;}
+#blue-bar .left-box {width:477px;height:114px;float:left;}
+#blue-bar .left-box img {float:left;margin:5px 15px 5px 20px;}
+#blue-bar .left-box .learn-more-btn {display:block;background:url(/media/images/explore-the-aquarium/learn-more.jpg) no-repeat top left;width:126px;height:29px;margin:0 0 10px 140px;text-indent:-9999px;}
+#blue-bar .right-box {width:477px;float:left;position:relative;z-index:9999;}
+#blue-bar .right-box img {position:absolute;top:-38px;left:7px;}
+#blue-bar .right-box .learn-more {display:block;background:url(/media/images/explore-the-aquarium/learn-more.jpg) no-repeat top left;width:126px;height:29px;text-indent:-9999px;margin:85px 0 0 345px;}
+#plan-event {background:url(/media/images/explore-the-aquarium/visit-bar-bg.jpg) no-repeat top left;width:954px;height:21px;border-bottom:1px solid #fff;clear:both;}
+#plan-event p {color:#fff;font-size:12px;margin:0 0 0 40px;padding-top:3px;}
+#plan-event p a {color:#fff;text-decoration:underline;}
+#plan-evnet p a:hover {text-decoration:none;}
+
+/*=========Interact Page===========*/
+
+#interact-page #exhibits {width:954px;font-size:12px;color:#222222;margin:0 auto;padding-bottom:65px;min-height:350px;border-top:none;background:#fff url(/media/images/explore-the-aquarium/interact-bg.jpg) no-repeat top left;	clear:both;}
+#interact-page #exhibits h1 {color:#0C2849;font-size:34px;font-style:normal;background:url(/media/images/explore-the-aquarium/interact-header.png) no-repeat top left;text-indent:-9999px;width:725px;margin-left:115px;	margin-top:30px;height:21px;float:left;}
+#interact-page #exhibits #interact-tag {clear:both;margin-top:5px;text-align:center;font-size:12px;font-family:Georgia, "Times New Roman", Times, serif;color:#4c4c4c;}
+#interact-page #exhibits .youtube {color:#222222;font-size:16px;font-family:Arial, Helvetica, sans-serif;background:url(/media/images/explore-the-aquarium/tv-icon.jpg) no-repeat top left;padding-left:40px;margin-top:15px;}
+#interact-page #exhibits .youtube a {color:#222222;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-decoration:none;}
+#interact-page #exhibits .twitter {color:#222222;font-size:16px;font-family:Arial, Helvetica, sans-serif;background:url(/media/images/explore-the-aquarium/twitter-header-bg.jpg) no-repeat top left;padding-left:50px;	padding-top:10px;margin-top:15px;}
+#interact-page #exhibits #photos a {color:#222222;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-decoration:none;padding-right:20px;}
+#interact-page #exhibits #photos .left {background:url(/media/images/explore-the-aquarium/arrows.jpg) no-repeat top left;background-position:5px 0;height:50px;width:30px;display:block;float:left;cursor:pointer;padding:0;margin-top:15px;margin-left:20px;}
+#interact-page #exhibits #photos .right {background:url(/media/images/explore-the-aquarium/arrows.jpg) no-repeat top left;background-position:-20px 0;height:50px;width:30px;display:block;float:left;cursor:pointer;padding:0;margin-top:15px;}
+
+div.scrollable {position:relative;overflow:hidden;width:365px;height:90px;margin-left:15px;float:left;} 
+div.scrollable div.items {width:20000em;position:absolute;} 
+div.scrollable div.items div {float:left;} 
+#interact-page #exhibits #tweet {margin-left:20px;color:#555555;width:500px;}
+#interact-page #exhibits #tweet ul li {margin-top:10px;border-bottom:1px solid #ced4db;line-height:18px;padding-bottom:10px;}
+#interact-page #exhibits #tweet .time a {text-decoration:none;color:#9d9d9d;}
+#interact-page #exhibits #photos p {color:#222222;font-size:16px;background:url(/media/images/explore-the-aquarium/flickr-header-bg.jpg) no-repeat top left;padding-left:50px;padding-top:10px;margin-top:15px;}
+#interact-page #exhibits .twitter a {color:#222222;font-size:12px;font-family:Arial, Helvetica, sans-serif;text-decoration:none;}
+#interact-page #exhibits #right-col {background:none;margin-top:6px;}
+#interact-page #exhibits #right-col h3 {font-size:16px;color:#222;clear:both;font-weight:normal;}
+#interact-page #exhibits #right-col #interact-social {float:left;margin-left:40px;width:330px;}
+#interact-page #exhibits #right-col #interact-social li {float:left;text-indent:-9999px;}
+#interact-page #exhibits #right-col #interact-social .flickr { background:url(/media/images/explore-the-aquarium/social-icons.jpg) no-repeat top left;background-position:0 0;display:block;height:93px;width:65px;}
+#interact-page #exhibits #right-col #interact-social .youTube { background:url(/media/images/explore-the-aquarium/social-icons.jpg) no-repeat top left;background-position:-70px 0;display:block;height:93px;width:65px;}
+#interact-page #exhibits #right-col #interact-social .twitters { background:url(/media/images/explore-the-aquarium/social-icons.jpg) no-repeat top left;background-position:-140px 0;display:block;height:93px;width:65px;}
+#interact-page #exhibits #right-col #interact-social .facebook { background:url(/media/images/explore-the-aquarium/social-icons.jpg) no-repeat top left;background-position:-210px 0;display:block;height:93px;width:65px;}
+#interact-page #exhibits #right-col #interact-social .rss { background:url(/media/images/explore-the-aquarium/social-icons.jpg) no-repeat top left;background-position:-280px 0;display:block;height:93px;width:65px;}
+#interact-page #exhibits #right-col p {padding-top:15px;clear:both;margin-top:15px; }
+#interact-page #exhibits #right-col hr {width:100%;}
+#interact-page #exhibits #right-col .celeb {background:url(/media/images/explore-the-aquarium/orange-bg.jpg) no-repeat top left;width:400px;height:61px;font-size:15px;text-align:center;color:#fff;padding-top:10px;}
+#interact-page #exhibits #right-col .celeb a {color:#fff;}
+#interact-page #exhibits #right-col .stories {background:url(/media/images/explore-the-aquarium/stories-bg.jpg) no-repeat top left;width:400px;height:127px;text-align:center;color:#fff;padding-top:10px;margin-top:5px;}
+#interact-page #exhibits #right-col .stories a {color:#fff;text-transform:uppercase;margin-top:75px;display:block;font-size:14px;text-decoration:none;}
+#interact-page #exhibits #right-col .stories a:active {margin-top:76px;}
+#interact-page #exhibits #right-col #explore-accordion .explore-accordion-item .text p {float:left;margin-left:20px;padding:0;clear:none;}
+
+
+/*=========== KIDS CORNER ===========*/
+
+#kids-corner #exhibits {background:#fff url(/media/images/explore-the-aquarium/kids-main-bg.jpg) no-repeat top left;border-top:none;}
+#exhibits #kids-header {width:910px;margin:0 auto;padding-top:15px;}
+#kids-corner #exhibits h1 {margin-left:0;font-size:28px;}
+#exhibits #kids-header p {color:#222;font-size:16px;font-family:Arial, Helvetica, sans-serif;width:445px;float:left;margin-top:20px;}
+#kids-corner #exhibits #left-col {margin:20px 0 0 0;width:480px;}
+#kids-corner #exhibits #right-col {background:url(/media/images/explore-the-aquarium/kids-sidebar-bg.jpg) no-repeat top left;margin:20px 0 0 0;width:451px;height:1152px;}
+#kids-corner #exhibits #left-col .kids-tab {background:url(/media/images/explore-the-aquarium/kids-corner-tab-bg.jpg) #fff no-repeat center bottom;min-height:170px;}
+#kids-corner #exhibits #left-col .kids-tab.last {background:#fff;}
+#kids-corner #exhibits #left-col .kids-tab-wrap h2,#kids-corner #exhibits #left-col .kids-tab-first h2 {background:url(/media/images/explore-the-aquarium/kids-corner-tab-header.jpg) no-repeat top left;padding:0 0 0 35px;width:247px;height:38px;font-size:18px;font-weight:bold;text-transform:uppercase;line-height:36px;}
+#kids-corner #exhibits #left-col .kids-tab-wrap h2 a,#kids-corner #exhibits #left-col .kids-tab-first h2 a {text-decoration:none;color:#0C2849;}
+#kids-corner #exhibits #left-col .kids-tab-wrap {margin-top:-38px;}
+#kids-corner #exhibits #left-col .kids-tab img {margin:20px 0 0 45px;}
+#kids-corner #exhibits #left-col .kids-tab p {font-size:14px;font-family:Arial, Helvetica, sans-serif;color:#222;;float:left;margin:0;padding:20px 0 0 20px;width:320px;}
+#kids-corner #exhibits #left-col .kids-tab a {color:#ec5217;text-decoration:none;}
+#kids-corner #exhibits #left-col .kids-tab a:hover {text-decoration:underline;}
+#kids-corner #exhibits #right-col h2.games {background:url(/media/images/explore-the-aquarium/kids-corner-games.jpg) no-repeat top left;width:173px;height:54px;text-indent:-9999px;margin:15px 0 0 20px;}
+#kids-corner #exhibits #right-col #game-header {margin-left:20px;color:#fff;font-size:14px;font-weight:bold;}
+#kids-corner #exhibits #right-col #game-header p {float:left;width:200px;}
+#kids-corner #exhibits #right-col #word-games {clear:both;color:#fff;font-size:14px;margin-left:20px;}
+#kids-corner #exhibits #right-col #word-games ul {margin-top:15px;font-size:14px;width:180px;float:left;}
+#kids-corner #exhibits #right-col #word-games .big-text {font-size:18px;font-weight:bold;}
+#kids-corner #exhibits #right-col #word-games ul a {color:#fff;text-decoration:none;}#kids-corner #exhibits #right-col #word-games ul a:hover {color:#fff;text-decoration:underline;}
+#kids-corner #exhibits #right-col #color-deepo {clear:both;margin:10px 0 0 20px;float:left;color:#fff;font-size:14px;}
+#kids-corner #exhibits #right-col #color-deepo h2 {color:#fff;font-size:18px;font-weight:bold;margin-left:0;padding-bottom:0;}
+#kids-corner #exhibits #right-col #color-deepo ul {float:left;width:180px;}
+#kids-corner #exhibits #right-col #color-deepo ul a {color:#fff;text-decoration:none;}#kids-corner #exhibits #right-col #color-deepo ul a:hover {color:#fff;text-decoration:underline;}
+#kids-corner #exhibits #right-col #color-deepo div {margin:20px auto;width:360px;}
+#kids-corner #exhibits #right-col #puzzles {clear:both;margin:15px 0 0 20px;color:#fff;font-size:14px;float:left;}
+#kids-corner #exhibits #right-col #puzzles h2 {color:#fff;font-size:18px;font-weight:bold;margin-left:0;padding-bottom:0;width:400px;}
+#kids-corner #exhibits #right-col #puzzles table {margin:10px 0;}
+#kids-corner #exhibits #right-col #puzzles table td {padding-right:5px;}
+#kids-corner #exhibits #right-col #puzzles p {width:410px;}
+
+/*========== PROGRAM PAGES ============*/
+
+body.programs-page #exhibits {background:#fff url(/media/images/explore-the-aquarium/kids-main-bg.jpg) no-repeat top left;border-top:none;}
+#exhibits #programs-header {width:910px;margin:0 0 0 20px;padding-top:15px;float:left;position:relative;z-index:100;}
+#exhibits #programs-header p {color:#222;font-size:16px;font-family:Arial, Helvetica, sans-serif;width:445px;float:left;margin-top:20px;}
+#exhibits #programs-header h1 {font-size:28px;margin-left:0;}
+#exhibits #programs-header hr {width:100%;color:#b3bfc6;background:#b3bfc6;}
+#exhibits #programs-header img {padding-bottom:15px;}
+#exhibits #more-info {background:url(/media/images/explore-the-aquarium/programs-accordion-bg.jpg) #0c2849 no-repeat top left;width:954px;height:265px;clear:both;z-index:0;position:relative;}
+#exhibits #more-info.closed {z-index:0;position:relative;display:none;clear:both;}
+#exhibits #more-info.open {z-index:0;position:relative;clear:both;}
+#exhibits #more-info ul {color:#fff;list-style:disc; list-style-position:inside;margin-left:20px;margin-top:15px;width:445px;float:left;line-height:20px;}
+#exhibits #more-info p {color:#fff;margin-left:20px;margin-top:15px;width:445px;float:left;line-height:20px;}
+#exhibits #more-info p a {color:#e95324;text-decoration:none;}#exhibits #more-info p a:hover {text-decoration:underline;}
+#exhibits #more-info .big-orange {background:#E95324;width:280px;margin-right:125px;margin-bottom:150px;font-size:18px;padding:15px;text-align:center;border:2px solid #fff;}
+#exhibits #more-info h3 {color:#fff;margin-left:20px;margin-top:15px;float:left;font-size:16px;font-weight:bold;}
+#exhibits p#more-info-btn {color:#e95324; cursor:pointer;}
+#exhibits #tab-wrap {width:954px;background:#fff;clear:both;overflow:auto;border-top:1px solid #ccc;}
+#exhibits #tabs {float:left;width:466px;}
+#exhibits #tabs ul {font-size:18px;font-weight:bold;color:#0d2949;line-height:42px;}
+#exhibits #tabs ul li {border-bottom:1px solid #cdcdcd;cursor:pointer;height:40px;background:url(/media/images/explore-the-aquarium/tabs-bg.jpg) no-repeat top left;padding:0 0 0 20px;width:446px;}
+#exhibits #tabs ul li.active {border-bottom:1px solid #cdcdcd;cursor:pointer;background:#fff;}
+#exhibits #tabs ul #last {background:url(/media/images/explore-the-aquarium/tabs-last-bg.jpg) no-repeat top left;border:none;height:113px;cursor:inherit;}
+#exhibits #tabs-text {color:#222;float:left;width:450px;margin:15px 0 0 20px;line-height:20px;}
+#exhibits #tabs-text .big-orange {background:#E95324;font-size:16px;padding:10px;text-align:center;color:#fff;font-weight:bold;float:right;}
+#exhibits #tabs-text .big-text {font-size:14px;font-weight:bold;}
+#exhibits #tabs-text .blue-bg {background:#dff2ff;margin-bottom:20px;padding:10px;}
+#exhibits #tabs-text ul {list-style:disc; list-style-position:inside;margin-top:10px;}
+#exhibits #tabs-text p {margin-top:15px;}
+#exhibits #tabs-text img.floatRight {margin:0;}
+#exhibits .orange-button {background:url(/media/images/explore-the-aquarium/bg-orange-btn.png) no-repeat top left;width:200px;height:34px;display:block;color:#fff;text-transform:uppercase;text-decoration:none;font-weight:bold;text-align:center;font-size:13px;line-height:28px;float:left;margin-bottom:15px;}
+
+/*=========== FOOD & SHOPPING ===========*/
+
+#food-shop #exhibits #left-col img {margin-left:20px;}
+#food-shop #exhibits #right-col {width:402px;margin:55px 0 0 55px;float:left;background:none;}	
+#food-shop #exhibits #right-col h2 {margin-left:0;padding-bottom:0;font-size:18px;}
+#food-shop #exhibits #right-col p {margin:15px 0;}
+#food-shop #exhibits #right-col .gift-shop {background:url(/media/images/explore-the-aquarium/bg-gift-shop-header.jpg) left top no-repeat;}
+#food-shop #exhibits #right-col .wolfgang {background:url(/media/images/explore-the-aquarium/bg-wolfgang-callout.jpg) left top no-repeat;width:402px;min-height:220px;padding-top:1px;}
+#food-shop #gifts {width:402px;background:url(/media/images/explore-the-aquarium/right-col-bg.jpg) no-repeat top left;margin-top:15px;}
+#food-shop #menus h2 {margin:15px 0 0 20px; width:400px;height:51px;padding:0;color:#0d2949;font-size:34px;}
+#food-shop #menus h3 {padding:0;text-decoration:none;}
+#food-shop #menus .menu-items {margin-left:25px;}
+#food-shop #menus .menu-header {background:url(/media/images/explore-the-aquarium/bg-menu-headers.jpg) no-repeat top left;width:498px;height:42px;display:block;padding:10px 0 0 5px;text-decoration:none;font-size:14px;color:#0d2949;margin-bottom:0;}
+#food-shop #menus .title {font-size:18px;color:#0d2949;}
+#food-shop #menus .menu-items {font-size:14px;color:#0d2949;margin-top:-15px;list-style:none;}
+#food-shop #menus .menu-items li {width:492px;min-height:28px;border-bottom:1px solid #cfd4db;line-height:25px;}
+#food-shop #menus .menu-items .last {border:none;}
+#food-shop #menus .menu-items span {float:right;padding-right:10px;}
+#food-shop #menus .wolfgang {width:400px;height:219px;background:url(/media/images/explore-the-aquarium/wolfgang-bg.jpg) no-repeat top left;}
+#food-shop #menus .wolfgang p {text-align:center;margin-top:10px;}
+#food-shop #menus .wolfgang .align-left {text-align:left;padding-top:18px;}
+#food-shop #left-col .small-text {font-size:11px;color:#a0a0a0;}
+
+/*=========== ANIMAL GUIDE ===========*/
+
+#animal-guide #exhibits #right-col {width:402px;margin:60px 0 0 55px;float:left;background:none;}
+#exhibits #right-col #deepo h3 {width:402px;height:97px;float:left;padding:0;margin:0;}
+#exhibits #right-col #deepo h3 a {width:402px;height:97px;background:url(/media/images/explore-the-aquarium/deepo-tickets.jpg) no-repeat top left;text-indent:-9999px;float:left;}
+#cwq-animal #exhibits .cold-water-quest {width:700px;margin-bottom:0;background:url(/media/images/explore-the-aquarium/ga-pacific-presents.png) no-repeat top left;padding-top:30px;margin-top:10px;}
+#cwq-animal #exhibits .ocean-voyager {width:700px;margin-bottom:0;background:url(/media/images/explore-the-aquarium/home-depot-presents.png) no-repeat top left;padding-top:50px;margin-top:10px;}
+#cwq-animal #exhibits .georgia-explorer {width:700px;margin-bottom:0;background:url(/media/images/explore-the-aquarium/suntrust-presents.png) no-repeat top left;padding-top:43px;margin-top:10px;}
+#cwq-animal #exhibits .tropical-diver {width:700px;margin-bottom:0;background:url(/media/images/explore-the-aquarium/airtran-presents.png) no-repeat top left;padding-top:45px;margin-top:10px;}
+#cwq-animal #exhibits .river-scout {width:700px;margin-bottom:0;background:url(/media/images/explore-the-aquarium/southern-presents.png) no-repeat top left;padding-top:35px;margin-top:10px;}
+#cwq-animal #exhibits #right-col {width:402px;margin:130px 0 0 55px;float:left;}
+#cwq-animal #exhibits #right-col h2 {font-size:18px;margin-left:10px;}
+#exhibits #left-col .back-arrow {padding-top:0;margin-left:25px;}
+#exhibits #left-col .back-arrow a {background:url(/media/images/explore-the-aquarium/back-arrow.png) no-repeat center left;font-size:18px;color:#0d2949;display:block;padding-left:33px;	text-decoration:none;}	
+#exhibits #left-col .back-arrow a:hover {text-decoration:underline;}
+#exhibits #right-col .facts {margin:0 0 15px 20px;list-style:disc;width:325px;}
+#exhibits #right-col .facts li {list-style:disc;}
+#river-scout #exhibits h1 {width:700px;margin-bottom:0;padding-top:30px;}
+#river-scout #exhibits #right-col {width:402px;margin:130px 0 0 55px;float:left;}
+#river-scout #exhibits #right-col h2 {font-size:18px;margin-left:10px;}
+#beluga #exhibits .sponsor {padding-top:5px;float:right;margin-right:20px;}
+#beluga #exhibits #left-col img {margin-left:20px;}
+#beluga #exhibits #left-col h1 {font-size:12px;font-weight:bold;background:url(/media/images/explore-the-aquarium/tab-header.png) no-repeat top left;width:954px;height:33px;margin:20px 0 20px 0;	padding:10px 0 0 42px;}
+#beluga #exhibits #right-col {width:402px;margin:48px 0 0 55px;float:left;}
+#beluga #exhibits #right-col h2 {font-size:18px;margin-left:10px;}
+#beluga #exhibits #right-col ul .align-right {text-align:right;list-style:none;}
+#beluga #exhibits #right-col ul .align-right a {color:#0d2949;}
+#beluga #right-col #other-animals h3 {margin:0;width:400px;height:29px;padding:7px 0 0 12px;font-size:14px;background:url(/media/images/explore-the-aquarium/header-bar-right.jpg) no-repeat top left;}
+#beluga #other-animals .penguin {background:url(/media/images/explore-the-aquarium/african-penguin-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .bat-star {background:url(/media/images/explore-the-aquarium/bat-star-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .garibaldi {background:url(/media/images/explore-the-aquarium/garibaldi-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .spider-crab {background:url(/media/images/explore-the-aquarium/spider-crab-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .octopus {background:url(/media/images/explore-the-aquarium/giant-octopus-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .sea-dragon {background:url(/media/images/explore-the-aquarium/leafy-dragon-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .greenling {background:url(/media/images/explore-the-aquarium/greenling-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .sea-otter {background:url(/media/images/explore-the-aquarium/sea-otter-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .weedy {background:url(/media/images/explore-the-aquarium/weedy-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+#beluga #other-animals .beluga {background:url(/media/images/explore-the-aquarium/beluga-whale-right.jpg) no-repeat top left;width:400px;height:36px;text-indent:-9999px;display:block;}
+
+
+/*=========Web Cams===========*/
+
+#web-cams #faq {width:488px;min-height:106px;background:url(/media/images/explore-the-aquarium/faq-bg.jpg) no-repeat top left;margin-left:20px;}
+#web-cams #faq h2 {margin-left:20px;}
+#answer2, #answer3 {display:none;}
+.on {font-weight:bold;text-decoration:none;}
+#web-cam-holder { background:url(/media/images/explore-the-aquarium/bg-webcam.jpg) no-repeat center top; width:954px; height:246px; clear:both;}
+#web-cam-holder #media-player { width:320px; height:246px; margin:0 0 0 340px; padding-top:1px;}
+#web-cam-holder #media-player object {position:relative;z-index:0;}
+/*=========Classes===========*/
+
+.align-right {padding-top:15px;text-align:right;padding-bottom:15px;}
+.center-text {text-align:center;}
+.floatRight {float:right;margin-right:20px;}
+.floatLeft {float:left;margin-right:15px;}
+.explore-clear {clear:both;}
+.orange {border-top:2px dotted #ec5217;border-bottom:2px dotted #ec5217;padding:5px 0 5px 0;}
+.blue {color:#b0c4d9;background:#b0c4d9;height:2px;border:0;margin-top:15px;}

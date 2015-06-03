@@ -1,0 +1,10 @@
+<script language="javascript">
+var string=document.location.href; 
+
+var getit= new Array(); 
+getit=string.split("/");
+//Veena changed on 06jan09 
+var newlocation=getit[3];
+
+document.write("<meta http-equiv='refresh' content='0;url=unavailable.aspx?location="+newlocation+"'/>");
+</script>

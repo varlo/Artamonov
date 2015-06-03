@@ -1,0 +1,219 @@
+
+#bye-main-content p {
+	width:500px;
+	margin:20px 0 0 30px;
+	font-size:13px;
+	color:#0c2849;
+	clear:none;
+}
+
+#bye-content-meeting h1 {
+	font-size:24px;
+	font-weight:bold;
+	line-height:26px;
+	color:#0c2849;
+	padding-top:20px;
+	font-style:normal;
+	margin:0px 0 0 30px;
+	width:550px;
+}
+
+#bye-meeting-right p {
+	width:250px;
+	margin:0 auto;
+	font-size:13px;
+	padding:0;
+	color:#0c2849;
+}
+
+#bye-meeting-right {
+	padding:0;
+	margin:0;
+	background:none;
+	width:300px;
+}
+
+#bye-main-right {
+	float:right;
+	display:inline;
+	background:url("../../media/images/book-your-event/bye-right-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-right-bg.jpg*/) no-repeat center top;
+	width:289px;
+	height:361px;
+	margin-right:20px;
+	font-size:18px;
+	padding:0;
+
+}
+
+#bye-main-right p {
+	font-size:18px;
+	width:289px;
+	margin:35px 0 10px 25px;
+}
+
+#bye-main-right ul {
+	width:289px;
+	margin:15px 0 10px 15px;
+}
+
+#bye-main-right ul li {
+	height:45px;
+	width:257px;
+	margin:5px 0 5px 0;
+	}
+	
+#bye-main-left {
+	float:left;
+	width:500px;
+}
+
+#bye-meeting-right #facilities-menu {
+	margin:0 auto;
+	width:315px;
+	background:url("../../media/images/book-your-event/bye-rooms-bg.jpg"/*tpa=http://www.georgiaaquarium.org/media/images/book-your-event/bye-rooms-bg.jpg*/) no-repeat left top;
+}
+
+#bye-meeting-right #facilities-menu ul{
+	width:250px;
+	color:#0c2849;
+	font-size:13px;
+	font-weight:bold;
+	line-height:26px;
+	margin:0 auto 0 50px;
+	padding-left:10px;
+}
+
+#bye-meeting-right #facilities-menu ul .bar {
+	background:#ec5217;
+	height:23px;
+	color:#fff;
+	width:200px;
+	margin-bottom:0;
+}
+
+#bye-meeting-right #facilities-menu .blue-bar {
+	background:#0c2849;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	height:35px;
+	width:275px;
+	margin:10px 0 10px 35px;
+	line-height:35px;
+}
+
+#bye-meeting-right #facilities-menu ul a {
+		color:#0c2849;
+		text-decoration:none;
+}
+
+#bye-meeting-right #facilities-menu ul .white {
+	color:#fff;
+}
+
+
+#bye-meeting-right #facilities-menu ul a:hover {
+	text-decoration:underline;
+}
+
+
+#bye-meeting-right #facilities-menu ul .small-text {
+	font-weight:normal;
+}
+
+#bye-meeting-right #contact-us {
+	padding:0;
+	margin:0;
+}
+
+#fix p {
+	width:350px;	
+}
+
+
+/*========PYT========*/
+
+
+
+
+#pyt-current-place .image {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/current_place_image_bg.png', sizingMethod='image');
+	margin:7px 6px 0 5px;
+}
+
+#pyt-current-place .text a.package-details {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/package_details_btn.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-places-tabs li.ui-tabs-selected a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/tab_on.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-places-tabs li a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/pyt/tab_off.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+/* HTML HOME PAGE */
+
+#homepage-content h1 {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_welcome.png', sizingMethod='image');
+}
+
+#homepage-content h2 {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_welcome_2.png', sizingMethod='image');
+}
+
+#homepage-content a.purchase-tickets {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_purchase_tickets.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#homepage-content a.callout-top {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_callout_top.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#homepage-content a.callout-bot {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/html_content_callout_bot.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#alert-box a.close {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/new/images/alert_close_button.png', sizingMethod='image');
+	cursor:pointer;
+}
+
+#pyt-header {
+	background: url("../images/pyt/wrapper_bg.gif"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/wrapper_bg.gif*/) top left no-repeat;
+}
+
+#pyt-footer {
+	background: url("../images/pyt/wrapper_bottom_bg.gif"/*tpa=http://www.georgiaaquarium.org/new/images/pyt/wrapper_bottom_bg.gif*/) bottom left no-repeat;
+}
+
+
+.floatRight {
+	float:right;
+	display:inline;
+}
+
+.floatLeft {
+	float:left;
+	display:inline;
+
+}
+
