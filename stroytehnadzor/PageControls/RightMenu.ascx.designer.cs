@@ -67,6 +67,15 @@ namespace StroyTehNadzor.PageControls {
         protected global::System.Web.UI.WebControls.Literal lArrow6;
         
         /// <summary>
+        /// lArrow7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal lArrow7;
+        
+        /// <summary>
         /// imgGeodezy control.
         /// </summary>
         /// <remarks>

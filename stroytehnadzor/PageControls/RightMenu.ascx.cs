@@ -17,14 +17,16 @@ namespace StroyTehNadzor.PageControls
                     lArrow1.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
                 else if (page.IndexOf("/acts.aspx") > -1)
                     lArrow2.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
-                else if (page.IndexOf("extexp.aspx") > -1)
+                else if (page.IndexOf("contracts.aspx") > -1)
                     lArrow3.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
-                else if (page.IndexOf("geodesy.aspx") > -1)
+                else if (page.IndexOf("extexp.aspx") > -1)
                     lArrow4.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
-                else if (page.IndexOf("board.aspx") > -1)
+                else if (page.IndexOf("geodesy.aspx") > -1)
                     lArrow5.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
-                else if (page.IndexOf("forum.aspx") > -1)
+                else if (page.IndexOf("board.aspx") > -1)
                     lArrow6.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
+                else if (page.IndexOf("forum.aspx") > -1)
+                    lArrow7.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
             }
         }
     }

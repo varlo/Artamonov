@@ -65,6 +65,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Otzyv_Aljuteh.jpg" />
+    <Content Include="images\Otzyv_Baumit.jpg" />
+    <Content Include="Testimonials.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="images\kdd.jpg" />
     <Content Include="Test.aspx" />
@@ -118,6 +121,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Testimonials.aspx.cs">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testimonials.aspx.designer.cs">
+      <DependentUpon>Testimonials.aspx</DependentUpon>
     </Compile>
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
@@ -332,6 +342,7 @@
     <None Include="images\NakazMinregBudyN392_06.10.2010.doc" />
     <None Include="images\nakaz_2008_112.doc" />
     <None Include="images\ObOpredeleniiPonjatijaEnginiring.doc" />
+    <None Include="images\Otzyv_Billa.pdf" />
     <None Include="images\Perelik.doc" />
     <None Include="images\PidgotovchiRoboty.doc" />
     <None Include="images\PismoGosstroja.doc" />

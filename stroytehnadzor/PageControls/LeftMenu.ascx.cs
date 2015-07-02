@@ -31,7 +31,7 @@ namespace StroyTehNadzor.PageControls
                 {
                     lArrow3.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
                 }
-                else if (page.IndexOf("contracts.aspx") > -1)
+                else if (page.IndexOf("testimonials.aspx") > -1)
                 {
                     lArrow4.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
                 }
