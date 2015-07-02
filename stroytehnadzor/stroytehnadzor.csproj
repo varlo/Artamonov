@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
+    <Content Include="images\Otzyv_Billa.png" />
     <Content Include="Testimonials.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="images\kdd.jpg" />
