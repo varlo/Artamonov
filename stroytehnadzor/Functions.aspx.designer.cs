@@ -10,6 +10,6 @@
 namespace Stroytehnadzor {
     
     
-    public partial class Engineer {
+    public partial class Functions {
     }
 }

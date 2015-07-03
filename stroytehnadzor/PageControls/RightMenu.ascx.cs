@@ -12,8 +12,10 @@ namespace StroyTehNadzor.PageControls
                 imgGeodezy.Visible = (Request.Path.IndexOf("Geodesy.aspx", StringComparison.InvariantCultureIgnoreCase) > 0);
                 phPartners.Visible = (Request.Path.IndexOf("Default.aspx", StringComparison.InvariantCultureIgnoreCase) > 0);
                 string page = Page.Request.Path.ToLower();
-                lArrow1.Text = "&nbsp;";
-                if (page.IndexOf("links.aspx") > -1)
+                lArrow0.Text = "&nbsp;";
+                if (page.IndexOf("engineer.aspx") > -1)
+                    lArrow0.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
+                else if (page.IndexOf("links.aspx") > -1)
                     lArrow1.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
                 else if (page.IndexOf("/acts.aspx") > -1)
                     lArrow2.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
