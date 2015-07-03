@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="Functions.aspx" />
     <Content Include="images\1.JPG" />
+    <Content Include="images\1small.jpg" />
     <Content Include="images\2.JPG" />
     <Content Include="images\3.JPG" />
     <Content Include="images\4.JPG" />
