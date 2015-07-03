@@ -66,6 +66,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Functions.aspx" />
+    <Content Include="images\1.JPG" />
+    <Content Include="images\2.JPG" />
+    <Content Include="images\3.JPG" />
+    <Content Include="images\4.JPG" />
+    <Content Include="images\5.JPG" />
+    <Content Include="images\6.JPG" />
+    <Content Include="images\7.JPG" />
+    <Content Include="images\8.JPG" />
+    <Content Include="images\flaw.gif" />
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
