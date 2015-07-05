@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw.aspx" />
     <Content Include="Functions.aspx" />
     <Content Include="images\1.JPG" />
     <Content Include="images\1small.jpg" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw.aspx.cs">
+      <DependentUpon>Flaw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw.aspx.designer.cs">
+      <DependentUpon>Flaw.aspx</DependentUpon>
     </Compile>
     <Compile Include="Functions.aspx.cs">
       <DependentUpon>Functions.aspx</DependentUpon>
