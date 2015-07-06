@@ -10,7 +10,7 @@
 namespace Stroytehnadzor {
 
 
-    public partial class Flaw
+    public partial class Flaw1
     {
     }
 }

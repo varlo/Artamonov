@@ -65,18 +65,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Flaw.aspx" />
+    <Content Include="Flaw2.aspx" />
+    <Content Include="Flaw1.aspx" />
     <Content Include="Functions.aspx" />
-    <Content Include="images\1.JPG" />
-    <Content Include="images\1small.jpg" />
-    <Content Include="images\2.JPG" />
-    <Content Include="images\3.JPG" />
-    <Content Include="images\4.JPG" />
-    <Content Include="images\5.JPG" />
-    <Content Include="images\6.JPG" />
-    <Content Include="images\7.JPG" />
-    <Content Include="images\8.JPG" />
-    <Content Include="images\flaw.gif" />
+    <Content Include="images\flaw1\1.JPG" />
+    <Content Include="images\flaw1\1small.jpg" />
+    <Content Include="images\flaw1\2.JPG" />
+    <Content Include="images\flaw1\3.JPG" />
+    <Content Include="images\flaw1\4.JPG" />
+    <Content Include="images\flaw1\5.JPG" />
+    <Content Include="images\flaw1\6.JPG" />
+    <Content Include="images\flaw1\7.JPG" />
+    <Content Include="images\flaw1\8.JPG" />
+    <Content Include="images\flaw2\1.JPG" />
+    <Content Include="images\flaw2\12.JPG" />
+    <Content Include="images\flaw2\13.JPG" />
+    <Content Include="images\flaw2\14.JPG" />
+    <Content Include="images\flaw2\15.JPG" />
+    <Content Include="images\flaw2\16.JPG" />
+    <Content Include="images\flaw2\17.JPG" />
+    <Content Include="images\flaw2\18.JPG" />
+    <Content Include="images\flaw2\19.JPG" />
+    <Content Include="images\flaw2\1small.jpg" />
+    <Content Include="images\flaw2\1_2.JPG" />
+    <Content Include="images\flaw2\1_3.JPG" />
+    <Content Include="images\flaw2\1_4.JPG" />
+    <Content Include="images\flaw2\2.JPG" />
+    <Content Include="images\flaw2\20.JPG" />
+    <Content Include="images\flaw2\21.JPG" />
+    <Content Include="images\flaw2\22.JPG" />
+    <Content Include="images\flaw2\23.JPG" />
+    <Content Include="images\flaw2\24.JPG" />
+    <Content Include="images\flaw2\25.JPG" />
+    <Content Include="images\flaw2\26.JPG" />
+    <Content Include="images\flaw2\27.JPG" />
+    <Content Include="images\flaw2\28.JPG" />
+    <Content Include="images\flaw2\29.JPG" />
+    <Content Include="images\flaw2\3.JPG" />
+    <Content Include="images\flaw2\30.JPG" />
+    <Content Include="images\flaw2\31.JPG" />
+    <Content Include="images\flaw2\32.JPG" />
+    <Content Include="images\flaw2\33.JPG" />
+    <Content Include="images\flaw2\4.JPG" />
+    <Content Include="images\flaw2\5.JPG" />
+    <Content Include="images\flaw2\6.JPG" />
+    <Content Include="images\flaw2\7.JPG" />
+    <Content Include="images\flaw2\8.JPG" />
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
@@ -135,12 +169,19 @@
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Flaw.aspx.cs">
-      <DependentUpon>Flaw.aspx</DependentUpon>
+    <Compile Include="Flaw2.aspx.cs">
+      <DependentUpon>Flaw2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Flaw.aspx.designer.cs">
-      <DependentUpon>Flaw.aspx</DependentUpon>
+    <Compile Include="Flaw2.aspx.designer.cs">
+      <DependentUpon>Flaw2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw1.aspx.cs">
+      <DependentUpon>Flaw1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw1.aspx.designer.cs">
+      <DependentUpon>Flaw1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Functions.aspx.cs">
       <DependentUpon>Functions.aspx</DependentUpon>
