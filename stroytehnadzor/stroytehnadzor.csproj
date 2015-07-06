@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw3.aspx" />
     <Content Include="Flaw2.aspx" />
     <Content Include="Flaw1.aspx" />
     <Content Include="Functions.aspx" />
@@ -111,6 +112,25 @@
     <Content Include="images\flaw2\6.JPG" />
     <Content Include="images\flaw2\7.JPG" />
     <Content Include="images\flaw2\8.JPG" />
+    <Content Include="images\flaw3\1.JPG" />
+    <Content Include="images\flaw3\10.JPG" />
+    <Content Include="images\flaw3\11.JPG" />
+    <Content Include="images\flaw3\12.JPG" />
+    <Content Include="images\flaw3\13.JPG" />
+    <Content Include="images\flaw3\14.JPG" />
+    <Content Include="images\flaw3\15.JPG" />
+    <Content Include="images\flaw3\16.JPG" />
+    <Content Include="images\flaw3\17.JPG" />
+    <Content Include="images\flaw3\18.JPG" />
+    <Content Include="images\flaw3\1small.jpg" />
+    <Content Include="images\flaw3\2.JPG" />
+    <Content Include="images\flaw3\3.JPG" />
+    <Content Include="images\flaw3\4.JPG" />
+    <Content Include="images\flaw3\5.JPG" />
+    <Content Include="images\flaw3\6.JPG" />
+    <Content Include="images\flaw3\7.JPG" />
+    <Content Include="images\flaw3\8.JPG" />
+    <Content Include="images\flaw3\9.JPG" />
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
@@ -168,6 +188,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw3.aspx.cs">
+      <DependentUpon>Flaw3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw3.aspx.designer.cs">
+      <DependentUpon>Flaw3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Flaw2.aspx.cs">
       <DependentUpon>Flaw2.aspx</DependentUpon>
