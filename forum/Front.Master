@@ -46,6 +46,12 @@
             </asp:ContentPlaceHolder>
         </div>
     </div>
+    <div class="bottom_row">
+        ¬ будущем планируетс€ создать форум технадзоров на сайте <a href="http://www.stroytehnadzor.com.ua">
+            www.stroytehnadzor.com.ua</a> дл€ обсуждени€ возникающих вопросов. ∆ду писем
+        и предложений на
+        <img src="images/emailoffice.gif" alt="" />.
+    </div>
     </form>
 </body>
 </html>
