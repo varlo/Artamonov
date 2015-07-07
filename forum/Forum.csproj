@@ -51,6 +51,8 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="images\emailoffice.gif" />
+    <Content Include="images\emailoffice.png" />
+    <Content Include="images\emailoffice2.png" />
     <Content Include="PageControls\Answers.ascx" />
     <Content Include="Topic.aspx" />
     <Content Include="GeneralError.aspx" />
