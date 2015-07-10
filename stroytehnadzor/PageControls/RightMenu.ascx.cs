@@ -27,8 +27,10 @@ namespace StroyTehNadzor.PageControls
                     lArrow5.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
                 else if (page.IndexOf("board.aspx") > -1)
                     lArrow6.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
-                else if (page.IndexOf("forum.aspx") > -1)
+                else if (page.IndexOf("humor.aspx") > -1)
                     lArrow7.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
+                else if (page.IndexOf("forum.aspx") > -1)
+                    lArrow8.Text = "<img src='/images/orangearr.gif' border='0' alt='orrange arrow' />";
             }
         }
     }

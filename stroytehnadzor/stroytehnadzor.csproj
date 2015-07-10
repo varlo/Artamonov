@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Humor.aspx" />
     <Content Include="Flaw6.aspx" />
     <Content Include="Flaw5.aspx" />
     <Content Include="Flaw4.aspx" />
@@ -198,6 +199,7 @@
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
+    <Content Include="images\Video_Bridge.wmv" />
     <Content Include="Testimonials.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="images\kdd.jpg" />
@@ -252,6 +254,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Humor.aspx.cs">
+      <DependentUpon>Humor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Humor.aspx.designer.cs">
+      <DependentUpon>Humor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Flaw6.aspx.cs">
       <DependentUpon>Flaw6.aspx</DependentUpon>
