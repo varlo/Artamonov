@@ -73,6 +73,7 @@
     <Content Include="Flaw2.aspx" />
     <Content Include="Flaw1.aspx" />
     <Content Include="Functions.aspx" />
+    <Content Include="images\dabi.png" />
     <Content Include="images\emailoffice.png" />
     <Content Include="images\emailoffice2.png" />
     <Content Include="images\emailofficeboth.png" />
@@ -196,13 +197,15 @@
     <Content Include="images\flaw6\7.jpg" />
     <Content Include="images\flaw6\8.jpg" />
     <Content Include="images\flaw6\9.jpg" />
+    <Content Include="images\gitn.png" />
     <Content Include="images\humor\1.jpg" />
     <Content Include="images\humor\2.jpg" />
     <Content Include="images\humor\3.jpg" />
+    <Content Include="images\interbuxexpo.jpg" />
+    <Content Include="images\minregionbud.jpg" />
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
-    <Content Include="images\Video_Bridge.wmv" />
     <Content Include="Testimonials.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="images\kdd.jpg" />
