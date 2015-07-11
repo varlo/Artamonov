@@ -196,6 +196,9 @@
     <Content Include="images\flaw6\7.jpg" />
     <Content Include="images\flaw6\8.jpg" />
     <Content Include="images\flaw6\9.jpg" />
+    <Content Include="images\humor\1.jpg" />
+    <Content Include="images\humor\2.jpg" />
+    <Content Include="images\humor\3.jpg" />
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
