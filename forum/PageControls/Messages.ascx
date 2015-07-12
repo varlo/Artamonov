@@ -32,7 +32,8 @@
                         <asp:LinkButton ID="lbDelete" CssClass="glyphicon glyphicon-remove" CommandName="Delete"
                             OnClientClick="return confirm('Вы уверены, что хотите удалить это сообщение?')"
                             runat="server" />
-                    </div>
+                    </div><br />
+                    <b>Последний ответ: </b><asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
                 </td>
                 <td>
                     <asp:Literal ID="lBody" runat="server"></asp:Literal>
@@ -41,24 +42,13 @@
                     <asp:Literal ID="lName" runat="server"></asp:Literal>
                 </td>
                 <td>
-                    <asp:Literal ID="lCreated" runat="server"></asp:Literal><br />
-                    Последний ответ: <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
+                    <asp:Literal ID="lCreated" runat="server"></asp:Literal>
                 </td>
                 <td id="thReply" style="text-align: center" runat="server">
                     <asp:LinkButton ID="lbReply" CssClass="btn btn-success" CommandName="Reply" Font-Bold="True"
                         Text="Ответить" runat="server" />
                 </td>
             </tr>
-            <%--            <div id="divIndent" style="margin-bottom: 10px" runat="server">
-                <asp:HyperLink ID="hlSubject" Font-Bold="True" runat="server"></asp:HyperLink>
-                &nbsp;(<asp:Literal ID="lName" runat="server"></asp:Literal>,&nbsp;
-                <asp:Literal ID="lCreated" runat="server"></asp:Literal>)&nbsp;
-                <asp:LinkButton ID="lbReply" CommandName="Reply" Font-Bold="True" Text="Ответить" runat="server" />
-                <br />
-                <asp:Literal ID="lBody" runat="server"></asp:Literal>
-                <br />
-            </div>
-            --%>
         </ItemTemplate>
         <FooterTemplate>
             </table>
