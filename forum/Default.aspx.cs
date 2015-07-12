@@ -10,6 +10,7 @@ namespace Forum
         override protected void OnInit(EventArgs e)
         {
             PostMessageControl.MessageCreated += PostMessageControl_MessageCreated;
+            MessagesControl.DeleteMessage += MessagesControl_DeleteMessage;
             base.OnInit(e);
         }
 
@@ -41,6 +42,18 @@ namespace Forum
         {
             PostMessageControl.Visible = true;
             btnAskQuestion.Visible = false;
+        }
+
+        protected void MessagesControl_DeleteMessage(object sender, IdEventArgs e)
+        {
+            if (e.Id.HasValue)
+            {
+                var messages = Serializer.Deserialize();
+                Message currentMessage = messages.Single(m => m.Id == e.Id);
+                messages.Remove(currentMessage);
+                Serializer.Serialize(messages);
+                BindMessages();
+            }
         }
     }
 }

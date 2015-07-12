@@ -32,11 +32,13 @@
                         <asp:LinkButton ID="lbDelete" CssClass="glyphicon glyphicon-remove" CommandName="Delete"
                             OnClientClick="return confirm('Вы уверены, что хотите удалить это сообщение?')"
                             runat="server" />
-                    </div><br />
-                    <b>Последний ответ: </b><asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
+                    </div>
                 </td>
                 <td>
                     <asp:Literal ID="lBody" runat="server"></asp:Literal>
+                    <hr />
+                    <b>Последний ответ: </b>
+                    <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
                 </td>
                 <td>
                     <asp:Literal ID="lName" runat="server"></asp:Literal>

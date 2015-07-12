@@ -46,11 +46,30 @@
             </asp:ContentPlaceHolder>
         </div>
     </div>
-    <div class="bottom_row">
-        В будущем планируется создать форум технадзоров на сайте <a href="http://www.stroytehnadzor.com.ua">
-            www.stroytehnadzor.com.ua</a> для обсуждения возникающих вопросов. Жду писем
-        и предложений на
-        <img src="images/emailoffice.gif" alt="" />.
+    <div class="bottom_row" style="margin-left: 132px">
+        В будущем планируется создать более функциональный форум.
+        <br />
+        Для обсуждения возникающих вопросов жду писем и предложений от технадзоров и участников
+        на
+        <img src="images/emailoffice.gif" alt="" /><br />
+        <br />
+        С уважением, Владимир.
+        <div style="margin-top: 10px">
+            <!-- MyCounter v.2.0 -->
+            <script type="text/javascript"><!--
+                my_id = 149503;
+                my_width = 88;
+                my_height = 41;
+                my_alt = "MyCounter - счётчик и статистика";
+            //--></script>
+            <script type="text/javascript" src="https://get.mycounter.ua/counter2.0.js">
+            </script>
+            <noscript>
+                <a target="_blank" href="http://mycounter.ua/">
+                    <img src="https://get.mycounter.ua/counter.php?id=149503" title="MyCounter - счётчик и статистика"
+                        alt="MyCounter - счётчик и статистика" width="88" height="41" border="0" /></a></noscript>
+            <!--/ MyCounter -->
+        </div>
     </div>
     </form>
 </body>
