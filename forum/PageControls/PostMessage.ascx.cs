@@ -9,6 +9,8 @@ namespace Forum.PageControls
     {
         public event EventHandler MessageCreated;
 
+        public bool HideTitle { get; set; }
+
         public bool CreateNew { get; set; }
 
         public bool IsReply
@@ -29,6 +31,7 @@ namespace Forum.PageControls
         {
             lMessage.Text = String.Empty;
             Messages = Serializer.Deserialize();
+            divTitle.Visible = !HideTitle;
             if (id.HasValue)
             {
                 if (!IsReply)

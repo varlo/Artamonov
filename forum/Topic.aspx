@@ -10,6 +10,6 @@
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphContent" runat="server">
     <Controls:Answers runat="server" ID="AnswersControl" />
-    <Controls:PostMessage runat="server" ID="PostMessageControl" />
+    <Controls:PostMessage runat="server" ID="PostMessageControl" HideTitle="true" />
     <asp:Button ID="btnBack" CssClass="btn btn-primary" Text="К списку тем" runat="server" OnClick="btnBack_Click" />
 </asp:Content>

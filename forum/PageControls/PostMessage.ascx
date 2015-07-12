@@ -3,7 +3,7 @@
 <div class="form-horizontal" style="margin: 10px">
     <asp:Label ID="lMessage" runat="server"></asp:Label>
     <asp:HiddenField ID="hId" runat="server"/>
-    <div class="form-group">
+    <div class="form-group" id="divTitle" runat="server">
         <label class="control-label col-sm-2" for="tbSubject">
             Заголовок:</label>
         <div class="col-sm-10">
