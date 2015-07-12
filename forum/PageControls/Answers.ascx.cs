@@ -29,7 +29,7 @@ namespace Forum.PageControls
             if (msg != null)
             {
                 var lCreated = e.Item.FindControl("lCreated") as Label;
-                if (lCreated != null) lCreated.Text = msg.Created.ToString("dd MMM yyyy HH:mm:ss");
+                if (lCreated != null) lCreated.Text = msg.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss");
                 var lName = e.Item.FindControl("lName") as Label;
                 if (lName != null) lName.Text = msg.Name;
                 var lbReply = e.Item.FindControl("lbReply") as LinkButton;

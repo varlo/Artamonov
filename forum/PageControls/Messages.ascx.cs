@@ -37,7 +37,7 @@ namespace Forum.PageControls
                     divIndent.Style.Add(HtmlTextWriterStyle.MarginLeft, String.Format("{0}px", indent));
                 }
                 var lCreated = e.Item.FindControl("lCreated") as Literal;
-                if (lCreated != null) lCreated.Text = msg.Created.ToString("dd MMM yyyy HH:mm:ss");
+                if (lCreated != null) lCreated.Text = msg.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss");
                 var lName = e.Item.FindControl("lName") as Literal;
                 if (lName != null) lName.Text = msg.Name;
                 var lbReply = e.Item.FindControl("lbReply") as LinkButton;
