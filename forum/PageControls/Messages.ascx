@@ -5,10 +5,10 @@
         <HeaderTemplate>
             <table class="table table-bordered">
                 <tr class="info">
-                    <th style="width: 30%; text-align: center">
+                    <th style="width: 35%; text-align: center">
                         Тема
                     </th>
-                    <th style="width: 30%; text-align: center">
+                    <th style="width: 40%; text-align: center">
                         Сообщение
                     </th>
                     <th style="width: 10%; text-align: center">
@@ -16,9 +16,6 @@
                     </th>
                     <th style="width: 15%; text-align: center">
                         Создано
-                    </th>
-                    <th style="width: 15%; text-align: center">
-                        Последний ответ
                     </th>
                     <th id="thReply" runat="server">
                     </th>
@@ -44,10 +41,8 @@
                     <asp:Literal ID="lName" runat="server"></asp:Literal>
                 </td>
                 <td>
-                    <asp:Literal ID="lCreated" runat="server"></asp:Literal>
-                </td>
-                <td>
-                    <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
+                    <asp:Literal ID="lCreated" runat="server"></asp:Literal><br />
+                    Последний ответ: <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
                 </td>
                 <td id="thReply" style="text-align: center" runat="server">
                     <asp:LinkButton ID="lbReply" CssClass="btn btn-success" CommandName="Reply" Font-Bold="True"
