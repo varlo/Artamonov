@@ -10,11 +10,11 @@
         <ItemTemplate>
             <tr>
                 <td style="width: 20%" class="info">
-                    <asp:Label ID="lName" runat="server"></asp:Label>
+                    <asp:Label ID="lName" runat="server"></asp:Label><br />
+                    <asp:Label ID="lCreated" class="pull-left" runat="server"></asp:Label>
                 </td>
                 <td>
-                    <asp:Label ID="lSubject" class="pull-left" runat="server"></asp:Label>
-                    <asp:Label ID="lCreated" class="pull-right" runat="server"></asp:Label><br />
+                    <asp:Label ID="lSubject" class="pull-left" runat="server"></asp:Label><br />
                     <asp:Literal ID="lBody" runat="server"></asp:Literal>
                     <div class="pull-right">
                         <asp:LinkButton ID="lbEdit" CssClass="glyphicon glyphicon-edit" CommandName="Edit"

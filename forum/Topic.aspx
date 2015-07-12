@@ -5,8 +5,8 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
     <title>Форум по техническому надзору в строительстве.</title>
-    <meta name="Keywords" content="Форум, ввод объектов в эксплуатацию, технический надзор, техническое обследование, диагностика технического состояния зданий, электромонтажные работы" />
-    <meta name="Description" content="Форум по техническому надзору в строительстве" />
+    <meta name="Keywords" content="Форум, технадзоров, Украина" />
+    <meta name="Description" content="Форум по техническому надзору в строительстве, форум, технадзоров, Украина" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphContent" runat="server">
     <Controls:Answers runat="server" ID="AnswersControl" />
