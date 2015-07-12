@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
@@ -69,6 +70,13 @@ namespace Forum.PageControls
                 }
                 var lBody = e.Item.FindControl("lBody") as Literal;
                 if (lBody != null) lBody.Text = msg.Body;
+                var lLastAnswer = e.Item.FindControl("lLastAnswer") as Literal;
+                if (lLastAnswer != null)
+                {
+                    var messages = Serializer.Deserialize();
+                    var latest = messages.Where(m => m.ParentId == msg.Id).OrderByDescending(m => m.Created).FirstOrDefault();
+                    lLastAnswer.Text = latest != null ? String.Format("{0} {1}", latest.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss"), latest.Name) : String.Empty;
+                }
             }
         }
 
