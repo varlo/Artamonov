@@ -2,8 +2,6 @@
 using System.IO;
 using System.Linq;
 using System.Net.Mail;
-using System.Net.Mime;
-using System.Threading;
 using System.Web.UI.WebControls;
 using BAL;
 
@@ -100,8 +98,12 @@ namespace Forum.PageControls
                 mail.Body = String.Format("В {0:dd/MM/yyyy HH:mm:ss} поступил новый комментарий от <b>{1}</b>:<br /><br />{2}",
                     message.Created, message.Name, message.Body);
                 mail.IsBodyHtml = true;
-                File.Copy(Server.MapPath("forum.json"), Server.MapPath("forum.zip"));
-                mail.Attachments.Add(new Attachment(Server.MapPath("forum.zip")));
+                //string zip = Server.MapPath("forum.zip");
+                //string json = Server.MapPath("forum.json");
+                //if (File.Exists(zip))
+                //    File.Delete(zip);
+                //File.Copy(json, zip, true);
+                //mail.Attachments.Add(new Attachment(zip));
                 var smtp = new SmtpClient("93.190.40.3");
                 smtp.Send(mail);
                 //lMessage.Text = "Ваше сообщение было отправлено";
