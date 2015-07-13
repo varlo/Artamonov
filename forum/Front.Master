@@ -46,7 +46,7 @@
             </asp:ContentPlaceHolder>
         </div>
     </div>
-    <div class="bottom_row" style="margin-left: 132px">
+    <div class="bottom_row" style="text-align: center">
         В будущем планируется создать более функциональный форум.
         <br />
         Для обсуждения возникающих вопросов жду писем и предложений от технадзоров и участников

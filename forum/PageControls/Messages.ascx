@@ -35,10 +35,9 @@
                     </div>
                 </td>
                 <td>
-                    <asp:Literal ID="lBody" runat="server"></asp:Literal>
-                    <hr />
-                    <b>Последний ответ: </b>
-                    <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal>
+                    <asp:Literal ID="lBody" runat="server"></asp:Literal><br />
+                    <div class="pull-right"><b>Последний ответ: </b>
+                    <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal></div>
                 </td>
                 <td>
                     <asp:Literal ID="lName" runat="server"></asp:Literal>
