@@ -64,8 +64,8 @@ namespace Forum.PageControls
 
         protected void btnSend_Click(object sender, EventArgs e)
         {
-            //var id = !String.IsNullOrEmpty(hId.Value) ? new Guid(hId.Value) : (Guid?)null;
-            var id = !String.IsNullOrEmpty(Request["id"]) ? new Guid(Request["id"]) : (Guid?)null;
+            var id = !String.IsNullOrEmpty(hId.Value) ? new Guid(hId.Value) : (Guid?)null;
+            //var id = !String.IsNullOrEmpty(Request["id"]) ? new Guid(Request["id"]) : (Guid?)null;
             Messages = Serializer.Deserialize();
             if (!IsReply && !CreateNew) //редактирование
             {
@@ -74,7 +74,6 @@ namespace Forum.PageControls
                 currentMessage.Subject = tbSubject.Text;
                 currentMessage.Body = tbBody.Text;
                 currentMessage.Name = tbName.Text;
-                //lMessage.Text = "Сообщение было изменено";
             }
             else
             {
