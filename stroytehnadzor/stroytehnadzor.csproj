@@ -74,6 +74,8 @@
     <Content Include="Flaw2.aspx" />
     <Content Include="Flaw1.aspx" />
     <Content Include="Functions.aspx" />
+    <Content Include="images\avk_deal.jpg" />
+    <Content Include="images\avk_deal2.jpg" />
     <Content Include="images\dabi.png" />
     <Content Include="images\emailoffice.png" />
     <Content Include="images\emailoffice2.png" />
