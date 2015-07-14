@@ -13,15 +13,6 @@ namespace Forum {
     public partial class Topic {
         
         /// <summary>
-        /// AnswersControl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Forum.PageControls.Answers AnswersControl;
-        
-        /// <summary>
         /// PostMessageControl control.
         /// </summary>
         /// <remarks>
@@ -29,6 +20,15 @@ namespace Forum {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Forum.PageControls.PostMessage PostMessageControl;
+        
+        /// <summary>
+        /// AnswersControl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Forum.PageControls.Answers AnswersControl;
         
         /// <summary>
         /// btnBack control.

@@ -17,10 +17,19 @@ namespace BAL
             }
         }
 
+        public static string BackFilePath
+        {
+            get
+            {
+                return HttpContext.Current.Request.MapPath("forum.bak");
+            }
+        }
+
         public static string Serialize(IList<Message> messages)
         {
             var json = new JavaScriptSerializer().Serialize(messages);
             File.WriteAllText(FilePath, json, Encoding.Unicode);
+            File.WriteAllText(BackFilePath, json, Encoding.Unicode);
             return json;
         }
 
