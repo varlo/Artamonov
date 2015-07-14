@@ -47,14 +47,10 @@ namespace Forum
                 var currentMessage = messages.SingleOrDefault(m => m.Id == TopicId);
                 if (currentMessage == null)
                     Response.Redirect("~/Default.aspx");
-                messages = messages.Where(m => m.ParentId == TopicId || 
-                    m.Parent != null && m.Parent.ParentId == TopicId ||
-                    m.Parent != null && m.Parent.Parent != null && m.Parent.Parent.ParentId == TopicId ||
-                    m.Parent != null && m.Parent.Parent != null && m.Parent.Parent.Parent != null && m.Parent.Parent.Parent.ParentId == TopicId ||
-                    m.Parent != null && m.Parent.Parent != null && m.Parent.Parent.Parent != null && m.Parent.Parent.Parent.Parent != null && m.Parent.Parent.Parent.Parent.ParentId == TopicId).
-                    OrderBy(m => m.Created).ToList();
+                messages = messages.Where(m => m.Ancestor != null && m.Ancestor.Id == TopicId).OrderBy(m => m.Created).ToList();
                 messages.Insert(0, currentMessage);
-                AnswersControl.Header = currentMessage.Subject;
+                if (currentMessage != null) 
+                    AnswersControl.Header = currentMessage.Subject;
             }
             else
                 messages = messages.Where(m => !m.ParentId.HasValue).OrderBy(m => m.Created).ToList();

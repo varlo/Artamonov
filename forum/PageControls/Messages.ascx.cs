@@ -75,12 +75,7 @@ namespace Forum.PageControls
                 {
                     var messages = Serializer.Deserialize();
                     var latest = messages.Where(
-                        m => m.ParentId == msg.Id ||
-                            m.Parent != null && m.Parent.ParentId == msg.Id ||
-                            m.Parent != null && m.Parent.Parent != null && m.Parent.Parent.ParentId == msg.Id ||
-                            m.Parent != null && m.Parent.Parent != null && m.Parent.Parent.Parent != null && m.Parent.Parent.Parent.ParentId == msg.Id ||
-                            m.Parent != null && m.Parent.Parent != null && m.Parent.Parent.Parent != null && m.Parent.Parent.Parent.Parent != null && m.Parent.Parent.Parent.Parent.ParentId == msg.Id
-                        ).OrderByDescending(m => m.Created).FirstOrDefault();
+                        m => m.Ancestor != null && m.Ancestor.Id == msg.Id).OrderByDescending(m => m.Created).FirstOrDefault();
                     lLastAnswer.Text = latest != null ? String.Format("{0} {1}", latest.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss"), latest.Name) : String.Empty;
                 }
             }
