@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw7.aspx" />
     <Content Include="Humor.aspx" />
     <Content Include="Flaw6.aspx" />
     <Content Include="Flaw5.aspx" />
@@ -197,6 +198,35 @@
     <Content Include="images\flaw6\7.jpg" />
     <Content Include="images\flaw6\8.jpg" />
     <Content Include="images\flaw6\9.jpg" />
+    <Content Include="images\flaw7\1.jpg" />
+    <Content Include="images\flaw7\10.jpg" />
+    <Content Include="images\flaw7\11.jpg" />
+    <Content Include="images\flaw7\12.jpg" />
+    <Content Include="images\flaw7\13.jpg" />
+    <Content Include="images\flaw7\14.jpg" />
+    <Content Include="images\flaw7\15.jpg" />
+    <Content Include="images\flaw7\16.jpg" />
+    <Content Include="images\flaw7\17.jpg" />
+    <Content Include="images\flaw7\18.jpg" />
+    <Content Include="images\flaw7\19.jpg" />
+    <Content Include="images\flaw7\1small.jpg" />
+    <Content Include="images\flaw7\2.jpg" />
+    <Content Include="images\flaw7\20.jpg" />
+    <Content Include="images\flaw7\21.jpg" />
+    <Content Include="images\flaw7\22.jpg" />
+    <Content Include="images\flaw7\23.jpg" />
+    <Content Include="images\flaw7\24.jpg" />
+    <Content Include="images\flaw7\25.jpg" />
+    <Content Include="images\flaw7\26.jpg" />
+    <Content Include="images\flaw7\27.jpg" />
+    <Content Include="images\flaw7\28.jpg" />
+    <Content Include="images\flaw7\3.jpg" />
+    <Content Include="images\flaw7\4.jpg" />
+    <Content Include="images\flaw7\5.jpg" />
+    <Content Include="images\flaw7\6.jpg" />
+    <Content Include="images\flaw7\7.jpg" />
+    <Content Include="images\flaw7\8.jpg" />
+    <Content Include="images\flaw7\9.jpg" />
     <Content Include="images\gitn.png" />
     <Content Include="images\humor\1.jpg" />
     <Content Include="images\humor\2.jpg" />
@@ -260,6 +290,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw7.aspx.cs">
+      <DependentUpon>Flaw7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw7.aspx.designer.cs">
+      <DependentUpon>Flaw7.aspx</DependentUpon>
     </Compile>
     <Compile Include="Humor.aspx.cs">
       <DependentUpon>Humor.aspx</DependentUpon>
