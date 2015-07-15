@@ -39,7 +39,7 @@ namespace Forum.PageControls
                 {
                     var currentMessage = Messages.Single(m => m.Id == id);
                     tbSubject.Text = currentMessage.Subject;
-                    tbBody.Text = currentMessage.Body;
+                    tbBody.Text = currentMessage.Body.Replace("<br />", Environment.NewLine);
                     tbName.Text = currentMessage.Name;
                 }
                 hId.Value = id.Value.ToString();
