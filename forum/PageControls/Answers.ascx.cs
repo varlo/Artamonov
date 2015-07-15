@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using BAL;
@@ -28,6 +29,14 @@ namespace Forum.PageControls
             var msg = e.Item.DataItem as Message;
             if (msg != null)
             {
+                var tdIndent1 = e.Item.FindControl("tdIndent1") as HtmlTableCell;
+                var tdIndent2 = e.Item.FindControl("tdIndent2") as HtmlTableCell;
+                if (tdIndent1 != null && tdIndent2 != null)
+                {
+                    int indent = msg.Level * 20;
+                    tdIndent1.Style.Add(HtmlTextWriterStyle.PaddingLeft, String.Format("{0}px", indent));
+                    tdIndent2.Style.Add(HtmlTextWriterStyle.PaddingLeft, String.Format("{0}px", indent));
+                }
                 var lCreated = e.Item.FindControl("lCreated") as Label;
                 if (lCreated != null) lCreated.Text = msg.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss");
                 var lName = e.Item.FindControl("lName") as Label;

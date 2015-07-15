@@ -30,5 +30,24 @@ namespace BAL
                 return parent;
             }
         }
+
+        [XmlIgnore]
+        [ScriptIgnore]
+        public int Level
+        {
+            get
+            {
+                int level = 1;
+                Message parent = Parent;
+                if (parent == null) 
+                    return level;
+                while (parent.Parent != null)
+                {
+                    level++;
+                    parent = parent.Parent;
+                }
+                return level;
+            }
+        }
     }
 }
