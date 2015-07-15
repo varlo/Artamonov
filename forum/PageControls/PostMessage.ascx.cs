@@ -35,12 +35,16 @@ namespace Forum.PageControls
             divTitle.Visible = !HideTitle;
             if (id.HasValue)
             {
+                var currentMessage = Messages.Single(m => m.Id == id);
                 if (!IsReply)
                 {
-                    var currentMessage = Messages.Single(m => m.Id == id);
                     tbSubject.Text = currentMessage.Subject;
                     tbBody.Text = currentMessage.Body.Replace("<br />", Environment.NewLine);
                     tbName.Text = currentMessage.Name;
+                }
+                else
+                {
+                    lAnswer.Text = String.Format("Вы отвечаете на сообщение: <br />{0}<br />", currentMessage.Body);
                 }
                 hId.Value = id.Value.ToString();
             }

@@ -15,6 +15,7 @@
         <label class="control-label col-sm-2" for="tbBody">
             Сообщение:</label>
         <div class="col-sm-10">
+            <asp:Literal ID="lAnswer" runat="server"></asp:Literal>
             <asp:TextBox ID="tbBody" CssClass="form-control" placeholder="Введите текст сообщения"
                 runat="server" Columns="100" Rows="10" TextMode="MultiLine"></asp:TextBox>
         </div>
