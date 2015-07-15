@@ -74,6 +74,8 @@ namespace Forum.PageControls
                 currentMessage.Subject = tbSubject.Text;
                 currentMessage.Body = tbBody.Text;
                 currentMessage.Name = tbName.Text;
+
+                Serializer.Serialize(Messages);
             }
             else
             {
