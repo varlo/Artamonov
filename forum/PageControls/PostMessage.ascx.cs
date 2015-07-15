@@ -72,7 +72,7 @@ namespace Forum.PageControls
                 var currentMessage = Messages.Single(m => m.Id == id);
                 //currentMessage.Created = DateTime.Now;
                 currentMessage.Subject = tbSubject.Text;
-                currentMessage.Body = tbBody.Text;
+                currentMessage.Body = tbBody.Text.Replace(Environment.NewLine, "<br />");
                 currentMessage.Name = tbName.Text;
 
                 Serializer.Serialize(Messages);
@@ -85,7 +85,7 @@ namespace Forum.PageControls
                     Created = DateTime.Now,
                     Subject = tbSubject.Text,
                     ParentId = id,
-                    Body = tbBody.Text,
+                    Body = tbBody.Text.Replace(Environment.NewLine, "<br />"),
                     Name = tbName.Text
                 };
                 Messages.Add(message);
