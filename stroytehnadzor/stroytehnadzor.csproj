@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw9.aspx" />
     <Content Include="Flaw8.aspx" />
     <Content Include="Flaw7.aspx" />
     <Content Include="Humor.aspx" />
@@ -243,6 +244,65 @@
     <Content Include="images\flaw8\7.JPG" />
     <Content Include="images\flaw8\8.JPG" />
     <Content Include="images\flaw8\9.JPG" />
+    <Content Include="images\flaw9\1.jpg" />
+    <Content Include="images\flaw9\10.jpg" />
+    <Content Include="images\flaw9\11.jpg" />
+    <Content Include="images\flaw9\12.jpg" />
+    <Content Include="images\flaw9\13.jpg" />
+    <Content Include="images\flaw9\14.jpg" />
+    <Content Include="images\flaw9\15.jpg" />
+    <Content Include="images\flaw9\16.jpg" />
+    <Content Include="images\flaw9\17.jpg" />
+    <Content Include="images\flaw9\18.jpg" />
+    <Content Include="images\flaw9\19.jpg" />
+    <Content Include="images\flaw9\1small.jpg" />
+    <Content Include="images\flaw9\2.jpg" />
+    <Content Include="images\flaw9\20.jpg" />
+    <Content Include="images\flaw9\21.jpg" />
+    <Content Include="images\flaw9\22.jpg" />
+    <Content Include="images\flaw9\23.jpg" />
+    <Content Include="images\flaw9\24.jpg" />
+    <Content Include="images\flaw9\25.jpg" />
+    <Content Include="images\flaw9\26.jpg" />
+    <Content Include="images\flaw9\27.jpg" />
+    <Content Include="images\flaw9\28.jpg" />
+    <Content Include="images\flaw9\29.jpg" />
+    <Content Include="images\flaw9\3.jpg" />
+    <Content Include="images\flaw9\30.jpg" />
+    <Content Include="images\flaw9\31.jpg" />
+    <Content Include="images\flaw9\32.jpg" />
+    <Content Include="images\flaw9\33.jpg" />
+    <Content Include="images\flaw9\34.jpg" />
+    <Content Include="images\flaw9\35.jpg" />
+    <Content Include="images\flaw9\36.jpg" />
+    <Content Include="images\flaw9\37.jpg" />
+    <Content Include="images\flaw9\38.jpg" />
+    <Content Include="images\flaw9\39.jpg" />
+    <Content Include="images\flaw9\4.jpg" />
+    <Content Include="images\flaw9\40.jpg" />
+    <Content Include="images\flaw9\41.jpg" />
+    <Content Include="images\flaw9\42.jpg" />
+    <Content Include="images\flaw9\43.jpg" />
+    <Content Include="images\flaw9\44.jpg" />
+    <Content Include="images\flaw9\45.jpg" />
+    <Content Include="images\flaw9\46.jpg" />
+    <Content Include="images\flaw9\47.jpg" />
+    <Content Include="images\flaw9\48.jpg" />
+    <Content Include="images\flaw9\49.jpg" />
+    <Content Include="images\flaw9\5.jpg" />
+    <Content Include="images\flaw9\50.jpg" />
+    <Content Include="images\flaw9\51.jpg" />
+    <Content Include="images\flaw9\52.jpg" />
+    <Content Include="images\flaw9\53.jpg" />
+    <Content Include="images\flaw9\54.jpg" />
+    <Content Include="images\flaw9\55.jpg" />
+    <Content Include="images\flaw9\56.jpg" />
+    <Content Include="images\flaw9\57.jpg" />
+    <Content Include="images\flaw9\58.jpg" />
+    <Content Include="images\flaw9\6.jpg" />
+    <Content Include="images\flaw9\7.jpg" />
+    <Content Include="images\flaw9\8.jpg" />
+    <Content Include="images\flaw9\9.jpg" />
     <Content Include="images\gitn.png" />
     <Content Include="images\humor\1.jpg" />
     <Content Include="images\humor\2.jpg" />
@@ -307,6 +367,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw9.aspx.cs">
+      <DependentUpon>Flaw9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw9.aspx.designer.cs">
+      <DependentUpon>Flaw9.aspx</DependentUpon>
     </Compile>
     <Compile Include="Flaw8.aspx.cs">
       <DependentUpon>Flaw8.aspx</DependentUpon>
