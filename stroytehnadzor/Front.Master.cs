@@ -23,7 +23,7 @@ namespace StroyTehNadzor
                 Response.Redirect("http://stroytehnadzor.com.ua" + Request.Path);
             if (String.Compare(Request.Url.Authority, "www.stroytehnadzor.com", StringComparison.InvariantCultureIgnoreCase) == 0)
                 Response.Redirect("http://www.stroytehnadzor.com.ua" + Request.Path);
-            if (!Page.IsPostBack)
+            if (!Page.IsPostBack && PostMessageControl != null)
             {
                 PostMessageControl.Initialize(PageId);
                 BindMessages();
@@ -32,9 +32,12 @@ namespace StroyTehNadzor
 
         protected override void OnInit(EventArgs e)
         {
-            PostMessageControl.MessageCreated += PostMessageControl_MessageCreated;
-            AnswersControl.EditMessage += MessagesControl_EditMessage;
-            AnswersControl.DeleteMessage += MessagesControl_DeleteMessage;
+            if (PostMessageControl != null && AnswersControl != null)
+            {
+                PostMessageControl.MessageCreated += PostMessageControl_MessageCreated;
+                AnswersControl.EditMessage += MessagesControl_EditMessage;
+                AnswersControl.DeleteMessage += MessagesControl_DeleteMessage;
+            }
             base.OnInit(e);
         }
 

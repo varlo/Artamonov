@@ -103,8 +103,10 @@
         <Controls:Header runat="server" ID="Header1" />
         <asp:ContentPlaceHolder ID="cphContent" runat="server">
         </asp:ContentPlaceHolder>
-        <Controls:PostMessage runat="server" ID="PostMessageControl" HideTitle="true" CreateNew="true" />
-        <Controls:Answers runat="server" ID="AnswersControl" HideReply="true" />
+        <asp:ContentPlaceHolder ID="cphComments" runat="server">
+            <Controls:PostMessage runat="server" ID="PostMessageControl" HideTitle="true" CreateNew="true" />
+            <Controls:Answers runat="server" ID="AnswersControl" HideReply="true" />
+        </asp:ContentPlaceHolder>
     </div>
     <div class="right_col">
         <Controls:RightMenu runat="server" ID="RightMenu1" />

@@ -58,6 +58,15 @@ namespace StroyTehNadzor {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder cphContent;
         
         /// <summary>
+        /// cphComments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphComments;
+        
+        /// <summary>
         /// PostMessageControl control.
         /// </summary>
         /// <remarks>
