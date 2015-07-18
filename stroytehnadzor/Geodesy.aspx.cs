@@ -2,11 +2,11 @@ using System;
 
 namespace Stroytehnadzor
 {
-    public partial class Geodesy : System.Web.UI.Page
+    public partial class Geodesy : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
-
+            get { return new Guid("A1A60286-66E1-4F63-B52C-76138C720898"); }
         }
     }
 }

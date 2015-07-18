@@ -4,6 +4,8 @@
 <%@ Register Src="/PageControls/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="Controls" %>
 <%@ Register Src="/PageControls/RightMenu.ascx" TagName="RightMenu" TagPrefix="Controls" %>
 <%@ Register Src="/PageControls/Footer.ascx" TagName="Footer" TagPrefix="Controls" %>
+<%@ Register TagPrefix="Controls" TagName="PostMessage" Src="~/PageControls/PostMessage.ascx" %>
+<%@ Register TagPrefix="Controls" TagName="Answers" Src="~/PageControls/Answers.ascx" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -101,8 +103,8 @@
         <Controls:Header runat="server" ID="Header1" />
         <asp:ContentPlaceHolder ID="cphContent" runat="server">
         </asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphComments" runat="server">
-        </asp:ContentPlaceHolder>
+        <Controls:PostMessage runat="server" ID="PostMessageControl" HideTitle="true" CreateNew="true" />
+        <Controls:Answers runat="server" ID="AnswersControl" HideReply="true" />
     </div>
     <div class="right_col">
         <Controls:RightMenu runat="server" ID="RightMenu1" />

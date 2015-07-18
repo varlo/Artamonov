@@ -3,10 +3,11 @@ using System.IO;
 
 namespace Stroytehnadzor
 {
-    public partial class Engineer : System.Web.UI.Page
+    public partial class Engineer : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
+            get { return new Guid("0C0233B8-9671-47B3-8441-01CB2DC43EFD"); }
         }
 
         protected void lbInstructionPdf_Click(object sender, EventArgs e)

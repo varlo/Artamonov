@@ -2,10 +2,11 @@ using System;
 
 namespace Stroytehnadzor
 {
-    public partial class Flaw4 : System.Web.UI.Page
+    public partial class Flaw4 : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
+            get { return new Guid("AF254473-0597-4C40-8B9F-4258849ECE22"); }
         }
     }
 }

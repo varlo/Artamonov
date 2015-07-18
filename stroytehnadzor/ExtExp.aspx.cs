@@ -3,10 +3,11 @@ using System.IO;
 
 namespace Stroytehnadzor
 {
-    public partial class ExtExp : System.Web.UI.Page
+    public partial class ExtExp : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
+            get { return new Guid("47202115-2C93-48E4-AC14-B410D66A166F"); }
         }
 
         protected void lbKodeksPdf_Click(object sender, EventArgs e)

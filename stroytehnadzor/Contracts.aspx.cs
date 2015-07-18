@@ -1,21 +1,12 @@
 using System;
-using System.Data;
-using System.Configuration;
-using System.Collections;
-using System.Web;
-using System.Web.Security;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
 
 namespace Stroytehnadzor
 {
-    public partial class Contracts : System.Web.UI.Page
+    public partial class Contracts : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
-
+            get { return new Guid("51472EAB-CC00-4C71-B8B7-384F93E4AA9E"); }
         }
     }
 }

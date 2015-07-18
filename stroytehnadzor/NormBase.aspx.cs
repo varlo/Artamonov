@@ -2,10 +2,11 @@ using System;
 
 namespace Stroytehnadzor
 {
-    public partial class NormBase : System.Web.UI.Page
+    public partial class NormBase : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
+            get { return new Guid("11AA1295-8F91-4914-8452-BAE5D4BF7567"); }
         }
     }
 }

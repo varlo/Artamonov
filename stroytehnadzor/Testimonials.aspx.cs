@@ -1,21 +1,12 @@
 using System;
-using System.Data;
-using System.Configuration;
-using System.Collections;
-using System.Web;
-using System.Web.Security;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
 
 namespace Stroytehnadzor
 {
-    public partial class Testimonials : System.Web.UI.Page
+    public partial class Testimonials : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
-
+            get { return new Guid("7A839CEC-F545-4C09-9073-B49C2C078EBA"); }
         }
     }
 }

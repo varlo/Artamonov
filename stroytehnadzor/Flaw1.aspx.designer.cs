@@ -11,23 +11,5 @@ namespace Stroytehnadzor {
     
     
     public partial class Flaw1 {
-        
-        /// <summary>
-        /// PostMessageControl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::stroytehnadzor.PageControls.PostMessage PostMessageControl;
-        
-        /// <summary>
-        /// AnswersControl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::stroytehnadzor.PageControls.Answers AnswersControl;
     }
 }

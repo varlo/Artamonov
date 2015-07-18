@@ -2,11 +2,11 @@ using System;
 
 namespace Stroytehnadzor
 {
-    public partial class Humor : System.Web.UI.Page
+    public partial class Humor : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
-
+            get { return new Guid("B26177A8-1751-4A4F-BAC3-E3D84136897D"); }
         }
     }
 }

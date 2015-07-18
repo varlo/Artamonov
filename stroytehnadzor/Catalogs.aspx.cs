@@ -1,21 +1,13 @@
 ﻿using System;
-using System.Data;
-using System.Configuration;
-using System.Collections;
-using System.Web;
-using System.Web.Security;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
+using Stroytehnadzor;
 
 namespace stroytehnadzor
 {
-    public partial class Catalogs : System.Web.UI.Page
+    public partial class Catalogs : BasePage
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public override Guid PageId
         {
-
+            get { return new Guid("AC090B6B-2E33-4116-934F-C0A5A5B75B28"); }
         }
     }
 }
