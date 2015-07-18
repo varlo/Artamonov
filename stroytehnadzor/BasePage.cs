@@ -1,13 +1,18 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Web.UI;
 using BAL;
+using stroytehnadzor.PageControls;
 
-namespace Stroytehnadzor
+namespace stroytehnadzor
 {
-    public partial class Flaw1 : Page
+    public class BasePage : Page
     {
-        private readonly Guid _pageId = new Guid("3EB3D8C5-4D2C-4D90-84BB-286A5E0F85D8");
+        protected PostMessage PostMessageControl;
+
+        protected Answers AnswersControl;
+
+        protected virtual Guid PageId { get; set; }
 
         protected override void OnInit(EventArgs e)
         {
@@ -15,15 +20,6 @@ namespace Stroytehnadzor
             AnswersControl.EditMessage += MessagesControl_EditMessage;
             AnswersControl.DeleteMessage += MessagesControl_DeleteMessage;
             base.OnInit(e);
-        }
-
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            if (!Page.IsPostBack)
-            {
-                PostMessageControl.Initialize(_pageId);
-                BindMessages();
-            }
         }
 
         protected void PostMessageControl_MessageCreated(object sender, EventArgs e)
@@ -53,7 +49,7 @@ namespace Stroytehnadzor
         private void BindMessages()
         {
             var messages = Serializer.Deserialize();
-            messages = messages.Where(m => m.ParentId == _pageId).OrderBy(m => m.Created).ToList();
+            messages = messages.Where(m => m.ParentId == PageId).OrderBy(m => m.Created).ToList();
             AnswersControl.Messages = messages;
             AnswersControl.BindData();
         }

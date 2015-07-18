@@ -342,6 +342,8 @@
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
+    <Content Include="PageControls\Answers.ascx" />
+    <Content Include="PageControls\PostMessage.ascx" />
     <Content Include="Testimonials.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="images\kdd.jpg" />
@@ -362,6 +364,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Board.aspx.cs">
       <DependentUpon>Board.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -480,6 +485,20 @@
     </Compile>
     <Compile Include="Functions.aspx.designer.cs">
       <DependentUpon>Functions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\Answers.ascx.cs">
+      <DependentUpon>Answers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\Answers.ascx.designer.cs">
+      <DependentUpon>Answers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\PostMessage.ascx.cs">
+      <DependentUpon>PostMessage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\PostMessage.ascx.designer.cs">
+      <DependentUpon>PostMessage.ascx</DependentUpon>
     </Compile>
     <Compile Include="Testimonials.aspx.cs">
       <DependentUpon>Testimonials.aspx</DependentUpon>
@@ -724,6 +743,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAL\BAL.csproj">
+      <Project>{A4665A39-F333-4A63-8E4F-F083156A7358}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
