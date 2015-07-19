@@ -9,19 +9,21 @@
         </HeaderTemplate>
         <ItemTemplate>
             <tr>
-                <td id="tdIndent1" runat="server" style="width: 16%" class="info">
+                <td style="width: 16%" class="info">
                     <asp:Label ID="lName" runat="server"></asp:Label><br />
                     <asp:Label ID="lCreated" class="pull-left" runat="server"></asp:Label>
                 </td>
-                <td id="tdIndent2" runat="server">
-                    <asp:Label ID="lSubject" class="pull-left" runat="server"></asp:Label><br />
-                    <asp:Literal ID="lBody" runat="server"></asp:Literal>
-                    <div class="pull-right">
-                        <asp:LinkButton ID="lbEdit" CssClass="glyphicon glyphicon-edit" CommandName="Edit"
-                            runat="server" />
-                        <asp:LinkButton ID="lbDelete" CssClass="glyphicon glyphicon-remove" CommandName="Delete"
-                            OnClientClick="return confirm('Вы уверены, что хотите удалить это сообщение?')"
-                            runat="server" />
+                <td>
+                    <div id="divIndent" runat="server">
+                        <asp:Label ID="lSubject" class="pull-left" runat="server"></asp:Label><br />
+                        <asp:Literal ID="lBody" runat="server"></asp:Literal>
+                        <div class="pull-right">
+                            <asp:LinkButton ID="lbEdit" CssClass="glyphicon glyphicon-edit" CommandName="Edit"
+                                runat="server" />
+                            <asp:LinkButton ID="lbDelete" CssClass="glyphicon glyphicon-remove" CommandName="Delete"
+                                OnClientClick="return confirm('Вы уверены, что хотите удалить это сообщение?')"
+                                runat="server" />
+                        </div>
                     </div>
                 </td>
             </tr>

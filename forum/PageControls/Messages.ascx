@@ -25,7 +25,7 @@
             <tr>
                 <td>
                     <asp:Label ID="lSubject" runat="server"></asp:Label>
-                    <asp:HyperLink ID="hlSubject" Font-Bold="True" Target="blank" runat="server"></asp:HyperLink>
+                    <asp:HyperLink ID="hlSubject" Font-Bold="True" runat="server"></asp:HyperLink>
                     <div class="pull-right">
                         <asp:LinkButton ID="lbEdit" CssClass="glyphicon glyphicon-edit" CommandName="Edit"
                             runat="server" />

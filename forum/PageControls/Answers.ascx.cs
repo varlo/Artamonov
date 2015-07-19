@@ -29,13 +29,11 @@ namespace Forum.PageControls
             var msg = e.Item.DataItem as Message;
             if (msg != null)
             {
-                var tdIndent1 = e.Item.FindControl("tdIndent1") as HtmlTableCell;
-                var tdIndent2 = e.Item.FindControl("tdIndent2") as HtmlTableCell;
-                if (tdIndent1 != null && tdIndent2 != null)
+                var divIndent = e.Item.FindControl("divIndent") as HtmlGenericControl;
+                if (divIndent != null)
                 {
                     int indent = msg.Level * 20;
-                    tdIndent1.Style.Add(HtmlTextWriterStyle.PaddingLeft, String.Format("{0}px", indent));
-                    tdIndent2.Style.Add(HtmlTextWriterStyle.PaddingLeft, String.Format("{0}px", indent));
+                    divIndent.Style.Add(HtmlTextWriterStyle.PaddingLeft, String.Format("{0}px", indent));
                 }
                 var lCreated = e.Item.FindControl("lCreated") as Label;
                 if (lCreated != null) lCreated.Text = msg.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss");
