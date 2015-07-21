@@ -8,14 +8,11 @@
                     <th style="width: 35%; text-align: center">
                         Тема
                     </th>
-                    <th style="width: 40%; text-align: center">
+                    <th style="width: 50%; text-align: center">
                         Сообщение
                     </th>
-                    <th style="width: 10%; text-align: center">
-                        Автор
-                    </th>
                     <th style="width: 15%; text-align: center">
-                        Создано
+                        Автор/Создано
                     </th>
                     <th id="thReply" runat="server">
                     </th>
@@ -40,9 +37,7 @@
                     <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal></div>
                 </td>
                 <td>
-                    <asp:Literal ID="lName" runat="server"></asp:Literal>
-                </td>
-                <td>
+                    <asp:Literal ID="lName" runat="server"></asp:Literal><br />
                     <asp:Literal ID="lCreated" runat="server"></asp:Literal>
                 </td>
                 <td id="thReply" style="text-align: center" runat="server">
