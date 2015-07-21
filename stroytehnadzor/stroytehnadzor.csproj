@@ -78,6 +78,14 @@
     <Content Include="Flaw2.aspx" />
     <Content Include="Flaw1.aspx" />
     <Content Include="Functions.aspx" />
+    <Content Include="images\1_Сертификат_технадзор_Артамонов_бессрочный.jpg" />
+    <Content Include="images\3_Диплом.Артамонов.технадзор.jpg" />
+    <Content Include="images\4_Свидетельство_Госрегистрация_ФОП Артамонов_1.jpg" />
+    <Content Include="images\5_Свидетельство_Госрегистрация_ФОП Артамонов_2.jpg" />
+    <Content Include="images\6_Свидетельство_налоговая_ФОП Артамонов_1.jpg" />
+    <Content Include="images\7_Свидетельство_налоговая_ФОП Артамонов_2.jpg" />
+    <Content Include="images\8_Выписка июнь 2015.Артамонов_1.jpg" />
+    <Content Include="images\9_Выписка июнь 2015.Артамонов_2.jpg" />
     <Content Include="images\avk_deal.jpg" />
     <Content Include="images\avk_deal2.jpg" />
     <Content Include="images\dabi.png" />
@@ -716,6 +724,7 @@
     <Content Include="PageControls\LeftMenu.ascx" />
     <Content Include="robots.txt" />
     <None Include="images\1982_Vnutrennie_sistemy.pdf" />
+    <None Include="images\2_РЕЗЮМЕ_Артамонов_Владимир_технадзор_01.07.2015.pdf" />
     <None Include="images\Act02.doc" />
     <None Include="images\Act1.doc" />
     <None Include="images\Act1.xls" />
