@@ -69,6 +69,11 @@ namespace Forum.PageControls
                     lBody.Text = msg.Parent != null ?
                         String.Format("<blockquote><p>{0}</p></blockquote>{1}", msg.Parent.Body, msg.Body) : msg.Body;
                 }
+                var lNumber = e.Item.FindControl("lNumber") as Label;
+                if (lNumber != null)
+                {
+                    lNumber.Text = String.Format("#{0}", e.Item.ItemIndex + 1);
+                }
             }
         }
 

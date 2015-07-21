@@ -25,6 +25,8 @@
                                 runat="server" />
                         </div>
                     </div>
+                    <div class="pull-right">
+                        <asp:Label ID="lNumber" runat="server"></asp:Label></div>
                 </td>
             </tr>
             <tr>
