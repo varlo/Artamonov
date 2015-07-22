@@ -387,6 +387,9 @@
     <Content Include="images\humor\1.jpg" />
     <Content Include="images\humor\2.jpg" />
     <Content Include="images\humor\3.jpg" />
+    <Content Include="images\humor\balkon.jpg" />
+    <Content Include="images\humor\batareja.jpg" />
+    <Content Include="images\humor\lestnitsa.jpg" />
     <Content Include="images\humor\TheBrick.JPG" />
     <Content Include="images\humor\TheBuildingEssense.jpg" />
     <Content Include="images\humor\TheBuildingEssense2.jpg" />
