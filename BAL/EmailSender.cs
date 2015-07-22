@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net.Mail;
 
 namespace BAL
@@ -17,12 +18,14 @@ namespace BAL
             var message = param as Message;
             if (message == null)
                 return;
-            //var text = File.ReadAllText(_filePath);
             var mail = new MailMessage();
             mail.To.Add("varlo@ukr.net");
             mail.To.Add("vartamonov@ukr.net");
-            if (message.Parent != null && !String.IsNullOrEmpty(message.Parent.Email))
-                mail.To.Add(message.Parent.Email);
+            var messages = Serializer.Deserialize(_filePath);
+            message = messages.FirstOrDefault(m => m.Id == message.Id);
+            var emails = messages.Where(m => m.Ancestor != null && m.Ancestor.Id == message.Ancestor.Id && !String.IsNullOrEmpty(m.Email)).Select(m=>m.Email).Distinct().ToList();
+            foreach (var email in emails)
+                mail.To.Add(email);
             mail.Subject = "New comment from forum";
             mail.From = new MailAddress("info@stroytehnadzor.com.ua");
             mail.Body = String.Format("В {0:dd/MM/yyyy HH:mm:ss} поступил новый комментарий от <b>{1}</b>:<br /><br />{2}<br />", message.Created, message.Name, message.Body);

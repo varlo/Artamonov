@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -33,10 +34,11 @@ namespace BAL
             return json;
         }
 
-        public static IList<Message> Deserialize()
+        public static IList<Message> Deserialize(string filePath = "")
         {
-            if (!File.Exists(FilePath)) return new List<Message>();
-            var json = File.ReadAllText(FilePath, Encoding.Unicode);
+            string path = !String.IsNullOrEmpty(filePath) ? filePath : FilePath;
+            if (!File.Exists(path)) return new List<Message>();
+            var json = File.ReadAllText(path, Encoding.Unicode);
             var messages = new JavaScriptSerializer().Deserialize<IList<Message>>(json);
             foreach (var message in messages)
                 if (message.ParentId != null)

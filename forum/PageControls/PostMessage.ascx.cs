@@ -97,7 +97,7 @@ namespace Forum.PageControls
                 Messages.Add(message);
                 Serializer.Serialize(Messages);
 
-                var sendEmail = new Thread(new EmailSender(Serializer.BackFilePath).SendEmail);
+                var sendEmail = new Thread(new EmailSender(Serializer.FilePath).SendEmail);
                 sendEmail.Start(message);
             }
             ResetControl();
