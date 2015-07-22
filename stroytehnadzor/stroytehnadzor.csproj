@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw12.aspx" />
     <Content Include="Flaw11.aspx" />
     <Content Include="Flaw10.aspx" />
     <Content Include="Flaw9.aspx" />
@@ -162,6 +163,17 @@
     <Content Include="images\flaw11\7.jpg" />
     <Content Include="images\flaw11\8.jpg" />
     <Content Include="images\flaw11\9.jpg" />
+    <Content Include="images\flaw12\1.JPG" />
+    <Content Include="images\flaw12\10.JPG" />
+    <Content Include="images\flaw12\1small.jpg" />
+    <Content Include="images\flaw12\2.JPG" />
+    <Content Include="images\flaw12\3.JPG" />
+    <Content Include="images\flaw12\4.JPG" />
+    <Content Include="images\flaw12\5.JPG" />
+    <Content Include="images\flaw12\6.JPG" />
+    <Content Include="images\flaw12\7.JPG" />
+    <Content Include="images\flaw12\8.JPG" />
+    <Content Include="images\flaw12\9.JPG" />
     <Content Include="images\flaw1\1.JPG" />
     <Content Include="images\flaw1\1small.jpg" />
     <Content Include="images\flaw1\2.JPG" />
@@ -458,6 +470,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw12.aspx.cs">
+      <DependentUpon>Flaw12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw12.aspx.designer.cs">
+      <DependentUpon>Flaw12.aspx</DependentUpon>
     </Compile>
     <Compile Include="Flaw11.aspx.cs">
       <DependentUpon>Flaw11.aspx</DependentUpon>
