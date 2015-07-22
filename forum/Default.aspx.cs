@@ -44,6 +44,11 @@ namespace Forum
             btnAskQuestion.Visible = false;
         }
 
+        protected void btnHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("http://stroytehnadzor.com.ua");
+        }
+
         protected void MessagesControl_DeleteMessage(object sender, IdEventArgs e)
         {
             if (e.Id.HasValue)

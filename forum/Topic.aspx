@@ -9,8 +9,10 @@
     <meta name="Description" content="Форум по техническому надзору в строительстве, форум, технадзоров, Украина" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphContent" runat="server">
+    <asp:Button ID="btnBack1" CssClass="btn btn-primary" Text="К списку тем" runat="server"
+        OnClick="btnBack_Click" />
     <Controls:PostMessage runat="server" ID="PostMessageControl" HideTitle="true" />
     <Controls:Answers runat="server" ID="AnswersControl" />
-    <asp:Button ID="btnBack" CssClass="btn btn-primary" Text="К списку тем" runat="server"
+    <asp:Button ID="btnBack2" CssClass="btn btn-primary" Text="К списку тем" runat="server"
         OnClick="btnBack_Click" />
 </asp:Content>

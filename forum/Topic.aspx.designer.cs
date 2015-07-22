@@ -13,6 +13,15 @@ namespace Forum {
     public partial class Topic {
         
         /// <summary>
+        /// btnBack1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBack1;
+        
+        /// <summary>
         /// PostMessageControl control.
         /// </summary>
         /// <remarks>
@@ -31,12 +40,12 @@ namespace Forum {
         protected global::Forum.PageControls.Answers AnswersControl;
         
         /// <summary>
-        /// btnBack control.
+        /// btnBack2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnBack;
+        protected global::System.Web.UI.WebControls.Button btnBack2;
     }
 }

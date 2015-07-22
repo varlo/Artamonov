@@ -33,7 +33,7 @@ namespace Forum
                 if (String.IsNullOrEmpty(Request["Id"]))
                     Response.Redirect("~/Default.aspx");
                 PostMessageControl.Visible = false;
-                btnBack.Visible = true;
+                btnBack1.Visible = btnBack2.Visible = true;
                 //MessagesControl.ParentId = new Guid(Request["Id"]);
                 BindMessages();
             }
@@ -61,7 +61,7 @@ namespace Forum
         protected void PostMessageControl_MessageCreated(object sender, EventArgs e)
         {
             BindMessages();
-            btnBack.Visible = true;
+            btnBack1.Visible = btnBack2.Visible = true;
         }
 
         protected void MessagesControl_ReplyMessage(object sender, IdEventArgs e)
