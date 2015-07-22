@@ -29,6 +29,14 @@
         </div>
     </div>
     <div class="form-group">
+        <label class="control-label col-sm-2" for="tbBody">
+            E-mail:</label>
+        <div class="col-sm-10">
+            <asp:TextBox ID="tbEmail" CssClass="form-control" placeholder="Введите e-mail" runat="server"
+                Width="300px"></asp:TextBox>
+        </div>
+    </div>
+    <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <asp:Button ID="btnSend" CssClass="btn btn-success" Text="Отправить" runat="server"
                 OnClick="btnSend_Click" />

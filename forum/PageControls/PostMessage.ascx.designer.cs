@@ -76,6 +76,15 @@ namespace Forum.PageControls {
         protected global::System.Web.UI.WebControls.TextBox tbName;
         
         /// <summary>
+        /// tbEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbEmail;
+        
+        /// <summary>
         /// btnSend control.
         /// </summary>
         /// <remarks>

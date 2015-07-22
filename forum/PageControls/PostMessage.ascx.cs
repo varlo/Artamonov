@@ -41,6 +41,7 @@ namespace Forum.PageControls
                     tbSubject.Text = currentMessage.Subject;
                     tbBody.Text = currentMessage.Body.Replace("<br />", Environment.NewLine);
                     tbName.Text = currentMessage.Name;
+                    tbEmail.Text = currentMessage.Email;
                 }
                 else
                 {
@@ -78,7 +79,7 @@ namespace Forum.PageControls
                 currentMessage.Subject = tbSubject.Text;
                 currentMessage.Body = tbBody.Text.Replace(Environment.NewLine, "<br />");
                 currentMessage.Name = tbName.Text;
-
+                currentMessage.Email = tbEmail.Text;
                 Serializer.Serialize(Messages);
             }
             else
@@ -90,7 +91,8 @@ namespace Forum.PageControls
                     Subject = tbSubject.Text,
                     ParentId = id,
                     Body = tbBody.Text.Replace(Environment.NewLine, "<br />"),
-                    Name = tbName.Text
+                    Name = tbName.Text,
+                    Email = tbEmail.Text
                 };
                 Messages.Add(message);
                 Serializer.Serialize(Messages);
