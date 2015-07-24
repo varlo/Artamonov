@@ -2,7 +2,7 @@
     Inherits="Forum.PageControls.PostMessage" %>
 <div class="form-horizontal" style="margin: 10px">
     <asp:Label ID="lMessage" runat="server"></asp:Label>
-    <asp:HiddenField ID="hId" runat="server"/>
+    <asp:HiddenField ID="hId" runat="server" />
     <div class="form-group" id="divTitle" runat="server">
         <label class="control-label col-sm-2" for="tbSubject">
             Заголовок:</label>
@@ -16,6 +16,8 @@
             Сообщение:</label>
         <div class="col-sm-10">
             <asp:Literal ID="lAnswer" runat="server"></asp:Literal>
+            <input type="button" value="[quote]" onclick="startQuote()" />&nbsp;<input
+                type="button" value="[/quote]" onclick="endQuote()" />
             <asp:TextBox ID="tbBody" CssClass="form-control" placeholder="Введите текст сообщения"
                 runat="server" Columns="100" Rows="10" TextMode="MultiLine"></asp:TextBox>
         </div>
@@ -45,3 +47,14 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    function startQuote() {
+        var body = $('#<%=tbBody.ClientID%>');
+        $(body).val('' + $(body).val() + '[quote]');
+    }
+
+    function endQuote() {
+        var body = $('#<%=tbBody.ClientID%>');
+        $(body).val('' + $(body).val() + '[/quote]');
+    }
+</script>

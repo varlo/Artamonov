@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Web.UI;
 
 namespace BAL
@@ -10,6 +11,11 @@ namespace BAL
         public BaseControl()
         {
             Messages = new List<Message>();
+        }
+
+        protected string ProcessString(string str)
+        {
+            return str.Replace(Environment.NewLine, "<br />").Replace("[quote]", "<blockquote>").Replace("[/quote]", "</blockquote>");
         }
     }
 }

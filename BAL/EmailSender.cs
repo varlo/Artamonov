@@ -25,7 +25,8 @@ namespace BAL
             message = messages.FirstOrDefault(m => m.Id == message.Id);
             var emails = messages.Where(m => m.Ancestor != null && m.Ancestor.Id == message.Ancestor.Id && !String.IsNullOrEmpty(m.Email)).Select(m=>m.Email).Distinct().ToList();
             foreach (var email in emails)
-                mail.To.Add(email);
+                if (email.Contains("@"))
+                    mail.To.Add(email);
             mail.Subject = "New comment from forum";
             mail.From = new MailAddress("info@stroytehnadzor.com.ua");
             mail.Body = String.Format("В {0:dd/MM/yyyy HH:mm:ss} поступил новый комментарий от <b>{1}</b>:<br /><br />{2}<br />", message.Created, message.Name, message.Body);
