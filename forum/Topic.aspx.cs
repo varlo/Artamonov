@@ -20,6 +20,7 @@ namespace Forum
         override protected void OnInit(EventArgs e)
         {
             AnswersControl.ReplyMessage += MessagesControl_ReplyMessage;
+            AnswersControl.ReplyWithQuoteMessage += MessagesControl_ReplyWithQuoteMessage;
             AnswersControl.EditMessage += MessagesControl_EditMessage;
             AnswersControl.DeleteMessage += MessagesControl_DeleteMessage;
             PostMessageControl.MessageCreated += PostMessageControl_MessageCreated;
@@ -65,6 +66,13 @@ namespace Forum
         }
 
         protected void MessagesControl_ReplyMessage(object sender, IdEventArgs e)
+        {
+            PostMessageControl.IsReply = true;
+            PostMessageControl.Initialize(e.Id);
+            PostMessageControl.Visible = true;
+        }
+
+        protected void MessagesControl_ReplyWithQuoteMessage(object sender, IdEventArgs e)
         {
             PostMessageControl.IsReply = true;
             PostMessageControl.Initialize(e.Id);

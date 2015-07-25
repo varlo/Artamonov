@@ -46,6 +46,7 @@ namespace Forum.PageControls
                 else
                 {
                     lAnswer.Text = String.Format("Вы отвечаете на сообщение: <br />{0}<br />", currentMessage.Body);
+                    tbBody.Text = String.Format("[quote]{0}[/quote]", currentMessage.Body);
                 }
                 hId.Value = id.Value.ToString();
             }

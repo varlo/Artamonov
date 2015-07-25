@@ -18,6 +18,7 @@ namespace Forum.PageControls
         }
 
         public event EventHandler<IdEventArgs> ReplyMessage;
+        public event EventHandler<IdEventArgs> ReplyWithQuoteMessage;
         public event EventHandler<IdEventArgs> EditMessage;
         public event EventHandler<IdEventArgs> DeleteMessage;
 
@@ -44,6 +45,12 @@ namespace Forum.PageControls
                 {
                     lbReply.CommandArgument = msg.Id.ToString();
                     lbReply.Visible = !HideReply;
+                }
+                var lbReplyWithQuote = e.Item.FindControl("lbReplyWithQuote") as LinkButton;
+                if (lbReplyWithQuote != null)
+                {
+                    lbReplyWithQuote.CommandArgument = msg.Id.ToString();
+                    lbReplyWithQuote.Visible = !HideReply;
                 }
                 var lbEdit = e.Item.FindControl("lbEdit") as LinkButton;
                 if (lbEdit != null)
@@ -85,6 +92,10 @@ namespace Forum.PageControls
                 case "Reply":
                     if (ReplyMessage != null)
                         ReplyMessage(source, args);
+                    break;
+                case "ReplyWithQuote":
+                    if (ReplyWithQuoteMessage != null)
+                        ReplyWithQuoteMessage(source, args);
                     break;
                 case "Edit":
                     if (EditMessage != null)
