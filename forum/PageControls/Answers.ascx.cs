@@ -73,8 +73,7 @@ namespace Forum.PageControls
                 var lBody = e.Item.FindControl("lBody") as Literal;
                 if (lBody != null)
                 {
-                    lBody.Text = msg.Parent != null ?
-                        String.Format("<blockquote><p>{0}</p></blockquote>{1}", msg.Parent.Body, msg.Body) : msg.Body;
+                    lBody.Text = msg.Body;
                 }
                 var lNumber = e.Item.FindControl("lNumber") as Label;
                 if (lNumber != null)
