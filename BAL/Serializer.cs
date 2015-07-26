@@ -22,7 +22,7 @@ namespace BAL
         {
             get
             {
-                return HttpContext.Current.Request.MapPath("forum.bak");
+                return HttpContext.Current.Request.MapPath(String.Format("forum{0:HHmmss}.bak", DateTime.Now));
             }
         }
 

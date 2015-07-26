@@ -75,7 +75,7 @@ namespace Forum
         protected void MessagesControl_ReplyWithQuoteMessage(object sender, IdEventArgs e)
         {
             PostMessageControl.IsReply = true;
-            PostMessageControl.Initialize(e.Id);
+            PostMessageControl.Initialize(e.Id, true);
             PostMessageControl.Visible = true;
         }
 

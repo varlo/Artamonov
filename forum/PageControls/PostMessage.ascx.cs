@@ -28,7 +28,7 @@ namespace Forum.PageControls
             }
         }
 
-        public void Initialize(Guid? id)
+        public void Initialize(Guid? id, bool isQuote = false)
         {
             lMessage.Text = String.Empty;
             Messages = Serializer.Deserialize();
@@ -46,7 +46,7 @@ namespace Forum.PageControls
                 else
                 {
                     lAnswer.Text = String.Format("Вы отвечаете на сообщение: <br />{0}<br />", currentMessage.Body);
-                    tbBody.Text = String.Format("[quote]{0}[/quote]", currentMessage.Body);
+                    tbBody.Text = isQuote ? String.Format("[quote]{0}[/quote]", currentMessage.Body) : String.Empty;
                 }
                 hId.Value = id.Value.ToString();
             }
