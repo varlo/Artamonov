@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Topic.aspx.cs" MasterPageFile="Front.Master"
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Topic.aspx.cs" MasterPageFile="Front.Master" ValidateRequest="false"
     Inherits="Forum.Topic" %>
 
 <%@ Register Src="/PageControls/PostMessage.ascx" TagName="PostMessage" TagPrefix="Controls" %>

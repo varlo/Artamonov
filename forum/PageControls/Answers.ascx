@@ -31,8 +31,10 @@
             </tr>
             <tr>
                 <td id="thReply" style="text-align: left" colspan="2" runat="server">
-                    <asp:LinkButton ID="lbReply" CssClass="btn btn-success" CommandName="Reply" Font-Bold="True" Text="Ответить" runat="server" />
-                    <asp:LinkButton ID="lbReplyWithQuote" CssClass="btn btn-success" CommandName="ReplyWithQuote" Font-Bold="True" Text="Ответить с цитатой" runat="server" />
+                    <div class="btn-group btn-group-sm" role="group">
+                        <asp:LinkButton ID="lbReply" CssClass="btn btn-success" CommandName="Reply" Font-Bold="True" Text="Ответить" runat="server" />
+                        <asp:LinkButton ID="lbReplyWithQuote" CssClass="btn btn-success" style="margin-left: 5px" CommandName="ReplyWithQuote" Font-Bold="True" Text="Цитировать" runat="server" />
+                    </div>
                 </td>
             </tr>
         </ItemTemplate>
