@@ -12,9 +12,9 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="tbBody">
+        <label class="control-label col-sm-1" for="tbBody">
             Сообщение:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-12">
             <asp:Literal ID="lAnswer" runat="server"></asp:Literal>
             <input type="button" value="[quote]" onclick="startQuote()" />&nbsp;<input type="button"
                 value="[/quote]" onclick="endQuote()" />
@@ -23,25 +23,25 @@
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="tbBody">
+        <label class="control-label col-sm-1" for="tbBody">
             Имя:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-11">
             <asp:TextBox ID="tbName" CssClass="form-control" placeholder="Введите Ваше имя" runat="server"
                 Width="300px"></asp:TextBox><asp:RequiredFieldValidator ID="rvName" ControlToValidate="tbName"
                     ErrorMessage="Имя обязательно" Display="Dynamic" runat="server"></asp:RequiredFieldValidator>
         </div>
     </div>
     <div class="form-group">
-        <label class="control-label col-sm-2" for="tbBody">
+        <label class="control-label col-sm-1" for="tbBody">
             E-mail:</label>
-        <div class="col-sm-10">
+        <div class="col-sm-11">
             <asp:TextBox ID="tbEmail" CssClass="form-control" placeholder="Введите e-mail" runat="server"
                 Width="300px"></asp:TextBox><asp:RequiredFieldValidator ID="rvEmail" ControlToValidate="tbEmail"
                     ErrorMessage="E-mail обязателен" Display="Dynamic" runat="server"></asp:RequiredFieldValidator>
         </div>
     </div>
     <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
+        <div class="col-sm-12">
             <asp:Button ID="btnSend" CssClass="btn btn-success" Text="Отправить" runat="server"
                 OnClick="btnSend_Click" />
             <asp:Button ID="btnCancel" CssClass="btn btn-cancel" Text="Отменить" runat="server"
