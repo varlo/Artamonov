@@ -36,7 +36,7 @@
         <div class="col-sm-10">
             <asp:TextBox ID="tbEmail" CssClass="form-control" placeholder="Введите e-mail" runat="server"
                 Width="300px"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rvEmail" ControlToValidate="tbEmail" ErrorMessage="E-mail должен быть введен"
+            <asp:RequiredFieldValidator ID="rvEmail" ControlToValidate="tbEmail" ErrorMessage="E-mail обязательнен"
                 runat="server"></asp:RequiredFieldValidator>
         </div>
     </div>
@@ -44,7 +44,7 @@
         <div class="col-sm-offset-2 col-sm-10">
             <asp:Button ID="btnSend" CssClass="btn btn-success" Text="Отправить" runat="server"
                 OnClick="btnSend_Click" />
-            <asp:Button ID="btnCancel" CssClass="btn btn-cancel" Text="Отменить" runat="server"
+            <asp:Button ID="btnCancel" CssClass="btn btn-cancel" Text="Отменить" runat="server" CausesValidation="False"
                 OnClick="btnCancel_Click" />
         </div>
     </div>
