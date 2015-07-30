@@ -16,8 +16,8 @@
             Сообщение:</label>
         <div class="col-sm-10">
             <asp:Literal ID="lAnswer" runat="server"></asp:Literal>
-            <input type="button" value="[quote]" onclick="startQuote()" />&nbsp;<input
-                type="button" value="[/quote]" onclick="endQuote()" />
+            <input type="button" value="[quote]" onclick="startQuote()" />&nbsp;<input type="button"
+                value="[/quote]" onclick="endQuote()" />
             <asp:TextBox ID="tbBody" CssClass="form-control" placeholder="Введите текст сообщения"
                 runat="server" Columns="100" Rows="10" TextMode="MultiLine"></asp:TextBox>
         </div>
@@ -36,6 +36,8 @@
         <div class="col-sm-10">
             <asp:TextBox ID="tbEmail" CssClass="form-control" placeholder="Введите e-mail" runat="server"
                 Width="300px"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rvEmail" ControlToValidate="tbEmail" ErrorMessage="E-mail должен быть введен"
+                runat="server"></asp:RequiredFieldValidator>
         </div>
     </div>
     <div class="form-group">
