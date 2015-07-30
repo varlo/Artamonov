@@ -27,7 +27,8 @@
             Имя:</label>
         <div class="col-sm-10">
             <asp:TextBox ID="tbName" CssClass="form-control" placeholder="Введите Ваше имя" runat="server"
-                Width="300px"></asp:TextBox>
+                Width="300px"></asp:TextBox><asp:RequiredFieldValidator ID="rvName" ControlToValidate="tbName"
+                    ErrorMessage="Имя обязательно" Display="Dynamic" runat="server"></asp:RequiredFieldValidator>
         </div>
     </div>
     <div class="form-group">
@@ -35,17 +36,16 @@
             E-mail:</label>
         <div class="col-sm-10">
             <asp:TextBox ID="tbEmail" CssClass="form-control" placeholder="Введите e-mail" runat="server"
-                Width="300px"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rvEmail" ControlToValidate="tbEmail" ErrorMessage="E-mail обязательнен"
-                runat="server"></asp:RequiredFieldValidator>
+                Width="300px"></asp:TextBox><asp:RequiredFieldValidator ID="rvEmail" ControlToValidate="tbEmail"
+                    ErrorMessage="E-mail обязателен" Display="Dynamic" runat="server"></asp:RequiredFieldValidator>
         </div>
     </div>
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
             <asp:Button ID="btnSend" CssClass="btn btn-success" Text="Отправить" runat="server"
                 OnClick="btnSend_Click" />
-            <asp:Button ID="btnCancel" CssClass="btn btn-cancel" Text="Отменить" runat="server" CausesValidation="False"
-                OnClick="btnCancel_Click" />
+            <asp:Button ID="btnCancel" CssClass="btn btn-cancel" Text="Отменить" runat="server"
+                CausesValidation="False" OnClick="btnCancel_Click" />
         </div>
     </div>
 </div>
