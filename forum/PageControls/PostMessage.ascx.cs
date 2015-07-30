@@ -46,7 +46,7 @@ namespace Forum.PageControls
                 else
                 {
                     lAnswer.Text = String.Format("Вы отвечаете на сообщение: <br />{0}<br />", currentMessage.Body);
-                    tbBody.Text = isQuote ? String.Format("[quote]{0}[/quote]", currentMessage.Body) : String.Empty;
+                    tbBody.Text = isQuote ? String.Format("<blockquote>{0}</blockquote>", currentMessage.Body) : String.Empty;
                 }
                 hId.Value = id.Value.ToString();
             }

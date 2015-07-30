@@ -16,10 +16,10 @@
             Сообщение:</label>
         <div class="col-sm-12">
             <asp:Literal ID="lAnswer" runat="server"></asp:Literal>
-            <input type="button" value="[quote]" onclick="startQuote()" />&nbsp;<input type="button"
-                value="[/quote]" onclick="endQuote()" />
+            <input type="button" value="<blockquote>" onclick="startQuote()" />&nbsp;<input type="button"
+                value="</blockquote>" onclick="endQuote()" />
             <asp:TextBox ID="tbBody" CssClass="form-control" placeholder="Введите текст сообщения"
-                runat="server" Columns="100" Rows="10" TextMode="MultiLine"></asp:TextBox>
+                runat="server" Columns="100" Rows="20" TextMode="MultiLine"></asp:TextBox>
         </div>
     </div>
     <div class="form-group">
@@ -52,11 +52,11 @@
 <script type="text/javascript">
     function startQuote() {
         var body = $('#<%=tbBody.ClientID%>');
-        $(body).val('' + $(body).val() + '[quote]');
+        $(body).val('' + $(body).val() + '<blockquote>');
     }
 
     function endQuote() {
         var body = $('#<%=tbBody.ClientID%>');
-        $(body).val('' + $(body).val() + '[/quote]');
+        $(body).val('' + $(body).val() + '</blockquote>');
     }
 </script>

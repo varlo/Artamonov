@@ -15,7 +15,7 @@ namespace BAL
 
         protected string ProcessString(string str)
         {
-            return str.Replace(Environment.NewLine, "<br />").Replace("[quote]", "<blockquote>").Replace("[/quote]", "</blockquote>");
+            return str.Replace(Environment.NewLine, "<br />");
         }
     }
 }
