@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw16.aspx" />
     <Content Include="Flaw15.aspx" />
     <Content Include="Flaw14.aspx" />
     <Content Include="Flaw13.aspx" />
@@ -235,6 +236,34 @@
     <Content Include="images\flaw15\7.jpg" />
     <Content Include="images\flaw15\8.jpg" />
     <Content Include="images\flaw15\9.jpg" />
+    <Content Include="images\flaw16\1.jpg" />
+    <Content Include="images\flaw16\10.jpg" />
+    <Content Include="images\flaw16\11.jpg" />
+    <Content Include="images\flaw16\12.jpg" />
+    <Content Include="images\flaw16\13.jpg" />
+    <Content Include="images\flaw16\14.jpg" />
+    <Content Include="images\flaw16\15.jpg" />
+    <Content Include="images\flaw16\16.jpg" />
+    <Content Include="images\flaw16\17.jpg" />
+    <Content Include="images\flaw16\18.jpg" />
+    <Content Include="images\flaw16\19.jpg" />
+    <Content Include="images\flaw16\1small.jpg" />
+    <Content Include="images\flaw16\2.jpg" />
+    <Content Include="images\flaw16\20.jpg" />
+    <Content Include="images\flaw16\22.jpg" />
+    <Content Include="images\flaw16\23.jpg" />
+    <Content Include="images\flaw16\24.jpg" />
+    <Content Include="images\flaw16\25.jpg" />
+    <Content Include="images\flaw16\26.jpg" />
+    <Content Include="images\flaw16\27.jpg" />
+    <Content Include="images\flaw16\28.jpg" />
+    <Content Include="images\flaw16\3.jpg" />
+    <Content Include="images\flaw16\4.jpg" />
+    <Content Include="images\flaw16\5.jpg" />
+    <Content Include="images\flaw16\6.jpg" />
+    <Content Include="images\flaw16\7.jpg" />
+    <Content Include="images\flaw16\8.jpg" />
+    <Content Include="images\flaw16\9.jpg" />
     <Content Include="images\flaw1\1.JPG" />
     <Content Include="images\flaw1\1small.jpg" />
     <Content Include="images\flaw1\2.JPG" />
@@ -472,6 +501,7 @@
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
     <Content Include="images\Otzyv_Billa.png" />
+    <Content Include="images\Otzyv_KONCEPT_GRUPP.jpg" />
     <Content Include="PageControls\Answers.ascx" />
     <Content Include="PageControls\PostMessage.ascx" />
     <Content Include="Testimonials.aspx" />
@@ -531,6 +561,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw16.aspx.cs">
+      <DependentUpon>Flaw16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw16.aspx.designer.cs">
+      <DependentUpon>Flaw16.aspx</DependentUpon>
     </Compile>
     <Compile Include="Flaw15.aspx.cs">
       <DependentUpon>Flaw15.aspx</DependentUpon>
