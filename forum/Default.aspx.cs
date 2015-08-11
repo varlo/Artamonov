@@ -10,6 +10,7 @@ namespace Forum
         override protected void OnInit(EventArgs e)
         {
             PostMessageControl.MessageCreated += PostMessageControl_MessageCreated;
+            MessagesControl.EditMessage += MessagesControl_EditMessage;
             MessagesControl.DeleteMessage += MessagesControl_DeleteMessage;
             base.OnInit(e);
         }
@@ -47,6 +48,16 @@ namespace Forum
         protected void btnHome_Click(object sender, EventArgs e)
         {
             Response.Redirect("http://stroytehnadzor.com.ua");
+        }
+
+        protected void MessagesControl_EditMessage(object sender, IdEventArgs e)
+        {
+            if (e.Id.HasValue)
+            {
+                PostMessageControl.Initialize(e.Id);
+                PostMessageControl.Visible = true;
+                PostMessageControl.CreateNew = false;
+            }
         }
 
         protected void MessagesControl_DeleteMessage(object sender, IdEventArgs e)

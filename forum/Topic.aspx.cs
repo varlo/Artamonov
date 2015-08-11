@@ -81,8 +81,11 @@ namespace Forum
 
         protected void MessagesControl_EditMessage(object sender, IdEventArgs e)
         {
-            PostMessageControl.Initialize(e.Id);
-            PostMessageControl.Visible = true;
+            if (e.Id.HasValue)
+            {
+                PostMessageControl.Initialize(e.Id);
+                PostMessageControl.Visible = true;
+            }
         }
 
         protected void MessagesControl_DeleteMessage(object sender, IdEventArgs e)

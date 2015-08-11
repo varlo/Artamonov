@@ -12,7 +12,21 @@ namespace Forum.PageControls
 
         public bool HideTitle { get; set; }
 
-        public bool CreateNew { get; set; }
+        //public bool CreateNew { get; set; }
+
+        public bool CreateNew
+        {
+            get
+            {
+                if (ViewState["CreateNew"] == null)
+                    ViewState["CreateNew"] = false;
+                return Convert.ToBoolean(ViewState["CreateNew"]);
+            }
+            set
+            {
+                ViewState["CreateNew"] = value;
+            }
+        }
 
         public bool IsReply
         {
