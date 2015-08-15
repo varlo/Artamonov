@@ -18,7 +18,7 @@ namespace Forum.PageControls
             tbSearch.Text = String.Empty;
             if (SearchMessages != null)
                 SearchMessages(sender, new SearchEventArgs { Search = tbSearch.Text });
-            Visible = false;
+            //Visible = false;
         }
     }
 }

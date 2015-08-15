@@ -21,7 +21,7 @@ namespace Forum
             if (!Page.IsPostBack)
             {
                 PostMessageControl.Visible = false;
-                SearchControl.Visible = false;
+                //SearchControl.Visible = false;
                 //MessagesControl.ParentId = null;
                 BindMessages();
             }
@@ -54,7 +54,7 @@ namespace Forum
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            SearchControl.Visible = true;
+            //SearchControl.Visible = true;
         }
 
         protected void MessagesControl_EditMessage(object sender, IdEventArgs e)
