@@ -42,7 +42,7 @@ namespace BAL
             var messages = new JavaScriptSerializer().Deserialize<IList<Message>>(json);
             foreach (var message in messages)
                 if (message.ParentId != null)
-                    message.Parent = messages.SingleOrDefault(m => m.Id == message.ParentId);
+                    message.Parent = messages.FirstOrDefault(m => m.Id == message.ParentId);
             return messages;
         }
     }

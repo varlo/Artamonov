@@ -7,19 +7,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Forum {
+namespace Forum.PageControls {
     
     
-    public partial class Default {
+    public partial class Search {
         
         /// <summary>
-        /// btnHome control.
+        /// divTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnHome;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divTitle;
+        
+        /// <summary>
+        /// tbSearch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbSearch;
         
         /// <summary>
         /// btnSearch control.
@@ -31,39 +40,12 @@ namespace Forum {
         protected global::System.Web.UI.WebControls.Button btnSearch;
         
         /// <summary>
-        /// SearchControl control.
+        /// btnCancel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Forum.PageControls.Search SearchControl;
-        
-        /// <summary>
-        /// PostMessageControl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Forum.PageControls.PostMessage PostMessageControl;
-        
-        /// <summary>
-        /// MessagesControl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Forum.PageControls.Messages MessagesControl;
-        
-        /// <summary>
-        /// btnAskQuestion control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAskQuestion;
+        protected global::System.Web.UI.WebControls.Button btnCancel;
     }
 }

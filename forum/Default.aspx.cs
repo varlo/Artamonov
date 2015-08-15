@@ -12,6 +12,7 @@ namespace Forum
             PostMessageControl.MessageCreated += PostMessageControl_MessageCreated;
             MessagesControl.EditMessage += MessagesControl_EditMessage;
             MessagesControl.DeleteMessage += MessagesControl_DeleteMessage;
+            SearchControl.SearchMessages += SearchControl_SearchMessages;
             base.OnInit(e);
         }
 
@@ -20,6 +21,7 @@ namespace Forum
             if (!Page.IsPostBack)
             {
                 PostMessageControl.Visible = false;
+                SearchControl.Visible = false;
                 //MessagesControl.ParentId = null;
                 BindMessages();
             }
@@ -50,6 +52,11 @@ namespace Forum
             Response.Redirect("http://stroytehnadzor.com.ua");
         }
 
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            SearchControl.Visible = true;
+        }
+
         protected void MessagesControl_EditMessage(object sender, IdEventArgs e)
         {
             if (e.Id.HasValue)
@@ -70,6 +77,18 @@ namespace Forum
                 Serializer.Serialize(messages);
                 BindMessages();
             }
+        }
+
+        protected void SearchControl_SearchMessages(object sender, SearchEventArgs e)
+        {
+            var messages = Serializer.Deserialize();
+            if (String.IsNullOrEmpty(e.Search))
+                messages = messages.Where(m => !m.ParentId.HasValue).OrderBy(m => m.Created).ToList();
+            else
+                messages = messages.Where(m => m.Name.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1 ||
+                    m.Body.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1).OrderBy(m => m.Created).ToList();
+            MessagesControl.Messages = messages;
+            MessagesControl.BindData();
         }
     }
 }

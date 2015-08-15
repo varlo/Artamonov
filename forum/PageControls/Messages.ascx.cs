@@ -53,8 +53,8 @@ namespace Forum.PageControls
                 var hlSubject = e.Item.FindControl("hlSubject") as HyperLink;
                 if (lSubject != null && hlSubject != null)
                 {
-                    lSubject.Text = hlSubject.Text = msg.Subject;
-                    hlSubject.NavigateUrl = String.Format("~/Topic.aspx?id={0}", msg.Id);
+                    lSubject.Text = hlSubject.Text = !String.IsNullOrEmpty(msg.Subject) ? msg.Subject : msg.Ancestor != null ? msg.Ancestor.Subject : String.Empty;
+                    hlSubject.NavigateUrl = String.Format("~/Topic.aspx?id={0}", msg.Ancestor != null ? msg.Ancestor.Id : msg.Id);
                     hlSubject.Visible = HideReply;
                     lSubject.Visible = !HideReply;
                 }

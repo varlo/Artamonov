@@ -45,6 +45,7 @@
     <Compile Include="BaseControl.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="SearchEventHandler.cs" />
     <Compile Include="EmailSender.cs" />
     <Compile Include="IdEventHandler.cs" />
     <Compile Include="Message.cs" />

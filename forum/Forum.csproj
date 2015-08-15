@@ -53,6 +53,7 @@
     <Content Include="images\emailoffice.png" />
     <Content Include="images\emailoffice2.png" />
     <Content Include="PageControls\Answers.ascx" />
+    <Content Include="PageControls\Search.ascx" />
     <Content Include="Topic.aspx" />
     <Content Include="GeneralError.aspx" />
     <Content Include="PageControls\Messages.ascx" />
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="PageControls\Answers.ascx.designer.cs">
       <DependentUpon>Answers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControls\Search.ascx.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageControls\Search.ascx.designer.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
     </Compile>
     <Compile Include="Topic.aspx.cs">
       <DependentUpon>Topic.aspx</DependentUpon>
