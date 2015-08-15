@@ -52,11 +52,6 @@ namespace Forum
             Response.Redirect("http://stroytehnadzor.com.ua");
         }
 
-        protected void btnSearch_Click(object sender, EventArgs e)
-        {
-            //SearchControl.Visible = true;
-        }
-
         protected void MessagesControl_EditMessage(object sender, IdEventArgs e)
         {
             if (e.Id.HasValue)
@@ -87,6 +82,14 @@ namespace Forum
             else
                 messages = messages.Where(m => m.Name.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1 ||
                     m.Body.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1).OrderBy(m => m.Created).ToList();
+            if (!String.IsNullOrEmpty(e.Search))
+            {
+                foreach (var message in messages)
+                {
+                    message.Subject = message.Subject.Replace(e.Search, String.Format("<b>{0}</b>", e.Search));
+                    message.Body = message.Body.Replace(e.Search, String.Format("<b>{0}</b>", e.Search));
+                }
+            }
             MessagesControl.Messages = messages;
             MessagesControl.BindData();
         }
