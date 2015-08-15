@@ -80,7 +80,7 @@ namespace Forum
             if (String.IsNullOrEmpty(e.Search))
                 messages = messages.Where(m => !m.ParentId.HasValue).OrderBy(m => m.Created).ToList();
             else
-                messages = messages.Where(m => m.Name.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1 ||
+                messages = messages.Where(m => m.Subject.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1 ||
                     m.Body.IndexOf(e.Search, StringComparison.InvariantCultureIgnoreCase) > -1).OrderBy(m => m.Created).ToList();
             if (!String.IsNullOrEmpty(e.Search))
             {
