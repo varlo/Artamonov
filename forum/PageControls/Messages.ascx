@@ -8,8 +8,11 @@
                     <th style="width: 35%; text-align: center">
                         Тема
                     </th>
-                    <th style="width: 50%; text-align: center">
+                    <th style="width: 40%; text-align: center">
                         Сообщение
+                    </th>
+                    <th style="width: 15%; text-align: center">
+                        Ответов
                     </th>
                     <th style="width: 15%; text-align: center">
                         Автор/Создано
@@ -35,6 +38,9 @@
                     <asp:Literal ID="lBody" runat="server"></asp:Literal><br />
                     <div class="pull-right"><b>Последний ответ: </b>
                     <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal></div>
+                </td>
+                <td align="center">
+                    <asp:Literal ID="lAnswers" runat="server"></asp:Literal>
                 </td>
                 <td>
                     <asp:Literal ID="lName" runat="server"></asp:Literal><br />

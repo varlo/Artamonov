@@ -27,6 +27,8 @@ namespace Forum.PageControls
             var msg = e.Item.DataItem as Message;
             if (msg != null)
             {
+                var messages = Serializer.Deserialize();
+
                 var lCreated = e.Item.FindControl("lCreated") as Literal;
                 if (lCreated != null) lCreated.Text = msg.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss");
                 var lName = e.Item.FindControl("lName") as Literal;
@@ -58,12 +60,17 @@ namespace Forum.PageControls
                     hlSubject.Visible = HideReply;
                     lSubject.Visible = !HideReply;
                 }
+                var lAnswers = e.Item.FindControl("lAnswers") as Literal;
+                if (lAnswers != null)
+                {
+                    var answers = messages.Count(m => m.Ancestor != null && m.Ancestor.Id == msg.Id);
+                    lAnswers.Text = answers > 0 ? answers.ToString() : "Нет";
+                }
                 var lBody = e.Item.FindControl("lBody") as Literal;
                 if (lBody != null) lBody.Text = msg.Body;
                 var lLastAnswer = e.Item.FindControl("lLastAnswer") as Literal;
                 if (lLastAnswer != null)
                 {
-                    var messages = Serializer.Deserialize();
                     var latest = messages.Where(
                         m => m.Ancestor != null && m.Ancestor.Id == msg.Id).OrderByDescending(m => m.Created).FirstOrDefault();
                     lLastAnswer.Text = latest != null ? String.Format("{0} {1}", latest.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss"), latest.Name) : String.Empty;
