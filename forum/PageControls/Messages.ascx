@@ -5,16 +5,16 @@
         <HeaderTemplate>
             <table class="table table-bordered">
                 <tr class="info">
-                    <th style="width: 35%; text-align: center">
+                    <th style="text-align: center">
                         Тема
                     </th>
-                    <th style="width: 40%; text-align: center">
+                    <th style="width: 50%; text-align: center" id="thMessage" runat="server">
                         Сообщение
                     </th>
-                    <th style="width: 15%; text-align: center">
+                    <th style="width: 5%; text-align: center" id="thAnswers" runat="server">
                         Ответов
                     </th>
-                    <th style="width: 15%; text-align: center">
+                    <th style="width: 20%; text-align: center">
                         Автор/Создано
                     </th>
                     <th id="thReply" runat="server">
@@ -34,12 +34,12 @@
                             runat="server" />
                     </div>
                 </td>
-                <td>
+                <td id="tdMessage" runat="server">
                     <asp:Literal ID="lBody" runat="server"></asp:Literal><br />
                     <div class="pull-right"><b>Последний ответ: </b>
                     <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal></div>
                 </td>
-                <td align="center">
+                <td align="center" id="tdAnswers" runat="server">
                     <asp:Literal ID="lAnswers" runat="server"></asp:Literal>
                 </td>
                 <td>

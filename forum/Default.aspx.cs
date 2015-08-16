@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Linq;
 using System.Web.UI;
 using BAL;
@@ -13,6 +14,7 @@ namespace Forum
             MessagesControl.EditMessage += MessagesControl_EditMessage;
             MessagesControl.DeleteMessage += MessagesControl_DeleteMessage;
             SearchControl.SearchMessages += SearchControl_SearchMessages;
+            SearchControl.ResetSearch += SearchControl_ResetSearch;
             base.OnInit(e);
         }
 
@@ -87,11 +89,22 @@ namespace Forum
                 foreach (var message in messages)
                 {
                     message.Subject = message.Subject.Replace(e.Search, String.Format("<b>{0}</b>", e.Search));
+                    message.Subject = message.Subject.Replace(e.Search.ToUpperInvariant(), String.Format("<b>{0}</b>", e.Search.ToUpperInvariant()));
+                    message.Subject = message.Subject.Replace(CultureInfo.InvariantCulture.TextInfo.ToTitleCase(e.Search), String.Format("<b>{0}</b>", CultureInfo.InvariantCulture.TextInfo.ToTitleCase(e.Search)));
                     message.Body = message.Body.Replace(e.Search, String.Format("<b>{0}</b>", e.Search));
+                    message.Body = message.Body.Replace(e.Search.ToUpperInvariant(), String.Format("<b>{0}</b>", e.Search.ToUpperInvariant()));
+                    message.Body = message.Body.Replace(CultureInfo.InvariantCulture.TextInfo.ToTitleCase(e.Search), String.Format("<b>{0}</b>", CultureInfo.InvariantCulture.TextInfo.ToTitleCase(e.Search)));
                 }
             }
+            MessagesControl.PrepareForSearch = true;
             MessagesControl.Messages = messages;
             MessagesControl.BindData();
+        }
+
+        protected void SearchControl_ResetSearch(object sender, SearchEventArgs e)
+        {
+            MessagesControl.PrepareForSearch = false;
+            BindMessages();
         }
     }
 }

@@ -18,7 +18,7 @@
         <Controls:Search runat="server" ID="SearchControl" />
     </div>
     <Controls:PostMessage runat="server" ID="PostMessageControl" CreateNew="true" />
-    <Controls:Messages runat="server" ID="MessagesControl" HideReply="true" />
+    <Controls:Messages runat="server" ID="MessagesControl" HideReply="true" PrepareForSearch="true" />
     <asp:Button ID="btnAskQuestion" Text="Создать тему" CssClass="btn btn-primary" Style="margin-bottom: 10px"
         runat="server" OnClick="btnAskQuestion_Click" />
 </asp:Content>

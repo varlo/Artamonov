@@ -10,6 +10,8 @@ namespace Forum.PageControls
     {
         public bool HideReply { get; set; }
 
+        public bool PrepareForSearch { get; set; }
+
         public bool IsAdminMode
         {
             get { return Request["admin"] != null; }
@@ -21,6 +23,21 @@ namespace Forum.PageControls
 
         protected void rptMessages_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
+            if (PrepareForSearch)
+            {
+                var thMessage = e.Item.FindControl("thMessage") as HtmlTableCell;
+                if (thMessage != null)
+                    thMessage.Visible = true;
+                var tdMessage = e.Item.FindControl("tdMessage") as HtmlTableCell;
+                if (tdMessage != null)
+                    tdMessage.Visible = true;
+                var thAnswers = e.Item.FindControl("thAnswers") as HtmlTableCell;
+                if (thAnswers != null)
+                    thAnswers.Visible = false;
+                var tdAnswers = e.Item.FindControl("tdAnswers") as HtmlTableCell;
+                if (tdAnswers != null)
+                    tdAnswers.Visible = false;
+            }
             var thReply = e.Item.FindControl("thReply") as HtmlTableCell;
             if (thReply != null)
                 thReply.Visible = !HideReply;
