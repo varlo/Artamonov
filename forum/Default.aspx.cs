@@ -23,6 +23,7 @@ namespace Forum
             if (!Page.IsPostBack)
             {
                 PostMessageControl.Visible = false;
+                MessagesControl.PrepareForSearch = false;
                 //SearchControl.Visible = false;
                 //MessagesControl.ParentId = null;
                 BindMessages();
