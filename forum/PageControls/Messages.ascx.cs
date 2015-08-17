@@ -12,6 +12,8 @@ namespace Forum.PageControls
 
         public bool PrepareForSearch { get; set; }
 
+        public bool DefaultView { get; set; }
+
         public bool IsAdminMode
         {
             get { return Request["admin"] != null; }
@@ -23,20 +25,31 @@ namespace Forum.PageControls
 
         protected void rptMessages_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
+            var thMessage = e.Item.FindControl("thMessage") as HtmlTableCell;
+            var tdMessage = e.Item.FindControl("tdMessage") as HtmlTableCell;
+            var thAnswers = e.Item.FindControl("thAnswers") as HtmlTableCell;
+            var tdAnswers = e.Item.FindControl("tdAnswers") as HtmlTableCell;
             if (PrepareForSearch)
             {
-                var thMessage = e.Item.FindControl("thMessage") as HtmlTableCell;
                 if (thMessage != null)
                     thMessage.Visible = true;
-                var tdMessage = e.Item.FindControl("tdMessage") as HtmlTableCell;
                 if (tdMessage != null)
                     tdMessage.Visible = true;
-                var thAnswers = e.Item.FindControl("thAnswers") as HtmlTableCell;
                 if (thAnswers != null)
                     thAnswers.Visible = false;
-                var tdAnswers = e.Item.FindControl("tdAnswers") as HtmlTableCell;
                 if (tdAnswers != null)
                     tdAnswers.Visible = false;
+            }
+            else if (DefaultView)
+            {
+                if (thMessage != null)
+                    thMessage.Visible = false;
+                if (tdMessage != null)
+                    tdMessage.Visible = false;
+                if (thAnswers != null)
+                    thAnswers.Visible = true;
+                if (tdAnswers != null)
+                    tdAnswers.Visible = true;
             }
             var thReply = e.Item.FindControl("thReply") as HtmlTableCell;
             if (thReply != null)
@@ -85,12 +98,13 @@ namespace Forum.PageControls
                 }
                 var lBody = e.Item.FindControl("lBody") as Literal;
                 if (lBody != null) lBody.Text = msg.Body;
-                var lLastAnswer = e.Item.FindControl("lLastAnswer") as Literal;
-                if (lLastAnswer != null)
+                var lLastAnswer1 = e.Item.FindControl("lLastAnswer1") as Literal;
+                var lLastAnswer2 = e.Item.FindControl("lLastAnswer2") as Literal;
+                if (lLastAnswer1 != null && lLastAnswer2 != null)
                 {
                     var latest = messages.Where(
                         m => m.Ancestor != null && m.Ancestor.Id == msg.Id).OrderByDescending(m => m.Created).FirstOrDefault();
-                    lLastAnswer.Text = latest != null ? String.Format("{0} {1}", latest.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss"), latest.Name) : String.Empty;
+                    lLastAnswer1.Text = lLastAnswer2.Text = latest != null ? String.Format("{0} {1}", latest.Created.ToLocalTime().ToString("dd MMM yyyy HH:mm:ss"), latest.Name) : String.Empty;
                 }
             }
         }

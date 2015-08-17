@@ -14,8 +14,11 @@
                     <th style="width: 5%; text-align: center" id="thAnswers" runat="server">
                         Ответов
                     </th>
-                    <th style="width: 20%; text-align: center">
-                        Автор/Создано
+                    <th style="width: 15%; text-align: center">
+                        Тема открыта
+                    </th>
+                    <th style="width: 15%; text-align: center">
+                        Последний ответ
                     </th>
                     <th id="thReply" runat="server">
                     </th>
@@ -36,15 +39,18 @@
                 </td>
                 <td id="tdMessage" runat="server">
                     <asp:Literal ID="lBody" runat="server"></asp:Literal><br />
-                    <div class="pull-right"><b>Последний ответ: </b>
-                    <asp:Literal ID="lLastAnswer" runat="server"></asp:Literal></div>
+                    <div class="pull-right">
+                        <b>Последний ответ:</b>&nbsp;<asp:Literal ID="lLastAnswer1" runat="server"></asp:Literal></div>
                 </td>
                 <td align="center" id="tdAnswers" runat="server">
                     <asp:Literal ID="lAnswers" runat="server"></asp:Literal>
                 </td>
-                <td>
-                    <asp:Literal ID="lName" runat="server"></asp:Literal><br />
-                    <asp:Literal ID="lCreated" runat="server"></asp:Literal>
+                <td align="center">
+                    <asp:Literal ID="lCreated" runat="server"></asp:Literal><br />
+                    <asp:Literal ID="lName" runat="server"></asp:Literal>
+                </td>
+                <td align="center">
+                    <asp:Literal ID="lLastAnswer2" runat="server"></asp:Literal>
                 </td>
                 <td id="thReply" style="text-align: center" runat="server">
                     <asp:LinkButton ID="lbReply" CssClass="btn btn-success" CommandName="Reply" Font-Bold="True"
