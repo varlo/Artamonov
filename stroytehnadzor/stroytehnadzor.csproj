@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flaw19.aspx" />
     <Content Include="Flaw18.aspx" />
     <Content Include="Flaw17.aspx" />
     <Content Include="Flaw16.aspx" />
@@ -307,6 +308,47 @@
     <Content Include="images\flaw18\7.jpg" />
     <Content Include="images\flaw18\8.jpg" />
     <Content Include="images\flaw18\9.jpg" />
+    <Content Include="images\flaw19\1.jpg" />
+    <Content Include="images\flaw19\10.jpg" />
+    <Content Include="images\flaw19\11.jpg" />
+    <Content Include="images\flaw19\12.jpg" />
+    <Content Include="images\flaw19\13.jpg" />
+    <Content Include="images\flaw19\14.jpg" />
+    <Content Include="images\flaw19\15.jpg" />
+    <Content Include="images\flaw19\16.jpg" />
+    <Content Include="images\flaw19\17.jpg" />
+    <Content Include="images\flaw19\18.jpg" />
+    <Content Include="images\flaw19\19.jpg" />
+    <Content Include="images\flaw19\1small.jpg" />
+    <Content Include="images\flaw19\2.jpg" />
+    <Content Include="images\flaw19\20.jpg" />
+    <Content Include="images\flaw19\21.jpg" />
+    <Content Include="images\flaw19\22.jpg" />
+    <Content Include="images\flaw19\23.jpg" />
+    <Content Include="images\flaw19\24.jpg" />
+    <Content Include="images\flaw19\25.jpg" />
+    <Content Include="images\flaw19\26.jpg" />
+    <Content Include="images\flaw19\27.jpg" />
+    <Content Include="images\flaw19\28.jpg" />
+    <Content Include="images\flaw19\29.JPG" />
+    <Content Include="images\flaw19\3.jpg" />
+    <Content Include="images\flaw19\30.JPG" />
+    <Content Include="images\flaw19\31.JPG" />
+    <Content Include="images\flaw19\32.JPG" />
+    <Content Include="images\flaw19\33.JPG" />
+    <Content Include="images\flaw19\34.JPG" />
+    <Content Include="images\flaw19\35.jpg" />
+    <Content Include="images\flaw19\36.jpg" />
+    <Content Include="images\flaw19\37.jpg" />
+    <Content Include="images\flaw19\38.jpg" />
+    <Content Include="images\flaw19\39.jpg" />
+    <Content Include="images\flaw19\4.jpg" />
+    <Content Include="images\flaw19\40.jpg" />
+    <Content Include="images\flaw19\5.jpg" />
+    <Content Include="images\flaw19\6.jpg" />
+    <Content Include="images\flaw19\7.jpg" />
+    <Content Include="images\flaw19\8.jpg" />
+    <Content Include="images\flaw19\9.jpg" />
     <Content Include="images\flaw1\1.JPG" />
     <Content Include="images\flaw1\1small.jpg" />
     <Content Include="images\flaw1\2.JPG" />
@@ -604,6 +646,13 @@
     </Compile>
     <Compile Include="Acts.aspx.designer.cs">
       <DependentUpon>Acts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Flaw19.aspx.cs">
+      <DependentUpon>Flaw19.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Flaw19.aspx.designer.cs">
+      <DependentUpon>Flaw19.aspx</DependentUpon>
     </Compile>
     <Compile Include="Flaw18.aspx.cs">
       <DependentUpon>Flaw18.aspx</DependentUpon>
