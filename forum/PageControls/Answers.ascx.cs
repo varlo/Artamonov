@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
@@ -73,7 +74,9 @@ namespace Forum.PageControls
                 var lBody = e.Item.FindControl("lBody") as Literal;
                 if (lBody != null)
                 {
-                    lBody.Text = msg.Body;
+                    var r = new Regex(@"(http|ftp|https):\/\/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])");
+                    var myEvaluator = new MatchEvaluator(ReplaceLink);
+                    lBody.Text = r.Replace(msg.Body, myEvaluator);
                 }
                 var lNumber = e.Item.FindControl("lNumber") as Label;
                 if (lNumber != null)
@@ -81,6 +84,11 @@ namespace Forum.PageControls
                     lNumber.Text = String.Format("#{0}", e.Item.ItemIndex + 1);
                 }
             }
+        }
+
+        public static string ReplaceLink(Match m)
+        {
+            return String.Format("<a href='{0}'>{0}</a>", m.Value);
         }
 
         protected void rptAnswers_ItemCommand(object source, RepeaterCommandEventArgs e)
