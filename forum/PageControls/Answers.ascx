@@ -15,7 +15,7 @@
                 </td>
                 <td>
                     <div id="divIndent" runat="server">
-                        <asp:Label ID="lSubject" class="pull-left" runat="server"></asp:Label><br />
+                        <asp:Label ID="lSubject" class="pull-left" Font-Bold="true" runat="server"></asp:Label><br />
                         <asp:Literal ID="lBody" runat="server"></asp:Literal>
                         <div class="pull-right">
                             <asp:LinkButton ID="lbEdit" CssClass="glyphicon glyphicon-edit" CommandName="Edit"
