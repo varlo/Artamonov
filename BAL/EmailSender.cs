@@ -31,7 +31,7 @@ namespace BAL
                         mail.To.Add(email);
                 mail.Subject = "New comment from forum";
                 mail.From = new MailAddress("info@stroytehnadzor.com.ua");
-                mail.Body = String.Format("В {0:dd/MM/yyyy HH:mm:ss} поступил новый комментарий от <b>{1}</b>:<br /><br />{2}<br />", message.Created, message.Name, message.Body);
+                mail.Body = String.Format("В {0:dd/MM/yyyy HH:mm:ss} поступил новый комментарий от <b>{1}</b>:<br /><br />{2}<br />", message.Created.ToLocalTime(), message.Name, message.Body);
                 mail.IsBodyHtml = true;
                 var smtp = new SmtpClient("93.190.40.3");
                 smtp.Send(mail);
