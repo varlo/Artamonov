@@ -88,7 +88,7 @@ namespace Forum.PageControls
 
         public static string ReplaceLink(Match m)
         {
-            return String.Format("<a href='{0}'>{0}</a>", m.Value);
+            return String.Format("<a href='{0}' target='_blank'>{0}</a>", m.Value);
         }
 
         protected void rptAnswers_ItemCommand(object source, RepeaterCommandEventArgs e)
