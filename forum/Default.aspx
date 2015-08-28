@@ -5,7 +5,8 @@
 <%@ Register Src="/PageControls/Messages.ascx" TagName="Messages" TagPrefix="Controls" %>
 <%@ Register Src="/PageControls/Search.ascx" TagName="Search" TagPrefix="Controls" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
-    <title>Форум по техническому надзору в строительстве в Украине.</title>
+    <title>Форум технадзоров. Форум по техническому надзору в строительстве. Украина-СНГ.
+    </title>
     <meta name="Keywords" content="Форум технадзоров в строительстве, форум по техническому надзору, форум, технадзор, строительство, Украина, форум технаглядів в будівництві Україна" />
     <meta name="Description" content="форум технадзоров в строительстве, форум по техническому надзору в строительстве, Украина" />
 </asp:Content>
@@ -21,4 +22,20 @@
     <Controls:Messages runat="server" ID="MessagesControl" HideReply="true" DefaultView="true" />
     <asp:Button ID="btnAskQuestion" Text="Создать тему" CssClass="btn btn-primary" Style="margin-bottom: 10px"
         runat="server" OnClick="btnAskQuestion_Click" />
+    <table>
+        <tr>
+            <td>
+                <!-- Put this div tag to the place, where the Like block will be -->
+                <div id="vk_like">
+                </div>
+                <script type="text/javascript">
+                    VK.Widgets.Like("vk_like", { type: "full" });
+                </script>
+            </td>
+            <td>
+                <div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+                </div>
+            </td>
+        </tr>
+    </table>
 </asp:Content>
