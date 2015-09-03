@@ -38,6 +38,10 @@
     <script type="text/javascript">
         VK.init({ apiId: 5049058, onlyWidgets: true });
     </script>
+    <!-- Вставьте этот тег в заголовке страницы или непосредственно перед закрывающим тегом основной части. -->
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        { lang: 'ru' }
+    </script>
     <asp:ContentPlaceHolder ID="cphHeader" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -55,7 +59,7 @@
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) { return; }
             js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
+            js.src = "//connect.facebook.net/ru_RU/sdk.js";
             fjs.parentNode.insertBefore(js, fjs);
         } (document, 'script', 'facebook-jssdk'));
     </script>

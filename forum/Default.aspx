@@ -22,18 +22,25 @@
     <Controls:Messages runat="server" ID="MessagesControl" HideReply="true" DefaultView="true" />
     <asp:Button ID="btnAskQuestion" Text="Создать тему" CssClass="btn btn-primary" Style="margin-bottom: 10px"
         runat="server" OnClick="btnAskQuestion_Click" />
-    <table>
+    <table width="100%">
         <tr>
-            <td>
+            <td align="center">
+                <!-- Поместите этот код туда, где должен отображаться значок. -->
+                <a href="https://plus.google.com/b/114733052037745722916/dashboard/overview" rel="publisher" target="_top"
+                    style="text-decoration: none;">
+                    <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border: 0;
+                        width: 32px; height: 32px;" />
+                </a>
+            </td>
+            <td align="center">
                 <!-- Put this div tag to the place, where the Like block will be -->
-                <div id="vk_like">
-                </div>
+                <div id="vk_like"></div>
                 <script type="text/javascript">
                     VK.Widgets.Like("vk_like", { type: "full" });
                 </script>
             </td>
-            <td>
-                <div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
+            <td align="center">
+                <div class="fb-like" data-share="true" data-width="450" data-show-faces="false">
                 </div>
             </td>
         </tr>
