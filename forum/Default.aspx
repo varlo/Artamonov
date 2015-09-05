@@ -43,6 +43,9 @@
                 <div class="fb-like" data-share="true" data-width="450" data-show-faces="false">
                 </div>
             </td>
+            <td>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/" data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large">Tweet</a>
+            </td>
         </tr>
     </table>
 </asp:Content>
