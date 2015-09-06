@@ -25,26 +25,38 @@
     <table width="100%">
         <tr>
             <td align="center">
+                <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: ru_RU</script>
+                <script type="IN/Share" data-url="http://forum.stroytehnadzor.com.ua/" data-counter="right"></script>
+            </td>
+            <td align="center">
+                <div class="fb-like" data-share="true" data-width="250" data-show-faces="false">
+                </div>
+            </td>
+            <td align="center">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/"
+                    data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large">Tweet</a>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td align="center">
                 <!-- Поместите этот код туда, где должен отображаться значок. -->
-                <a href="https://plus.google.com/b/114733052037745722916/dashboard/overview" rel="publisher" target="_top"
-                    style="text-decoration: none;">
+                <a href="https://plus.google.com/b/114733052037745722916/dashboard/overview" rel="publisher"
+                    target="_top" style="text-decoration: none;">
                     <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border: 0;
                         width: 32px; height: 32px;" />
                 </a>
             </td>
+            <td>
+                &nbsp;
+            </td>
             <td align="center">
                 <!-- Put this div tag to the place, where the Like block will be -->
-                <div id="vk_like"></div>
+                <div id="vk_like">
+                </div>
                 <script type="text/javascript">
                     VK.Widgets.Like("vk_like", { type: "full" });
                 </script>
-            </td>
-            <td align="center">
-                <div class="fb-like" data-share="true" data-width="450" data-show-faces="false">
-                </div>
-            </td>
-            <td>
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/" data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large">Tweet</a>
             </td>
         </tr>
     </table>
