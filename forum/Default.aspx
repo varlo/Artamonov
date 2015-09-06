@@ -34,7 +34,7 @@
             </td>
             <td align="center">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/"
-                    data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large">Tweet</a>
+                    data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large" lang="ru">Твитнуть</a>
             </td>
             <td>
                 &nbsp;
