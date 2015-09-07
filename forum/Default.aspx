@@ -63,13 +63,8 @@
                 &nbsp;
             </td>
             <td align="center">
-                <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: ru_RU</script>
+                <script src="//platform.linkedin.com/in.js" type="text/javascript">                    lang: ru_RU</script>
                 <script type="IN/Share" data-url="http://forum.stroytehnadzor.com.ua/" data-counter="right"></script>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="9">
-                <script src="http://odnaknopka.ru/ok3.js" type="text/javascript"></script>
             </td>
         </tr>
     </table>
