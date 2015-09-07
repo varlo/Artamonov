@@ -25,27 +25,28 @@
     <table width="100%">
         <tr>
             <td align="center">
-                <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: ru_RU</script>
-                <script type="IN/Share" data-url="http://forum.stroytehnadzor.com.ua/" data-counter="right"></script>
-            </td>
-            <td align="center">
                 <div class="fb-like" data-share="true" data-width="250" data-show-faces="false">
                 </div>
-            </td>
-            <td align="center">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/"
-                    data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large" lang="ru">Твитнуть</a>
             </td>
             <td>
                 &nbsp;
             </td>
             <td align="center">
-                <!-- Поместите этот код туда, где должен отображаться значок. -->
-                <a href="https://plus.google.com/b/114733052037745722916/dashboard/overview" rel="publisher"
-                    target="_top" style="text-decoration: none;">
-                    <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border: 0;
-                        width: 32px; height: 32px;" />
-                </a>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/"
+                    data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large"
+                    lang="ru">Твитнуть</a>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td align="center">
+                <!-- Вставьте этот тег в заголовке страницы или непосредственно перед закрывающим тегом основной части. -->
+                <script src="https://apis.google.com/js/platform.js" async defer>
+                    { lang: 'ru' }
+                </script>
+                <!-- Поместите этот тег туда, где должна отображаться кнопка +1. -->
+                <div class="g-plusone" data-annotation="inline" data-width="300">
+                </div>
             </td>
             <td>
                 &nbsp;
@@ -57,6 +58,18 @@
                 <script type="text/javascript">
                     VK.Widgets.Like("vk_like", { type: "full" });
                 </script>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td align="center">
+                <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: ru_RU</script>
+                <script type="IN/Share" data-url="http://forum.stroytehnadzor.com.ua/" data-counter="right"></script>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="9">
+                <script src="http://odnaknopka.ru/ok3.js" type="text/javascript"></script>
             </td>
         </tr>
     </table>
