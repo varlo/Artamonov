@@ -15,20 +15,4 @@
     <Controls:Answers runat="server" ID="AnswersControl" />
     <asp:Button ID="btnBack2" CssClass="btn btn-primary" Text="К списку тем" runat="server"
         CausesValidation="False" OnClick="btnBack_Click" Style="margin-bottom: 10px" />
-    <table>
-        <tr>
-            <td>
-                <!-- Put this div tag to the place, where the Like block will be -->
-                <div id="vk_like">
-                </div>
-                <script type="text/javascript">
-                    VK.Widgets.Like("vk_like", { type: "full" });
-                </script>
-            </td>
-            <td>
-                <div class="fb-like" data-share="true" data-width="450" data-show-faces="true">
-                </div>
-            </td>
-        </tr>
-    </table>
 </asp:Content>
