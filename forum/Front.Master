@@ -76,6 +76,52 @@
         </div>
     </div>
     <div class="bottom_row" style="text-align: center">
+        <table width="100%">
+            <tr>
+                <td align="center">
+                    <div class="fb-like" data-share="true" data-width="250" data-show-faces="false">
+                    </div>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td align="center">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://forum.stroytehnadzor.com.ua/"
+                        data-text="Stroytehnadzor forum" data-via="VictorRalchenko" data-size="large"
+                        lang="ru">Твитнуть</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td align="center">
+                    <!-- Вставьте этот тег в заголовке страницы или непосредственно перед закрывающим тегом основной части. -->
+                    <script src="https://apis.google.com/js/platform.js" async defer>
+                        { lang: 'ru' }
+                    </script>
+                    <!-- Поместите этот тег туда, где должна отображаться кнопка +1. -->
+                    <div class="g-plusone" data-annotation="inline" data-width="300">
+                    </div>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td align="center">
+                    <!-- Put this div tag to the place, where the Like block will be -->
+                    <div id="vk_like">
+                    </div>
+                    <script type="text/javascript">
+                        VK.Widgets.Like("vk_like", { type: "full" });
+                    </script>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td align="center">
+                    <script src="//platform.linkedin.com/in.js" type="text/javascript">                        lang: ru_RU</script>
+                    <script type="IN/Share" data-url="http://forum.stroytehnadzor.com.ua/" data-counter="right"></script>
+                </td>
+            </tr>
+        </table>
         В будущем планируется создать более функциональный форум.
         <br />
         Для обсуждения возникающих вопросов жду писем и предложений от технадзоров и участников
