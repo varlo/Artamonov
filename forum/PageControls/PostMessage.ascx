@@ -16,8 +16,10 @@
             Сообщение:</label>
         <div class="col-sm-12">
             <asp:Literal ID="lAnswer" runat="server"></asp:Literal>
-            <input type="button" value="<blockquote>" onclick="startQuote()" />&nbsp;<input type="button"
-                value="</blockquote>" onclick="endQuote()" />
+            <input type="button" value="<blockquote>" onclick="replaceTemplate('<blockquote>')" />&nbsp;<input type="button"
+                value="</blockquote>" onclick="replaceTemplate('</blockquote>')" />
+                <input type="button" value="<s>" onclick="replaceTemplate('<s>')" />&nbsp;<input type="button"
+                value="</s>" onclick="replaceTemplate('</s>')" />
             <asp:TextBox ID="tbBody" CssClass="form-control" placeholder="Введите текст сообщения"
                 runat="server" Columns="100" Rows="20" TextMode="MultiLine"></asp:TextBox>
         </div>
@@ -50,13 +52,8 @@
     </div>
 </div>
 <script type="text/javascript">
-    function startQuote() {
+    function replaceTemplate(template) {
         var body = $('#<%=tbBody.ClientID%>');
-        $(body).val('' + $(body).val() + '<blockquote>');
-    }
-
-    function endQuote() {
-        var body = $('#<%=tbBody.ClientID%>');
-        $(body).val('' + $(body).val() + '</blockquote>');
+        $(body).val('' + $(body).val() + template);
     }
 </script>
