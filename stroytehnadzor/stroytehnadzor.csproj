@@ -598,6 +598,7 @@
     <Content Include="images\humor\TheBuildingEssense2.jpg" />
     <Content Include="images\humor\TheBuildingEssense3.jpg" />
     <Content Include="images\interbuxexpo.jpg" />
+    <Content Include="images\metalo_calc.exe" />
     <Content Include="images\minregionbud.jpg" />
     <Content Include="images\Otzyv_Aljuteh.jpg" />
     <Content Include="images\Otzyv_Baumit.jpg" />
@@ -1033,6 +1034,8 @@
     <None Include="images\Act9.doc" />
     <None Include="images\AktSdachiPriema.doc" />
     <None Include="images\akt_peredachi_budivelnogo_maydanchiku.doc" />
+    <None Include="images\armat_calc.xls" />
+    <None Include="images\armat_sortament.doc" />
     <None Include="images\AtestationBelarus.doc" />
     <None Include="images\DBN_A.3.1_5_2009.pdf" />
     <None Include="images\Declaratsia_blank.doc" />
